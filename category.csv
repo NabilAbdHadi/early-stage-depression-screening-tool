@@ -1,0 +1,1238 @@
+,raw text,token text,category
+0,Bos aku seorang founder produk,"['bos', 'asas', 'produk']",statement
+1, Syarikatnya besar juga,['syarikat'],statement
+2, Bos aku ni kiranya seorang yang sangat berjaya sebab ada banyak syarikat yang dia uruskan,"['bos', 'ni', 'jaya', 'syarikat', 'urus']",statement
+3,Bos aku ni kategori Islamik sikit,"['bos', 'ni', 'kategori', 'islamik', 'sikit']",statement
+4, Setiap hari kami semua diterapkan dengan ajaran islam melalui aktiviti harian sebelum memulakan kerja,"['terap', 'ajar', 'islam', 'aktiviti', 'hari', 'jalan', 'kerja']",statement
+5," Kami baca doa, baca surah, diajar solat Dhuha, diajar solat taubat, solat hajat dan pelbagai lagi ilmu keagamaan yang bersilih ganti ustaz dan ustazah dijemput untuk datang mengajar","['baca', 'doa', 'baca', 'surah', 'ajar', 'solat hari raya', 'dhuha', 'ajar', 'solat hari raya', 'taubat', 'solat hari raya', 'hajat', 'pelbagai', 'ilmu', 'agama', 'silih', 'ganti', 'ustaz', 'ustazah', 'jemput', 'ajar']",statement
+6,Bos aku dipandang tinggi oleh masyarakat,"['bos', 'pandang', 'masyarakat']",statement
+7, Ramai founder lain berasa cemburu dengan kejayaan bos aku menerajui syarikat,"['ramai', 'asas', 'kaedah', 'cemburu', 'jaya', 'bos', 'teraju', 'syarikat']",statement
+8, Syarikat kami berkembang maju dan terkenal di seluruh Asia,"['syarikat', 'kembang', 'maju', 'kenal', 'orang asia']",statement
+9," Nama bos dan syarikat kami sering disebut-sebut sebagai sebuah jenama terbaik bukan saja dari segi penghasilan produk, malah mempunyai pasukan terbaik dalam menguruskan syarikat","['nama', 'bos', 'syarikat', 'butseb', 'khas', 'baik', 'segi', 'hasil', 'produk', 'pasu', 'baik', 'urus', 'syarikat']",statement
+10," Tetapi, kalau orang luar tahu apa yang berlaku di dalam syarikat","['orang utan', 'laku', 'syarikat']",statement
+11, Pasti mereka akan terkejut,['kejut'],statement
+12," Sebabnya, setiap kejayaan dan rekod yang dicanangkan kepada orang luar, semuanya adalah dusta semata","['jaya', 'rekod', 'canang', 'orang utan', 'dusta']",statement
+13, Tiada yang benar langsung,"['tiada', 'cara langsung']",statement
+14, Aku jadi staf pun malu sebenarnya,"['kakitangan', 'malu']",statement
+15, Malu giler kalau orang tahu,"['malu', 'giler', 'orang utan']",statement
+16,Bos aku ni sangat sibuk,"['bos', 'ni', 'sibuk']",statement
+17," Bagi dia, hidup perlu sentiasa bekerja","['hidup', 'selalu']",risk factor
+18, Tiada rehat,"['tiada', 'rehat']",statement
+19, Itulah yang diterapkan kepada kami,['terap'],statement
+20, Dia cukup pantang kalau staf tak jawab telefon walau masa tu adalah waktu tidur,"['pantang', 'kakitangan', 'telefon bimbit', 'tu', 'tidur']",risk factor
+21," Bagi dia, waktu tidur hanya cukup 2-3 jam saja setiap hari","['tidur', 'angan', 'jem']",risk factor
+22,Dia akan melenting kalau staf balik rumah selepas waktu kerja jam 6 petang,"['cair', 'kakitangan', 'rumah', 'masa', 'kerja', 'jem', 'angan', 'petang']",risk factor
+23, Dia juga akan sentiasa call dan whatsapp staf semasa hari cuti mingguan sabtu dan ahad,"['selalu', 'panggil', 'whatsapp', 'kakitangan', 'cuti', 'minggu', 'sabtu', 'ahad']",risk factor
+24, Apatah lagi semasa Public Holiday,"['awam', 'cuti']",statement
+25," Itu adalah masa untuk bekerja, panggil meeting dan suruh datang ke rumah hantar report","['panggil', 'jumpa', 'suruh', 'rumah', 'hantar', 'lapor']",risk factor
+26, Bos akan membebel kalau staf nak ambil Annual Leave mahupun pergi holiday bersama family,"['bos', 'membebel', 'kakitangan', 'nak', 'ambil', 'tahun', 'pergi', 'baik', 'pergi', 'cuti', 'keluarga']",risk factor
+27," Setiap kali dia membebel, aku akan rasa aku ni seorang loser yang telah memufliskan syarikat je gayanya","['kali', 'membebel', 'ni', 'yang kalah', 'muflis', 'syarikat', 'je', 'gaya']",symptom
+28, Dia akan marah sesiapa saja di depan mata dia kalau dapat tahu ada staf yang bercuti walau dah dapat kebenaran dia,"['marah', 'orang', 'mata', 'kakitangan', 'cut', 'dah', 'benar']",risk factor
+29,"Semenjak bekerja dengan syarikat ni, aku diserang stress dan depression kerana sikap bos yang buruk","['semenjak', 'syarikat', 'ni', 'serang', 'tekan', 'murung', 'rana', 'sikap', 'bos', 'buruk']",symptom
+30," Ia sampai jadi tahap, aku takut dengar telefon berdering, cepat-cepat aku akan menjawab dan jantung aku akan berdegup pantas macam baru selesai lari marathon","['mabuk', 'takut', 'dengar', 'telefon bimbit', 'dering', 'cepatc', 'jantung', 'degup', 'selesai', 'lari', 'maraton']",symptom
+31," Kalau dengar bunyi whatsapp masuk pun, jantung aku berdebar-debar kencang","['dengar', 'angan', 'whatsapp', 'masuk', 'jantung', 'palang debar', 'kencang']",symptom
+32, Takut sangat kena marah,"['takut', 'kena', 'marah']",symptom
+33, Takut sangat ada report yang salah atau task yang tak buat,"['takut', 'lapor', 'salah', 'tugas']",symptom
+34,Sudah 2 tahun aku tak bercuti,"['angan', 'cut']",statement
+35," Ya, aku memang ada dapat Annual Leave","['ya', 'tahun', 'pergi']",statement
+36, Tetapi aku sentiasa dipanggil masuk kerja pada hari cuti yang aku berhak untuk ambil,"['selalu', 'angan', 'masuk', 'kerja', 'cuti', 'hak', 'ambil']",risk factor
+37," Apabila hujung tahun dan didapati cuti aku sangat banyak, bos cakap aku tak uruskan hidup aku dan cuti aku dengan baik","['hujung', 'masa', 'cuti', 'bos', 'cakap', 'urus', 'hidup', 'cuti']",risk factor
+38, Siap kena warning supaya tak buat lagi,"['kena', 'amar']",risk factor
+39, Oh ya! Warning letter ni adalah makanan harian bos aku,"['oh', 'ya', 'amar', 'surat', 'ni', 'makan', 'hari', 'bos']",risk factor
+40," Asal ada je yang dia tak gemar dengan kami, setepek warning letter kami akan terima daripada HR","['je', 'permata', 'setepek', 'amar', 'surat', 'terima', 'hr']",risk factor
+41," Setakat ni, itulah medal dan rekod kejayaan aku sepanjang bekerja di syarikat ni","['masa', 'ni', 'pingat', 'rekod', 'jaya', 'syarikat', 'ni']",statement
+42,"Semenjak tu, aku dah pasrah","['semenjak', 'tu', 'dah', 'pasrah']",symptom
+43, Tak berani nak ambil cuti langsung,"['berani', 'nak', 'ambil', 'cuti', 'cara langsung']",symptom
+44," Walaupun ada kecemasan dalam keluarga, semuanya aku serahkan kepada adik beradik untuk uruskan","['cemas', 'keluarga', 'serah', 'adik', 'adik', 'urus']",symptom
+45," Bayangkan la, nak masak atau nak ke toilet pun aku takut","['bayang', 'la', 'nak', 'masak', 'nak', 'tandas', 'takut']",symptom
+46," Sudah beberapa tahun ni, aku takut sangat nak masak di rumah sebab risau semasa sibuk memasak, aku tak dengar bos call atau tiba-tiba bos nak buat meeting","['ni', 'takut', 'nak', 'masak', 'rumah', 'risau', 'sibuk', 'masak', 'dengar', 'bos', 'panggil', 'tibata', 'bos', 'nak', 'jumpa']",symptom
+47, Aku rasa hidup aku sangat pathetic,"['hidup', 'kasihan']",symptom
+48," Sedih!Kenapa aku tak tinggalkan je syarikat ni? Jangan risau, aku tetap akan tinggalkan syarikat ni suatu hari nanti","['sedihkenapa', 'tinggal', 'je', 'syarikat', 'ni', 'risau', 'tinggal', 'syarikat', 'ni']",statement
+49, Tetapi selepas aku berjaya capai impian aku,"['masa', 'jaya', 'capai', 'impi']",statement
+50," Buat sementara ni, aku terpaksa bertahan","['ni', 'perlu', 'tahan']",statement
+51, Impian aku insyaAllah akan dapat dicapai dalam sedikit masa lagi,"['impi', 'insyaallah', 'jalan']",statement
+52, Banyak sudah kezaliman yang bos dah buat terhadap aku,"['zalim', 'bos', 'dah']",risk factor
+53," Dia zalim dengan masa tidur aku, cuti mingguan aku, Public Holiday aku, Annual Leave aku","['zalim', 'tidur', 'cuti', 'minggu', 'awam', 'cuti', 'tahun', 'pergi']",risk factor
+54,"Aku tak pernah MC, tak pernah EL","['mc', 'el']",statement
+55, Bekerja 24/7 365,"['angan', 'angan']",statement
+56, Aku demam pun masih masuk office dan tak berani pergi klinik untuk ambil ubat,"['demam', 'masuk', 'jabat', 'berani', 'pergi', 'klinik', 'ambil', 'ubat']",statement
+57," Bukan aku saja, malah staf yang lain pun sama",['kakitangan'],statement
+58," Kalau MC, tetap kena buat kerja walau apa cara sekalipun","['mc', 'kena', 'kerja']",statement
+59, Aku rasa aku staf yang baik,['kakitangan'],statement
+60, Tapi masih tak cukup bagus untuk dia,['bagus'],statement
+61, Aku sangat komited dengan kerjaya dan aku tinggalkan keluarga aku demi keluarga dia,"['komited', 'kerjaya', 'tinggal', 'keluarga', 'keluarga']",statement
+62, Bos aku sangat family oriented,"['bos', 'keluarga', 'orientasi']",statement
+63," Family oriented bos aku ni bermaksud, staf adalah hakmilik kekal dia yang wajib ada dalam setiap majlis keluarga dia","['keluarga', 'orientasi', 'bos', 'ni', 'kakitangan', 'hakmilik', 'kal', 'wajib', 'majlis', 'keluarga']",statement
+64," Kalau ada yang tak hadir, siaplah, kena marah","['hadir', 'siap', 'kena', 'marah']",risk factor
+65,Gaji? Kat sini gaji basic saja,"['gaji', 'kat', 'gaji', 'asas']",statement
+66, Double pay atau triple pay jika bekerja semasa cuti atau selepas working hours tu memang tak wujud dalam kamus syarikat ni,"['ganda', 'bayar', 'tiga kali ganda', 'bayar', 'cuti', 'masa', 'kerja', 'Jam', 'tu', 'wujud', 'kamus', 'syarikat', 'ni']",statement
+67," Kalau minta, memang kena reject saja","['kena', 'tolak']",statement
+68," Paling best, sampai sekarang aku takde offer letter","['baik', 'bukan', 'tawar', 'surat']",statement
+69, Amacam?Korang doakanlah aku dapat kerjaya yang lebih baik daripada apa yang aku ada sekarang,"['amacamkorang', 'doa', 'kerjaya']",statement
+70, Aku bertahan ni pun sebab nak gaji yang seciput tu je,"['tahan', 'ni', 'nak', 'gaji', 'ciput', 'tu', 'je']",statement
+71, Sambil cari lubang kerja lain,"['cari', 'lubang', 'kerja']",statement
+72," Bos aku cakap, kalau nak cari kerja di musim COVID ni, memang payah","['bos', 'cakap', 'nak', 'cari', 'kerja', 'musim', 'Covid', 'ni', 'payah']",statement
+73," Tapi aku percaya, Allah kan Maha Memberi Rezeki","['percaya', 'allah', 'maha', 'rezeki']",statement
+74," InsyaAllah, aku juga percaya, Allah akan balas kezaliman bos terhadap kami ni sooner or sooner","['insyaallah', 'percaya', 'allah', 'balas', 'zalim', 'bos', 'ni', 'lebih cepat', 'atau', 'lebih cepat']",statement
+75," Hakikatnya, ia dah pun berlaku terhadap syarikat ni","['hakikat', 'dah', 'laku', 'syarikat', 'ni']",statement
+76, Aku sangat bersyukur,['syukur'],statement
+77," Dengan setiap cabaran yang bos dan syarikat tanggung sekarang, bos dah mula tahu bercakap guna bahasa yang baik dan belajar minta maaf dengan kami","['cabar', 'bos', 'syarikat', 'tanggungjawab', 'bos', 'dah', 'cakap', 'bahasa', 'bajar', 'maaf']",statement
+78, Cuma dia masih tak boleh buang tabiat buruk bab menipu kepada masyarakat,"['buang', 'tabiat', 'buruk', 'bab', 'tipu', 'masyarakat']",statement
+79," Kalau sebelum ni, maki hamun adalah zikir harian dia kepada kami","['ni', 'maki', 'hamun', 'zikir', 'hari']",statement
+80," Setakat ayat “bodoh”, “takde otak”, “pemalas” tu, bagi aku ayat biasa macam mak-mak pujuk anak nak tidur","['masa', 'ayat', '"" Bodoh ""', '"" Tiada', 'otak ""', '"" Pala ""', 'tu', 'ayat', 'makm', 'pujuk', 'anak', 'nak', 'tidur']",statement
+81, Dah lali,"['dah', 'lali']",statement
+82,,['nan'],statement
+83,"Banyak nak ceritakan, tapi aku bukan seorang yang pandai mengarang","['nak', 'cerita', 'panda', 'arang']",statement
+84," Aku ini seorang yang pendiam, jarang berbual kecuali dengan orang yang rapat","['diam', 'jarang', 'bual', 'lepas', 'orang utan', 'rapat']",statement
+85, Aku ibu dengan 4 orang anak,"['angan', 'orang utan', 'anak']",statement
+86, Doktor diagnos aku dengan depression(Kemurungan) sejak januari 2014,"['doktor', 'diagnosis', 'murung murung', 'januari', 'angan']",symptom
+87, Ujian DASS memang dah teruk sejak beberapa tahun sebelum tu tapi tak dapatkan rawatan,"['uji', 'dass', 'dah', 'teruk', 'tu', 'dapat', 'rawat']",symptom
+88,"[Ujian DASS digunakan untuk menyaring seseorang individu bagi masalah kemurungan(depression), kerisauan(anxiety) dan juga tertekan(stress)]Nak cerita tentang masa aku sakit teruk tu, aku berhari hari tak boleh tidur","['uji', 'dass', 'nyaring', 'individu', 'kemurungandepression', 'gelisah kerisauan', 'tertekanstressnak', 'cerita', 'sakit', 'teruk', 'tu', 'hari', 'tidur']",symptom
+89, Menangis sendiri dalam gelap malam,"['menang', 'gelap', 'malam']",symptom
+90," Siang aku kerja macam biasa, urus anak-anak semua, tapi aku rasa seperti mayat hidup","['siang', 'kerja', 'urus', 'anakanak', 'mayat', 'hidup']",symptom
+91, Umpama zombie,"['umpama', 'zombi']",statement
+92," Malam aku menangis, nak tidur tapi gagal","['malam', 'menang', 'nak', 'tidur', 'gagal']",symptom
+93, Berlarutan seminggu,"['larut', 'masa']",statement
+94, Masa tu aku buntu sebab ada masalah dengan pengasuh anak-anak,"['tu', 'buntu', 'asuh', 'anakanak']",risk factor
+95, Satu malam tu aku rasa macam seluruh dunia bertimpa atas kepala,"['malam', 'tu', 'dunia', 'timpa', 'kepala']",symptom
+96, Segala flashback peristiwa dalam hidup terimbas,"['imbas kembali', 'peristiwa', 'hidup', 'imbas']",risk factor
+97," Segala kesilapan kebodohan dalam hidup menerpa, all at once","['silap', 'bodoh', 'hidup', 'terpa', 'semua', 'di', 'sekali']",risk factor
+98," Esok paginya kebetulan cuti sebab anak belum dapat pengasuh, aku memandu tapi aku rasa macam bukan aku yang memandu","['xaaeesok', 'pagi', 'cuti', 'anak', 'asuh', 'pandu', 'pandu']",symptom
+99," Aku bawa anak 1,2 dan 4","['bawa', 'anak', 'angan', 'angan']",statement
+100, Anak nombor tiga entah kenapa aku tinggalkan dengan suami,"['anak', 'nombor', 'tinggal', 'suami']",symptom
+101," Suami ada masa tu dia tidur, tapi aku macam kena pukau antara sedar dan tak sedar, aku memandu ke rumah rakan sekerja lelaki yang paling buat aku stress kat tempat kerja","['suami', 'tu', 'tidur', 'kena', 'pukau', 'dar', 'dar', 'pandu', 'rumah', 'rak', 'kerja', 'lelaki', 'tekan', 'kat', 'kerja']",symptom
+102,Aku tak tau kenapa aku ke situ,"['tau', 'situ']",symptom
+103," Isterinya keluar kerja, dia, 3 orang anaknya, (salah seorangnya kawan kelas anak aku), dan ibu mertua dia ada","['isterinya', 'kerja', 'angan', 'orang', 'anaknya', 'salah', 'orang', 'kawan', 'kelas', 'anak', 'mertua']",statement
+104, Lepas dia hidang minuman aku pun balik,"['lepas', 'hidang', 'minum']",statement
+105, Menuju pula ke rumah kakak aku,"['rumah', 'kak']",statement
+106," Sampai rumah kakak terus duduk rumah dia, dalam keadaan tak waras macam ada orang kawal badan aku","['rumah', 'kak', 'duduk', 'rumah', 'waras', 'orang', 'kawal', 'badan']",symptom
+107, Mereka layan aku macam aku ni nak bunuh diorang pulak,"['layan', 'ni', 'nak', 'bunuh', 'orang', 'pulak']",risk factor
+108,Lima hari duduk rumah kakak dengan anak-anak dan mak abah aku pun datang duduk nak jaga aku,"['duduk', 'rumah', 'kak', 'anakanak', 'mak', 'abah', 'duduk', 'nak', 'jaga']",statement
+109," Lepas lima hari aku pujuk suami aku tolong la bawa kami balik, duduk rumah kakak aku di layan macam orang gila","['lepas', 'pujuk', 'suami', 'tolong', 'la', 'bawa', 'duduk', 'rumah', 'kak', 'layan', 'orang', 'gila']",risk factor
+110," Di angkat paksa mandi air limau, telinga aku disiram air, di hembus-hembus kakak dan abang ipar aku berlagak macam bomoh","['angkat', 'paksa', 'mandi', 'air', 'limau', 'telinga', 'siram', 'air', 'hembush', 'kak', 'abang', 'ipar', 'lagak', 'bomoh']",statement
+111,Panggil perawat tah siapa,"['panggil', 'perawat', 'tah']",statement
+112, Aku tak perlukan semua tu,"['perlu', 'tu']",statement
+113, Tapi dalam hati aku sentiasa ingat ni ujian Allah,"['hati', 'sentiasa', 'ni', 'uji', 'allah']",statement
+114,"Kawan(nurse) call suruh datang klinik jumpa doktor, doktor tanya-tanya dan bagi surat rujukan ke pakar psikiatri","['kawannurse', 'call', 'suruh', 'klinik', 'jumpa', 'doktor', 'doktor', 'tanyatanya', 'surat', 'rujuk', 'pakar', 'psikiatri']",statement
+115," Begitulah kisah aku seorang ibu berkerjaya, pejuang MDD, dengan 4 anak kecil","['kisah', 'berkerjaya', 'juang', 'md', 'angan', 'anak']",statement
+116,Dah bagitau dah yang aku ni tak reti mengarang,"['dah', 'bagitau', 'dah', 'ni', 'reti', 'arang']",statement
+117, Panjang cerita tapi aku ringkaskan,"['cerita', 'ringkas']",statement
+118,Sebelum aku tamatkan tulisan ini,"['tamat', 'tulis']",statement
+119, Aku nak bagi panduan sikit kepada masyarakat:1,"['nak', 'pandu', 'sikit', 'masyarakat']",statement
+120, Ibu berkerja perlu sokongan,"['kerja', 'sokong']",statement
+121,2,['angan'],statement
+122, Pengasuh yang baik,['asuh'],statement
+123,3,['angan'],statement
+124, Majikan yang memahami,"['majikan', 'paham']",statement
+125,4,['angan'],statement
+126, Suami yang mendengar dan memberi moral support,"['suami', 'dengar', 'moral', 'support']",statement
+127,5,['angan'],statement
+128," Cari kawan yang baik, bukan penghasut dan pendengki","['cari', 'kawan', 'hasut', 'dengki']",statement
+129,6,['angan'],statement
+130," Yang penting utama sekali, ingat Allah sentiasa","['utama', 'allah', 'sentiasa']",statement
+131,Penulis: Ayna,"['tulis', 'ayna']",statement
+132, Saya merupakan seorang bekas doktor pelatih (houseman),"['bekas', 'doktor', 'latih', 'houseman']",statement
+133, Cerita ini mungkin selalu didengari tetapi mungkin ada manfaat buat semua,"['cerita', 'didengari', 'manfaat']",statement
+134," Cerita ini mungkin panjang berjela, mohon dibaca sewaktu lapang dan maaf sekiranya ada kekurangan dari segi bahasa atau terlepas pandang","['cerita', 'jela', 'mohon', 'baca', 'lapang', 'maaf', 'kurang', 'segi', 'bahasa', 'lepas', 'pandang']",statement
+135,Saya mula bekerja sebagai doktor pelatih pada November 2018,"['doktor', 'latih', 'november', 'angan']",statement
+136," Waktu tu, saya memulakan tagging (tempoh waktu para pelatih menyesuaikan diri dengan sistem kerja di wad)","['tu', 'mula', 'tagging', 'tempoh', 'latih', 'sesuaii', 'sistem', 'kerja', 'wad']",statement
+137," Pelbagai prosedur, sistem, cara merujuk kes mesti dipelajari dengan cepat agar pantas menyesuaikan diri","['pelbagai', 'prosedur', 'sistem', 'rujuk', 'kes', 'mesti', 'ajar', 'cepat', 'sesuaii']",statement
+138, Alhamdulillah para senior banyak membantu,"['alhamdulillah', 'senior', 'bantu']",statement
+139, Saya masuk kerja pukul 6am dan balik 10pm untuk 2 minggu berturut ( balik kerja pukul 5pm pada hujung minggu),"['xaaesaya', 'masuk', 'kerja', '6am', '10pm', 'angan', 'minggu', 'kerja', '5pm', 'hujung', 'minggu']",statement
+140, Saya menetap di hostel hospital jadi nak pergi wad jalan kaki je,"['tetap', 'hostel', 'hospital', 'nak', 'pergi', 'wad', 'jalan', 'kaki', 'je']",statement
+141, Semuanya ok pada mulanya tetapi pada minggu kedua saya mula berasa kelainan pada diri saya,"['okey', 'minggu', 'asa', 'lain']",statement
+142,"Sewaktu saya tidur pada malamnya, saya tiba tiba terjaga pukul 3am dan tak boleh sambung tidur","['tidur', 'malam', 'jaga', 'angan pagi', 'sambung', 'tidur']",symptom
+143," Esoknya saya perlu masuk kerja pukul 6am, membuatkan saya stcress dan akhirnya saya menangis","['esok', 'masuk', 'kerja', 'angan pagi', 'jalan', 'stcress', 'menang']",symptom
+144, Mungkin terlalu penat tetapi saya mulanya anggap ini perkara biasa,"['penat', 'anggap', 'perkara']",symptom
+145, Tetapi malam itu menjadi kemuncak tekanan,"['malam', 'kemuncak', 'tekan']",symptom
+146,"Saya buat solat sunat, cuba untuk menenangkan diri dan saya mengambil keputusan untuk memanggil Befrienders KL","['solat hari raya', 'sunat', 'Cuba', 'tenang', 'mengambil', 'putus', 'panggil', 'befrienders', 'kl']",statement
+147," Ia merupakan sebuah organisasi yang mendengar masalah dan isu para pemanggil, terutamanya kemurungan dan suicidal thoughts","['organisasi', 'dengar', 'isu', 'panggil', 'terutamanya', 'murung', 'bunuh diri', 'thoughts']",statement
+148," Yelah, nak call orang lain pun, semua tengah tidur pukul 3 pagi","['yelah', 'nak', 'panggil', 'orang', 'tidur', 'angan', 'pagi']",statement
+149, Saya berbual dengan staf bertugas hampir sejam lamanya,"['bual', 'kakitangan', 'tugas', 'sejam']",statement
+150, Alhamdulillah stafnya sangat lembut dan baik,"['alhamdulillah', 'stafnya', 'lembut']",statement
+151,Beliau bertanya 1,"['beliau', 'bertanyaxaeb']",statement
+152, Boleh ceritakan apa yang terjadi 2,"['cerita', 'terjadixa b']",statement
+153, Apa punca kepada isu ini 3,"['punca', 'isu', 'inixa']",statement
+154," Apa yang boleh saya lakukan – jujurnya waktu tu memang hanya nak berbual dengan seseorang, untuk lepaskan tekanan","['laku', '-', 'jujur', 'tu', 'nak', 'bual', 'lepas', 'tekan']",statement
+155, Tetapi pada masa yang sama saya terfikir untuk hadir ke klinik Psikiatrik untuk mengetahui sekiranya saya depressed,"['terfikir', 'hadir', 'klinik', 'psikiatr', 'tek']",statement
+156, Staf tersebut memberi saya nombor telefon klinik psikiatrik,"['kakitangan', 'nombor', 'telefon bimbit', 'klinik', 'psikiatr']",statement
+157,"Selepas berbual, saya rasa lebih lega tetapi saya tetap mengambil keputusan untuk hadir ke klinik Psikiatri","['lepas', 'bual', 'lega', 'mengambil', 'putus', 'hadir', 'klinik', 'psikiatri']",statement
+158, Klinik Psikiatri di hospital saya boleh walk-in pada waktu pagi,"['klinik', 'psikiatri', 'hospital', 'walkin', 'pagi']",statement
+159,"Di sana, saya berjumpa doktor dan menceritakan masalah saya","['jumpa', 'doktor', 'cerita']",statement
+160," Badan terasa letih, berat dan minda tidak dapat fokus kepada perbualan atau aktiviti","['badan', 'letih', 'berat', 'minda', 'fokus', 'bual', 'aktiviti']",symptom
+161, Saya kurang suka melakukan aktiviti yang saya minati dahulu,"['suka', 'aktiviti', 'minat']",symptom
+162, Saya kurang makan dan banyak termenung,"['makan', 'menung']",symptom
+163, Fikiran saya selalu berfikir perkara negatif,"['fikiran', 'pikir', 'perkara', 'negatif']",symptom
+164,"Setelah diamati, rupanya saya telah mengalami simptom ini sejak seminggu lepas, tetapi saya kurang ambil peduli dan fikir “biasalah baru mula kerja, penat tu biasa”","['amat', 'laku', 'simptom', 'seminggu', 'lepas', 'ambil', 'pedulikan', 'fikir', 'angan biasa', 'kerja', 'penat', 'tu', 'biasa angan']",statement
+165, Saya didiagnos sebagai Adjusment Disorder with depressive mood,"['didiagnos', 'adjusment', 'kecelaruan', 'dengan', 'depressive', 'mood']",statement
+166," Saya diberi ubat Lorazepam (benzodiazepine) untuk tidur dan Mirtazapine (antidepressant), diberi MC selama seminggu dan dirujuk ke pakar psikiatrik (Kes melibatkan houseman dirujuk ke pakar)","['ubat', 'lorazepam', 'benzodiaepine', 'tidur', 'mirtazapine', 'antidepresan', 'mc', 'masa', 'rujuk', 'pakar', 'psikiatr', 'kes', 'libat', 'houseman', 'rujuk', 'pakar']",statement
+167, Mulanya ingatkan dapatlah MC sehari dua je tapi tak sangka pula sampai seminggu,"['ingat', 'boleh', 'mc', 'hari', 'je', 'sangka', 'seminggu']",statement
+168,Senior dan supervisor juga memahami situasi saya setelah saya bercerita kepada mereka dan saya cuba berehat dan muhasabah,"['senior', 'supervisor', 'paham', 'ada', 'cerita', 'Cuba', 'rehat', 'muhasabah']",statement
+169, Saya dapat tidur dengan bantuan ubat tetapi mood dan emosi saya masih depressed,"['tidur', 'tolong', 'ubat', 'mood', 'emosi', 'tek']",medical history
+170,"Setelah berjumpa doktor pakar pada lawatan seterusnya (setiap 2 minggu), saya didiagnos sebagai Major Depressive Disorder","['jumpa', 'doktor', 'pakar', 'lawat', 'angan', 'minggu', 'didiagnos', 'utama', 'depressive', 'kecelaruan']",medical history
+171, Dos ubat Mirtazapine dinaikkan kerana saya tetap depressed dan emosi tetap sama,"['xaaedos', 'ubat', 'mirtazapine', 'naik', 'rana', 'tek', 'emosi']",medical history
+172," Selepas 2 minggu, saya ditukarkan ubat dengan Sertraline (SSRI – Selective Serotonin Reuptake Inhibitor)","['masa', 'angan', 'minggu', 'tukar', 'ubat', 'sertraline', 'ssri', '-', 'selektif', 'serotonin', 'ambil mula', 'inhibitor']",medical history
+173, Tetapi mood tetap juga depressed,"['mood', 'tek']",symptom
+174, Maka dos Sertraline dinaikkan pula,"['dos', 'sertraline', 'naik']",medical history
+175,"Sepanjang waktu MC dan rawatan, saya duduk bersama keluarga","['mc', 'rawat', 'duduk', 'keluarga']",statement
+176," Mereka sangat memahami dan menyokong, tidak pernah ada keluh kesah atau berputus asa dengan saya, terutamanya Mak","['paham', 'sokong', 'keluh', 'kesah', 'putus', 'bagai', 'jalan', 'mak']",statement
+177, Terima kasih atas keprihatinan dan kasih sayang keluarga,"['terima', 'kasih sayang', 'prihatin', 'kasih sayang', 'sayang', 'keluarga']",statement
+178, Moga Allah membalas kebaikan mereka dengan rahmat dan rezekiNya di dunia dan akhirat,"['moga', 'allah', 'selaput', 'baik', 'rahmat', 'rezeki', 'dunia', 'akhirat']",statement
+179,"Pada bulan 3 rawatan, saya tetap belum pulih dan tetap mengalami depressed mood","['angan', 'rawat', 'pulih', 'laku', 'tek', 'mood']",medical history
+180," Malah saya mula mengalami auditory hallucination, mula mendengar suara yang mengatakan saya tak berguna, lemah, bodoh dan kata kata negatif","['laku', 'auditory', 'halusinasi', 'dengar', 'suara', 'guna', 'lemah', 'bodoh', 'negatif']",symptom
+181," Pada waktu ini saya diberi juga ubat antipsikotik (Aripiprazole) tetapi tetap sama, saya mendengar suara","['ubat', 'antipsikot', 'ariprazole', 'dengar', 'suara']",symptom
+182, Doktor mencadangkan saya dimasukkan ke wad kerana saya sudah dikira sebagai Severe Major Depressive Disorder dan memerlukan rawatan ECT (Electroconvulsive Therapy),"['xaaedoktor', 'cadang', 'kaedah', 'wad', 'rana', 'teruk', 'utama', 'depressive', 'disorder', 'rawat', 'dl', 'elektrokonvulsif', 'therapy']",medical history
+183, Saya bersetuju kerana saya juga tahu rawatan ECT merupakan salah satu rawatan yang berkesan untuk severe type seperti yang saya alami,"['kaedah', 'rana', 'rawat', 'dl', 'salah', 'rawat', 'kes', 'severe', 'menaip', 'alami']",statement
+184,"Semasa di wad, pelbagai jenis pesakit saya jumpa","['wad', 'pelbagai', 'jenis', 'sakit', 'jumpa']",statement
+185," Ada yang bipolar, skizofrenia, depressed, aggressive","['bipolar', 'skizofrenia', 'depressed', 'agresif']",statement
+186," Saya pernah menemui dan berbual dengan mereka sebagai pelajar perubatan dahulu, sekarang sebagai pesakit pula","['temu', 'bual', 'ajar', 'ubat', 'sakit']",statement
+187," Antara perkara yang saya tak dapat lupa, para pesakit di situ sangat baik","['perkara', 'lupa', 'sakit', 'di situ']",statement
+188, Ada seorang uncle ni siap bagi KFC drumstick dekat saya sebab dia kesian tengok saya murung kot,"['uncle', 'ni', 'kfc', 'batang dram', 'kesi', 'tengok', 'murung', 'kot']",statement
+189, Haha terima kasih uncle,"['haha', 'terima', 'kasih', 'pakcik']",statement
+190,"Selama 2 minggu di wad, saya menjalani 4 sesi ECT","['angan', 'minggu', 'wad', 'latih', 'angan', 'sesi', 'dl']",statement
+191, Saya berpuasa pada malam sebelum ECT,"['xaaesaya', 'puasa', 'malam', 'ect']",statement
+192," Esoknya, para pesakit dibawa ke bilik ECT","['esok', 'sakit', 'cara', 'bilik', 'dl']",statement
+193," Sewaktu rawatan, doktor akan bagi ubat bius supaya kita tidur dan ECT dijalankan sewaktu kita tidak sedar","['rawat', 'doktor', 'ubat', 'berat belah', 'tidur', 'dl', 'jalan', 'dar']",statement
+194, Arus elektrik bervoltan rendah dialirkan di sekitar kepala dan kita tidak rasa apa apa sebab dah tidur,"['arus', 'elektrik', 'volt', 'rendah', 'alir', 'kepala', 'dah', 'tidur']",statement
+195," Jadi yang sakitnya pun sewaktu beri ubat bius (sakit sikit je) dan bangun bangun je dah ada atas katil, ada makanan terhidang","['sakit', 'ubat', 'bius', 'sakit', 'sikit', 'je', 'bangun', 'bangun', 'je', 'dah', 'katil', 'makan', 'hidang']",statement
+196,"Tetapi mungkin akan rasa pening, sakit kepala, mual dan blur sedikit lepas bangun tidur, kesan ubat bius","['pening', 'sakit', 'kepala', 'mual', 'blur', 'lepas', 'bangun', 'tidur', 'kesan', 'ubat', 'berat belah']",statement
+197," Tapi jangan risau, kesannya selalunya beberapa jam sahaja","['risau', 'kesan', 'selalu', 'jem', 'sahaja']",statement
+198, Nurse dan doktor akan memantau keadaan pesakit selepas ECT,"['jurawat', 'doktor', 'pantau', 'sakit', 'lepas', 'ect']",statement
+199," Sekiranya berlanjutan, doktor akan beri ubat bersesuaian dengan kesan yang kita alamiKawan kawan dan keluarga datang melawat","['lanjut', 'doktor', 'ubat', 'suai', 'kesan', 'alamikawan', 'kawan', 'keluarga', 'jalan']",statement
+200, Mereka juga nampak saya lebih ceria selepas sesi rawatan dan saya juga rasa lebih positif dan baik,"['nampak', 'ceria', 'lepas', 'sesi', 'rawat', 'positif']",statement
+201, Doktor juga membenarkan saya keluar selepas lengkap rawatan ECT,"['doktor', 'jawapan', 'masa', 'lengkap', 'rawat', 'dl']",statement
+202, Ubat saya ditukar pula kepada Desvenlafaxine (juga anti-depressant) dan Aripiprazole untuk halusinasi,"['ubat', 'tukar', 'desvenlafaxine', 'antidepresan', 'ariprazole', 'halusinasi']",statement
+203,"Pada waktu ini, Aripiprazole menyebabkan saya rasa resah","['ariprazole', 'sebab', 'resah']",statement
+204," Saya tidak boleh duduk diam di rumah dan bila hendak tidur, saya perlu menggunakan Lorazepam untuk tidur","['duduk', 'diam', 'rumah', 'tidur', 'lorazepam', 'tidur']",statement
+205," Selepas berbincang dengan doktor, saya tidak perlu lagi menggunakan Aripiprazole kerana halusinasi juga hilang sehingga hari ini","['lepas', 'bincang', 'doktor', 'ariprazole', 'rana', 'halusinasi', 'hilang']",statement
+206, Saya masih dalam rawatan (Desvenlafaxine) dan pemantauan doktor tetapi sekarang saya lebih ceria dan positif,"['xaaesaya', 'rawat', 'desvenlafaxine', 'pantau', 'doktor', 'ceria', 'positif']",statement
+207, Saya kembali menjalani kehidupan normal sebelum saya sakit,"['menjalani', 'hidup', 'normal', 'sakit']",statement
+208," Saya sangat bersyukur dengan pertolongan doktor, keluarga dan kawan dalam proses pemulihan ini","['syukur', 'tolong', 'doktor', 'keluarga', 'kawan', 'proses', 'pulih']",statement
+209,"Sekarang, saya telah meletakkan jawatan dan mencari peluang pekerjaan lain","['letak', 'jawat', 'cari', 'peluang', 'kerja']",statement
+210, Mungkin rezeki saya di bidang perubatan setakat ini sahaja atau mungkin juga di lain masa,"['rezeki', 'bidang', 'ubat', 'setakat', 'sahaja']",statement
+211," Apa pun, hidup tetap perlu diteruskan","['hidup', 'terus']",statement
+212, Saya tidak pernah menyesal melalui pengalaman ini kerana ia menjadi satu bahagian dalam hidup saya yang bernilai,"['sesal', 'alam', 'rana', 'bahagian', 'hidup', 'nila']",statement
+213,"Ada masa kita jatuh terduduk, ada masa kita akan kembali bangkit lebih tinggi dari sebelumnya","['jatuh', 'duduk', 'bangkit']",statement
+214," Saya percaya, satu pintu yang tertutup, ada pintu lain yang terbuka","['percaya', 'pintu', 'tutup', 'pintu', 'buka']",statement
+215," Dan akhirnya kita akan melalui jalan kehidupan yang lebih bahagia, asalkan kita terus berusaha","['jalan', 'hidup', 'bahagia', 'berusaha']",statement
+216, Pelbagai pengajaran saya pelajari sewaktu tempoh depression ini antaranya :1,"['xaaepelbagai', 'ajar', 'ajar', 'tempoh', 'depression', 'angan']",statement
+217," Sekiranya emosi kita terganggu atau stress, luahkan pada orang yang kita rapat, kawan – kawan dan keluarga","['emosi', 'ganggu', 'stress', 'luah', 'orang', 'rapat', 'kawan', 'angan', 'kawan', 'keluarga']",medical history
+218," Selalunya, sesi meluahkan perasaan amat membantu menstabilkan emosi","['selalu', 'sesi', 'luah', 'asa', 'bantu', 'stabil', 'emosi']",medical history
+219," Sekiranya anda tidak selesa meluhkan pada kenalan, boleh cuba menghubungi Befrienders","['selesa', 'meluhkan', 'kenal', 'cuba', 'hubung', 'befrienders']",statement
+220, Mereka terlatih untuk mendengar isu dan masalah pemanggil dan tidak bersifat judgemental dengan isu kita,"['latih', 'dengar', 'isu', 'panggil', 'bersifat', 'judgemental', 'isu']",statement
+221, 2,['xaae'],statement
+222, Dapatkan rawatan di klinik kesihatan / pakar psikiatrik sekiranya masalah tetap berpanjangan,"['dapat', 'rawat', 'klinik', 'kesihatan', 'pakar', 'psikiatr', 'panjang']",statement
+223," Jangan sekali- kali merawat diri sendiri tanpa pemantauan doktor dan pakar bertauliah, dikhuatiri menyebabkan masalah lain pula","['kali', 'rawat', 'pantau', 'doktor', 'pakar', 'tauliah', 'dikhuatiri', 'sebab']",statement
+224,3,['angan'],statement
+225," Sekiranya tidak serasi dengan ubatan atau ubat tidak memberikan kesan, berbincang dengan doktor pakar dan nyatakan dengan jujur","['serasi', 'ubat', 'ubat', 'kesan', 'bincang', 'doktor', 'pakar', 'nyata', 'jujur']",statement
+226, Doktor akan cuba mengoptimumkan rawatan,"['doktor', 'Cuba', 'optimum', 'rawat']",statement
+227, Sesetengah ubat memerlukan tempoh untuk berkesan dan berbeza tempoh kecepatan dan keberkesanan,"['tengah', 'ubat', 'tempoh', 'kes', 'berbeza', 'tempoh', 'cepat', 'kesan']",statement
+228, Jangan malu kerana ia boleh menganggu rawatan dan menyebabkan kita mudah berputus asa,"['malu', 'rana', 'menganggu', 'rawat', 'sebab', 'mudah', 'putus', 'asa']",statement
+229, Hadir bersama ahli keluarga atau kawan agar mereka juga faham rawatan dan situasi kita,"['hadir', 'ahli', 'keluarga', 'kawan', 'faham', 'rawat', 'situasi']",statement
+230, Mungkin ahli keluarga dan kawan boleh mengajukan soalan kita kalau kita malu,"['ahli', 'keluarga', 'kawan', 'aju', 'soal', 'malu']",statement
+231, Pastikan anda faham rawatan dan arahan doktor,"['jalan', 'faham', 'rawat', 'arah', 'doktor']",statement
+232,4,['angan'],statement
+233, Banyakkan bersabar dan lakukan akitiviti yang mendatangkan keseronokan,"['banyak', 'sabar', 'laku', 'akitivi', 'seronok']",statement
+234, Bersenam merupakan aktiviti yang sangat membantu 5,"['senam', 'aktiviti', 'bantuxa p']",statement
+235, Jangan mudah menghukum orang pesakit pskiatrik,"['mudah', 'hukum', 'orang', 'sakit', 'pskiatrik']",statement
+236," Ada yang kata kena sihir, gangguan jin dan pelbagai lagi yang boleh menyebabkan pesakit bertambah murung","['kena', 'sihir', 'ganggu', 'jin', 'pelbagai', 'sebab', 'sakit', 'tambah', 'murung']",statement
+237," Apa yang kita boleh lakukan adalah dengan memberi kata semangat, motivasi dan doa","['laku', 'semangat', 'motivasi', 'doa']",statement
+238,6,['angan'],statement
+239," Tidak dinafikan ada kes yang melibatkan gangguan alam ghaib tetapi pada masa yang sama, berikhtiarlah dengan perawat bertauliah, professional dan rawatan yang terbukti dikaji dan berkesan di peringkat kinikal","['nafi', 'kes', 'masalah', 'ganggu', 'alam', 'ghaib', 'ikhtiar', 'perawat', 'tauliah', 'profesional', 'rawat', 'terbukti', 'kaji', 'kes', 'peringkat', 'kinikal']",statement
+240," Pendek kata, produk produk jualan di pasaran yang mendakwa boleh menyembuhkan penyakit psikiatrik mahupun fizikal adalah berkemungkinan besar merugikan duit dan tidak berkesan","['pendek', 'produk', 'produk', 'jual', 'pasar', 'dakwa', 'sembuh', 'sakit', 'psikiatr', 'baik', 'fizikal', 'mungkin', 'rugi', 'duit', 'kes']",statement
+241," Sekalipun berkesan, mungkin jangka pendek sahaja dan penjual produk tidak ada follow-up dan guideline yang diiktiraf","['kes', 'jangka masa', 'pendek', 'sahaja', 'jual', 'produk', 'susulan', 'guideline', 'iktiraf']",statement
+242," Para penjual produk, tolong jangan ambil kesempatan ke atas para pesakit untuk keuntungan semata ye","['jual', 'produk', 'tolong', 'ambil', 'peluang', 'sakit', 'untung', 'awak']",statement
+243, Banyak orang cuba mencadangkan produk-produk ini kepada saya tetapi saya tidak mengambilnya,"['orang utan', 'Cuba', 'cadang', 'produk produk', 'mengambilnya']",statement
+244," Akta Perubatan melarang para penjual mengiklankan produk yang boleh menyembuhkan 20 jenis penyakit, salah satunya penyakit psikiatrik","['akta', 'ubat', 'larang', 'jual', 'iklan', 'produk', 'sembuh', 'angan', 'jenis', 'sakit', 'salah', 'khas', 'sakit', 'psikiatr']",statement
+245,7,['angan'],statement
+246, Banyakkan berdoa,"['banyak', 'doa']",statement
+247," Kepada yang Muslim, banyakkan solat sunat dan membaca Quran juga","['muslim', 'banyak', 'solat hari raya', 'sunat', 'baca', 'quran']",statement
+248," Apa pun pegangan anda, fokuskan kepada aspek positif untuk sembuh","['pegang', 'fokus', 'aspek', 'positif', 'sembuh']",statement
+249, Ia mungkin sukar untuk dilakukan di peringkat awal depression kerana fikiran negatif akan selalu datang,"['sukar', 'peringkat', 'murung', 'rana', 'fikiran', 'negatif']",statement
+250," Di sinilah pentingnya kawan dan keluarga untuk memberi kata kata positif, semangat dan dorongan","['kawan', 'keluarga', 'positif', 'semangat', 'dorong']",statement
+251,8,['angan'],statement
+252, Suicidal ideation (fikiran untuk membunuh diri) biasa berlaku kepada pesakit psikiatrik terutamanya depression,"['suicidal', 'cita - cita', 'fikiran', 'bunuh', 'laku', 'sakit', 'psikiatr', 'jalan', 'murung']",symptom
+253, Amat penting untuk ahli keluarga dan rakan rakan mengenali simptom depression,"['ahli', 'keluarga', 'rak', 'rak', 'nali', 'simptom', 'murung']",statement
+254, Saya banyak berfikir mengenai mati tetapi alhamdulillah tidak ke tahap suicidal ideation,"['pikir', 'mati', 'alhamdulillah', 'mabuk', 'bunuh diri', 'cita - cita']",statement
+255, Suicidal attempt amat tinggi di kalangan wanita tetapi completed suicide lebih tinggi di kalangan lelaki,"['bunuh diri', 'cubaan', 'orang', 'wanita', 'selesai', 'suicide', 'orang', 'lelaki']",symptom
+256," Apa pun, hidup ini penuh dugaan dan cabaran tetapi ia juga diisi dengan kebahagiaan untuk yang berusaha","['xaaeap', 'hidup', 'penuh', 'duga', 'cabar', 'isi', 'bahagia', 'berusaha']",statement
+257, Doakan agar saya diluaskan rezeki saya di dalam apa jua bidang (mana tahu saya kembali ke bidang perubatan) dan moga kita semua selalu memberi dorongan dan motivasi kepada satu sama lain,"['doa', 'luas', 'rezeki', 'jua', 'bidang', 'bidang', 'ubat', 'moga', 'dorong', 'motivasi']",statement
+258," Terima kasih kerana membaca, moga ada manfaat untuk semua dan saya memohon maaf atas kekurangan penulisan saya","['terima', 'kasih sayang', 'rana', 'baca', 'moga', 'faedah', 'mohon', 'maaf', 'kurang', 'tulis']",statement
+259," Selamat berjuang dan percayalah, ada sinar harapan untuk kita semua 🙂 Penulis: F","['xaaeselamat', 'juang', 'percaya', 'sinar', 'harap', 'angan xaaepenulis', 'f']",statement
+260, Ini kisah saya,['kisah'],statement
+261, Saya menulis dalam keadaan masih dalam dilema tapi penuh dengan rasa happy,"['tulis', 'dilema', 'penuh', 'happy']",statement
+262, Paling penting saya dah tak perlukan ssri ( antidepressant) untuk rasa betul betul gembira dengan hidup ini,"['dah', 'perlu', 'ssri', 'antidepressant', 'gembira', 'hidup']",statement
+263, Alhamdulillah,['alhamdulillah'],statement
+264, Dan ramadhan ini saya anggap satu platform untuk saya betul betul memohon dari Allah jalan mana yang perlu saya pilih untuk mencari rezeki,"['ramadhan', 'anggap', 'lantar', 'mohon', 'allah', 'jalan', 'pilih', 'cari', 'rezeki']",statement
+265,Ya,['ya'],statement
+266, Saya masih lagi seorang houseman di sebuah hospital,"['bantu rumah', 'hospital']",statement
+267, Tapi dalam dilema untuk resign,"['dilema', 'letak jawat']",statement
+268, Dalam masa kurang 2 tahun pengalaman housemanship saya,"['xaaedalam', 'angan', 'alam', 'rumah tangga']",statement
+269, Saya kehilangan tiga insan yang menjadi tulang belakang saya,"['hilang', 'orang gila', 'tulang']",risk factor
+270,5 bulan bekerja atok saya meninggal di hospital sama saya bekerja,"['angan', 'atok', 'mati', 'hospital']",risk factor
+271,8 bulan bekerja ayah saya meninggal di ccu juga di hospital sama saya bekerja,"['angan', 'ayah', 'tinggal', 'ccu', 'hospital']",risk factor
+272, Sayalah yang menghentikan cpr ayah saya sendiri yang dilakukan rakan sekerja saya,"['angan', 'cpr', 'ayah', 'rak', 'kerja']",risk factor
+273, Saya baru sebulan posting medical masa tu,"['bulan', 'epos', 'ubat', 'tu']",statement
+274, Dan tu adalah pengalaman cpr kali kedua untuk saya,"['tu', 'alam', 'cpr', 'kali']",risk factor
+275,Betul betul saya hilang masa tu,"['hilang', 'tu']",risk factor
+276, Saya MIA(missing in action bermaksud tidak datang kerja),"['miamissing', 'dalam', 'tindak', 'kerja']",risk factor
+277, Didiagnos Major Depreasive Disorder,"['didiagnos', 'major', 'depreasive', 'disorder']",medical history
+278, Ambil ubat,"['ambil', 'ubat']",medical history
+279, Saya pergi hospital tapi tak mampu masuk wad,"['pergi', 'hospital', 'masuk', 'wad']",medical history
+280, Saya dikira MIA,['mia'],medical history
+281, Jadi gaji saya disekat,"['gaji', 'sekat']",risk factor
+282, Kemudian tahun yang sama nenek saya yang mengasuh dari kecil didiagnos kanser,"['xaaekemudian', 'nenek', 'asuh', 'didiagnos', 'kanser']",risk factor
+283, Masa tu sedikit motivasi untuk bekerja,"['tu', 'motivasi']",statement
+284, Beliau pun sedih dengan keadaan saya,"['beliau', 'sedih']",risk factor
+285, Jadi saya teruskan bekerja tanpa gaji selama 4 bulan,"['terus', 'gaji', 'angan']",risk factor
+286, Hinggalah nenek saya menghembuskan nafas terakhir 2bulan lepas,"['hingga', 'nenek', 'hembus', 'nafas', 'angan bulan', 'lepas']",risk factor
+287, Dalam masa tersebut saya terlalu faham bahawa bukan mudah untuk memjaga orang yang sakit terlantar,"['faham', 'bahawa', 'mudah', 'memjaga', 'orang utan', 'sakit', 'lantar']",risk factor
+288, Seminggu selepas nenek saya meninggal saya mendapat notis pendek untuk bertukar hospital,"['masa', 'masa', 'nenek', 'mati', 'not', 'pendek', 'jalan', 'hospital']",risk factor
+289, Semua ni terlalu laju untuk saya,"['ni', 'laju']",risk factor
+290, Saya tak sempat nak rsa apa apa,"['nak', 'rsa']",risk factor
+291,Saya cuma mampu menarik nafas panjang,"['tarik', 'nafas']",symptom
+292, Jujurnya saya redha dengan semua ni walaupun terlalu sukar,"['jujur', 'redha', 'ni', 'sukar']",symptom
+293, Cuma saya akan belajar redha juga jika menjadi seorang doktor bukan lagi rezeki saya,"['bajar', 'redha', 'doktor', 'rezeki']",symptom
+294, Semua yang jadi menyebabkan saya cepat jadi depressed,"['xaaesemua', 'sebab', 'cepat', 'tek']",symptom
+295, Pandangan saya tentang kehidupan banyak berubah,"['pandang', 'hidup', 'rubah']",symptom
+296, Apatah lagi sekarang ni saya cuma ada ibu dan adik adik saya,"['ni', 'adik', 'adik']",symptom
+297,Salah ke kalau saya rasa nak resign sebab nak duduk dengan family je,"['salah', 'nak', 'resign', 'nak', 'duduk', 'family', 'je']",symptom
+298, Nak cari rezeki tapi nk family depan mata,"['nak', 'cari', 'rezeki', 'nk', 'keluarga', 'mata']",symptom
+299, Salah ke kalau saya taknak terlalu stress then depressed? Salah ke?Penulis:  Umaira,"['salah', 'takn', 'stress', 'then', 'depressed', 'salah', 'tulis', 'umaira']",symptom
+300,Assalamualaikum semua,['assalamualaikum'],statement
+301, Nama aku Fezzul (bukan nama sebenar) umur aku dalam 22 tahun,"['nama', 'fezzul', 'nama', 'benar', 'umur', 'angan']",statement
+302, Aku nak cerita pengalaman aku apabila disahkan menghidap depresi dan kemurungan,"['nak', 'cerita', 'alam', 'sah', 'menghidap', 'depresi', 'murung']",statement
+303,Okay aku ni boleh dikatakan budak cerdik juga la sebab UPSR dan PMR aku straight A,"['baik', 'ni', 'budak', 'cerdik', 'la', 'upsr', 'pmr', 'lurus', 'a']",statement
+304, Cuma SPM aku je dpt 6A tapi aku tetap bersyukur,"['spm', 'je', 'dpt', 'angan a', 'syukur']",statement
+305, Then aku mohon la UPU untuk masuk universiti malangnya permohonan aku gagal,"['then', 'mohon', 'la', 'upu', 'masuk', 'universiti', 'malang', 'mohon', 'gagal']",risk factor
+306, Aku cuba buat rayuan dan keputusan still sama aku gagal,"['cuba', 'rayu', 'putus', 'still', 'gagal']",risk factor
+307,Aku kecewa dan sedih la jugak sebab kawan2 semua smbung belajar masuk universiti,"['rewa', 'sedih', 'la', 'jugak', 'kawanya', 'smbung', 'bajar', 'masuk', 'universiti']",risk factor
+308, Okay takpa la aku teruskan belajar dgn ambik STPM di sekolah dan Alhamdulilah aku berjaya grad dgn CGPA 3,"['okay', 'takpa', 'la', 'terus', 'bajar', 'dgn', 'ambik', 'stpm', 'sekolah', 'alhamdulilah', 'jaya', 'grad', 'dgn', 'cgpa', 'angan']",statement
+309,6 Aku berasa gembira sngat time tu,"['angan', 'asa', 'gembira', 'sngat', 'time', 'tu']",statement
+310,Nak jadikan cerita lepastu aku dapat tawaran masuk universiti awam yang top la jugak di Malaysia dalam kos pendidikan,"['nak', 'jadi', 'cerita', 'lepastu', 'tawar', 'masuk', 'universiti', 'awam', 'top', 'la', 'jugak', 'malaysia', 'kos', 'didik']",statement
+311, Aku gembira sngat,"['gembira', 'sngat']",statement
+312, Nak jadikan cerita sebulan aku stay di sana aku rasa stress sangat sebab aku pi kelas naik bas,"['nak', 'jadi', 'cerita', 'bulan', 'stay', 'stress', 'pi', 'kelas', 'bas']",risk factor
+313, Nak naik bas pula kena tunggu dan keadaan dalam bas tu sentiasa penuh dengan orang,"['nak', 'bas', 'kena', 'tunggu', 'bas', 'tu', 'sentiasa', 'penuh', 'orang']",risk factor
+314,Aku pernah lewat kena marah dengan lecture sebab lambat datang kelas pada hari pertama sedangkan aku bukan tertidur ke sengaja datang lewat cuma bas tu dah penuh aku terpaksa tunggu bas lain datang pula la,"['kena', 'marah', 'lecture', 'lambat', 'kelas', 'tidur', 'sengaja', 'bas', 'tu', 'dah', 'penuh', 'paksa', 'tunggu', 'bas', 'la']",risk factor
+315, Dan universiti aku ni pula besar first time datang nak daftar dulu pon aku sesat tak jumpa jalan,"['universiti', 'ni', 'first', 'time', 'nak', 'daftar', 'pon', 'sesat', 'jumpa', 'jalan']",statement
+316,Macam2 terjadi dekat aku dekat sana,['macamp'],statement
+317, Dalam sebulan tu jgak wifi universiti tak boleh nak connect dengan laptop aku,"['bulan', 'tu', 'jgak', 'wifi', 'universiti', 'nak', 'connect', 'laptop']",risk factor
+318, Aku stress,['stress'],symptom
+319, Terpaksa pergi Pusat Teknologi maklumat jalan kaki jauh la jugak sebab nak settlekan masalah ni,"['perlu', 'pergi', 'pusat', 'teknologi', 'maklumat', 'jalan', 'kaki', 'la', 'jugak', 'nak', 'settlekan', 'ni']",risk factor
+320,2 kali aku pergi ulang alik jalan kaki penat tau sampai ja sana terus berpeluh,"['angan', 'kali', 'pergi', 'ulang mula', 'alik', 'jalan', 'kaki', 'penat', 'tau', 'ja', 'peluh']",statement
+321, Aku bukan tak nak naik bus cuma aku tak tahu sama ada bus tu berhenti ke tidak kat pusat teknologi tu,"['nak', 'bas', 'bus', 'tu', 'henti', 'kat', 'pusat', 'teknologi', 'tu']",statement
+322, Daripada sesat aku ambik keputusan jalan kaki,"['sesat', 'ambik', 'putus', 'jalan', 'kaki']",statement
+323,Dan apa yang malang lagi roomate aku pula jenis buat hal sendiri je,"['malang', 'bilik', 'jenis', 'je']",risk factor
+324, Tak pernah nak ambil kisah pasal aku ni,"['nak', 'ambil', 'kisah', 'pasal', 'ni']",symptom
+325, Aku nak survive kat sini pon susah sebab aku tak ada kawan dan aku pula bukan jenis cepat bergaul dengan orang,"['nak', 'tahan', 'kat', 'pon', 'susah', 'kawan', 'jenis', 'cepat', 'gaul', 'orang utan']",statement
+326,So memang susah la bagi aku nak survive kat universiti tambah pula dengan banyak esaimen dan grup wassap melibatkan universiti saja ada sampai 24 grup,"['so', 'susah', 'la', 'nak', 'survive', 'kat', 'universiti', 'esaimen', 'kumpul', 'wassap', 'masalah', 'universiti', 'angan', 'kumpul']",statement
+327, Mesej chat sentiasa masuk sampai aku rasa lemas,"['mesej', 'chat', 'selalu', 'masuk', 'lemas']",symptom
+328,Semua ni buatkan aku stress overthinking dan sampai satu tahap aku tak boleh tidur malam,"['ni', 'buat', 'tekan', 'terlalu banyak berfikir', 'mabuk', 'tidur', 'malam']",symptom
+329, Otak aku tak berhenti berfikir dan aku serabut fikir banyak masalah sampai satu tahap aku keluar seorang pergi mall sebab nak release stress dan di situlah timbul satu idea nak bunuh diri,"['otak', 'henti', 'berfikir', 'serabut', 'fikir', 'tahap', 'pergi', 'pusat beli - belah', 'nak', 'lepas', 'stress', 'situ', 'timbul', 'idea', 'nak', 'bunuh']",symptom
+330, Time ni aku ada dekat mall tingkat atas dan aku dengar suara orang berbisik “best jugak kalau terjun ni”,"['time', 'ni', 'pusat beli - belah', 'tingkat', 'dengar', 'suara', 'orang utan', 'bisik', '"" Baik', 'jugak', 'terjun', 'ni angan']",symptom
+331,Start dari situ aku dah tak boleh nak kawal diri aku,"['mula', 'di situ', 'dah', 'nak', 'kawal']",symptom
+332, Aku rasa otak aku ni dah lost sekejap,"['otak', 'ni', 'dah', 'hilang', 'kejap']",symptom
+333, Tapi aku tak layan perasaan macam tu,"['layan', 'asa', 'tu']",statement
+334, Aku terus call parents kata depress rasa nak bunuh diri,"['panggil', 'ibu bapa', 'tek', 'nak', 'bunuh']",symptom
+335, Aku menangis dan aku cerita kat parents aku macam2 jadi dekat universiti sampai aku depress sangat,"['menang', 'cerita', 'kat', 'ibu bapa', 'macamp', 'universiti', 'tek']",symptom
+336,Dan malam tu jugak aku ambik keputusan nak balik rumah,"['malam', 'tu', 'jugak', 'ambik', 'putus', 'nak', 'rumah']",statement
+337, Sebab aku memang rasa ada yang pelik dengan diri aku,['pelik'],symptom
+338, Aku tak macam aku yang selalu,[],symptom
+339, Aku pon tak tahu macam mana aku boleh depress sampai tahap macam tu sekali,"['pon', 'depress', 'mabuk', 'tu']",symptom
+340, Aku bersyukur sebab akhirnya sampai juga rumah walaupon time tu otak aku dah tak betul,"['syukur', 'rumah', 'walaupon', 'time', 'tu', 'otak', 'dah']",statement
+341, Aku menangis teruk dan give up dengan life kat sana,"['menang', 'teruk', 'beri', 'naik', 'life', 'kat']",symptom
+342,Aku beritahu parents nak berhenti belajar,"['beritahu', 'ibu bapa', 'nak', 'henti', 'bajar']",statement
+343, Lepas je berhenti belajar aku kemurungan pula,"['lepas', 'je', 'henti', 'bajar', 'murung']",symptom
+344, Aku tak dak selera nak makan,"['dak', 'selera', 'nak', 'makan']",symptom
+345, Otak aku 24 jam fikir nak mati,"['otak', 'angan', 'jem', 'fikir', 'nak', 'mati']",symptom
+346, Aku kecewa dengan diri sendiri sebab tak boleh nak survive kat universiti sedangkan antara goals aku adalah nak masuk universiti,"['rewa', 'nak', 'tahan', 'kat', 'universiti', 'matlam', 'nak', 'masuk', 'universiti']",symptom
+347, Aku selalu rasa nak cederakan diri aku,"['nak', 'cedera']",symptom
+348, Aku meroyan teruk,"['royan', 'teruk']",symptom
+349, Dan aku tak boleh nak tidur malam,"['nak', 'tidur', 'malam']",symptom
+350,  Otak ni kalau tak dapat rest atau tidur secukupnya memang tak boleh nak fikir dengan waras,"['otak', 'ni', 'rehat', 'tidur', 'nak', 'fikir', 'waras']",symptom
+351, Dan smpai 3 hari aku tak mandi,"['smpai', 'angan', 'bilik mandi']",symptom
+352, Rasa betul2 hopeless,"['betuleb', 'tiada harap']",symptom
+353, Dan 3 bulan tu juga aku tak keluar rumah sebab takut dengan orang sekeliling,"['angan', 'tu', 'rumah', 'takut', 'orang utan', 'masa']",symptom
+354, Dunia aku jadi gelap,"['dunia', 'gelap']",symptom
+355,Dan parents aku tengok keadaan aku makin teruk parents bawa pi rawatan islam,"['ibu bapa', 'tengok', 'teruk', 'ibu bapa', 'bawa', 'pi', 'rawat', 'islam']",statement
+356, (Time ni aku dengan parents tak tahu lagi yang aku kena penyakit depression),"['masa', 'ni', 'ibu bapa', 'kena', 'sakit', 'murung']",statement
+357, Merata pi berubat sampai ada ustaz seorang ni kata aku ada saka,"['rata', 'pi', 'ubat', 'ustaz', 'ni', 'saka']",statement
+358, Tapi aku rasa aku tak ada gangguan makhluk halus pon sebenarnya,"['ganggu', 'makhluk', 'halus', 'pon']",statement
+359, Sampai la satu hari ada orang suggest dekat parents aku suruh bawa pergi hospital pakar psikatrik,"['la', 'orang utan', 'cadang', 'ibu bapa', 'suruh', 'bawa', 'pergi', 'hospital', 'pakar', 'psikatr']",statement
+360,First time jumpa doktor aku rasa takut sangat,"['pertama', 'masa', 'jumpa', 'doktor', 'takut']",symptom
+361, Aku tak boleh nak pandang dan bercakap dengan doktor sebab otak aku 24 jam overthinking,"['nak', 'pandang', 'cakap', 'doktor', 'otak', 'angan', 'jem', 'overthinking']",symptom
+362, Aku just tunduk ketakutan dan aku menangis non stop,"['hanya', 'tunduk', 'takut', 'menang', 'bukan', 'henti']",symptom
+363, Keadaan aku time tu sangat la lemah dan penat sebab otak non stop berfikir je,"['time', 'tu', 'la', 'lemah', 'penat', 'otak', 'bukan', 'henti', 'pikir', 'je']",symptom
+364, Dan aku juga susah nak fokus dan mudah lupa,"['susah', 'nak', 'fokus', 'mudah', 'lupa']",symptom
+365, Aku juga mengalami lupa ingatan sementara,"['laku', 'lupa', 'ingat']",symptom
+366,Doktor tu kata kat parents aku bawa balik dulu nanti jumpa lagi,"['doktor', 'tu', 'kat', 'ibu bapa', 'bawa', 'jumpa']",statement
+367, And doktor tu bagi aku ubat banyak gila nak kena makan,"['dan', 'doktor', 'tu', 'ubat', 'gila', 'nak', 'kena', 'makan']",medical history
+368, Aku balik dan hari2 aku makan ubat,"['harip', 'makan', 'ubat']",statement
+369, Alhamdulilah aku dah boleh tidur malam dan aku boleh kawal emosi aku,"['alhamdulilah', 'dah', 'tidur', 'malam', 'kawal', 'emosi']",statement
+370,2 bulan selepas tu aku semakin baik dan sembuh,"['angan', 'masa', 'tu', 'sembuh']",statement
+371, Aku jumpa doktor tu lagi dan time tu baru ada keyakinan nak bercakap dengan doktor,"['jumpa', 'doktor', 'tu', 'masa', 'tu', 'yakin', 'nak', 'cakap', 'doktor']",statement
+372, Dan doktor sahkan aku menghidap depresi dan kemurungan,"['doktor', 'sahkan', 'menghidap', 'murung', 'murung']",medical history
+373, Doktor kata antara salah satu punca dia adalah kurang tidur,"['doktor', 'salah', 'punca', 'tidur']",medical history
+374, Doktor selalu ingatkan aku supaya tidur kena cukup,"['doktor', 'ingat', 'tidur', 'kena']",medical history
+375,Dan sekarang aku masih lagi menerima rawatan 3 bulan sekali,"['terima', 'rawat', 'angan']",medical history
+376, Kadang2 aku rasa sedih hidup tengok kawan2 berjaya dan pergi belajar sedangkan aku sekarang menganggur ja,"['kadangeb', 'sedih', 'hidup', 'tengok', 'kawanya', 'jaya', 'pergi', 'bajar', 'anggur', 'ja']",risk factor
+377, Aku sempat kerja sebagai cikgu ganti selama 2 bulan selepas saja aku sembuh dari penyakit ni tapi dah habis tempoh kontrak,"['kerja', 'cikgu', 'ganti', 'angan', 'masa', 'sembuh', 'sakit', 'ni', 'dah', 'habis', 'tempoh', 'kontrak']",statement
+378, Parents aku ada juga suruh apply kerja tapi aku tak berminat nak kerja benda yang aku tak suka,"['ibu bapa', 'suruh', 'apply', 'kerja', 'minat', 'nak', 'kerja', 'benda', 'suka']",statement
+379,Buat masa sekarang aku masih lagi menunggu panggilan kerja sebagai guru ganti sebab hati aku ni tak terbuka nak kerja benda lain,"['tunggu', 'panggil', 'kerja', 'guru', 'ganti', 'hati', 'ni', 'buka', 'nak', 'kerja', 'benda']",statement
+380, Aku semakin baik cuma aku kadang2 ada juga la rasa murung tu,"['kadangeb', 'la', 'murung', 'tu']",symptom
+381, Aku dah tak happy macam dulu lagi,"['dah', 'happy']",symptom
+382, Aku tetap bersyukur walaupon aku rasa ujian aku ni berat sangat tapi aku masih bernyawa lagi,"['syukur', 'walaupon', 'uji', 'ni', 'berat', 'nyawa']",statement
+383, Allah tetap bagi aku hidup lagi,"['allah', 'hidup']",statement
+384,Semua yang berlaku pasti ada hikmahnya,"['laku', 'hikmah']",statement
+385, Tapi kadang2 aku fikir juga kenapa Allah bagi aku ujian macam ni penyakit yang luar nampak normal tapi dalam tu merana sangat,"['kadangeb', 'fikir', 'allah', 'uji', 'ni', 'sakit', 'nampak', 'normal', 'tu', 'merana']",statement
+386,Aku tak tahu nak cerita penyakit aku dekat orang sebab kalau aku cerita pon mereka tak akan faham,"['nak', 'cerita', 'sakit', 'orang utan', 'cerita', 'pon', 'faham']",risk factor
+387, Mesti mereka akan judge aku yang aku ni lemah iman sedangkan aku dulu dekat universiti subuh dekat surau,"['mesti', 'Hakim', 'ni', 'lemah', 'iman', 'universiti', 'subuh', 'surau']",risk factor
+388, Solat lima waktu,['solat'],statement
+389,Apa pon doakan aku dipermudahkan urusan nak sambung belajar balik dalam bulan 9 tahun ni,"['pon', 'doa', 'mudah', 'urus', 'nak', 'sambung', 'bajar', 'angan', 'ni']",statement
+390, Cuma sekarang aku buntu nak buat apa kat rumah lama²,"['buntu', 'nak', 'kat', 'rumah', 'lamaay']",statement
+391, Bosan teruk dengan takda kawan,"['bosan', 'teruk', 'takda', 'kawan']",statement
+392, Itu saja cerita aku,['cerita'],statement
+393, Terima kasih,"['terima', 'kasih']",statement
+394,– Fezzul  (Bukan nama sebenar)Hantar confession anda di sini -> https://iiumc,"['angan', 'fezzulxaaan', 'nama', 'sebenarhant', 'confession', 'xaaehttpsiiumc']",statement
+395, com/submit,['comsubmit'],statement
+396,"Hari ini, aku dapat tahu sendiri kenapa orang murung tak dapatkan pertolongan","['orang', 'murung', 'dapat', 'tolong']",statement
+397,Aku pergi klinik kesihatan hari ni,"['pergi', 'klinik', 'kesihatan', 'ni']",statement
+398," Dalam dua minggu lepas, perasaan yang dah lama aku tak rasa datang balik","['minggu', 'lepas', 'asa', 'dah']",medical history
+399, Dulu masa aku belajar dan masa aku bujang selalu la perasaan tu datang,"['bajar', 'bujang', 'la', 'asa', 'tu']",medical history
+400,Seingat aku ini kali pertama datang perasaan yang sama macam dulu sejak aku kahwin,"['kali', 'asa', 'kahwin']",medical history
+401, Pencetusnya? Aku pun tak tahu,['cetus'],statement
+402,"Dalam dua minggu lepas, aku memang rasa down sangat","['minggu', 'lepas', 'down']",symptom
+403, Tanpa sebab,[],statement
+404, Rasa sedih,['sedih'],symptom
+405, Rasa malas bangun tidur,"['malas', 'bangun', 'tidur']",symptom
+406, Aku bangun untuk solat subuh je,"['bangun', 'solat', 'subuh', 'je']",symptom
+407, Itu pun kadang2 aku burn subuh,"['kadangeb', 'burn', 'subuh']",symptom
+408," Lepas subuh, aku tidur balik","['lepas', 'subuh', 'tidur']",symptom
+409, Takde semangat langsung nak bangun,"['takde', 'semangat', 'langsung', 'nak', 'bangun']",symptom
+410," Oh, aku kerja ikut suka aku","['oh', 'kerja', 'suka']",symptom
+411, Kerja bebas,"['kerja', 'bebas']",symptom
+412,Aku rasa sedih tak tentu pasal,"['sedih', 'pasal']",symptom
+413, Takde sebab,['takde'],symptom
+414, Rasa useless,['useless'],symptom
+415, Rasa macam dulu la masa belajar,"['la', 'bajar']",statement
+416, Masa bujang,['bujang'],statement
+417, Masa aku duduk sorang2,"['duduk', 'sorang l']",statement
+418, Tapi ini kali pertama jadi lepas kahwin,"['kali', 'lepas', 'kahwin']",statement
+419, Otak aku asyik fikir kalau mati lagi best,"['otak', 'asyik', 'fikir', 'mati', 'best']",symptom
+420, Aku dah prepare dah untuk isteri dan anak aku duit,"['dah', 'prepare', 'dah', 'isteri', 'anak', 'duit']",statement
+421," Tak banyak, tapi ada la",['la'],statement
+422," Tapi fikir je, takde la sampai aku nak campak nyawa aku sendiri","['fikir', 'je', 'takde', 'la', 'nak', 'campak', 'nyawa']",statement
+423," Cuma macam bayangkan, death by proxy","['bayang', 'death', 'by', 'proxy']",symptom
+424, Mati sebab accident ke,"['mati', 'accident']",symptom
+425, Aku ada la iman lagi,"['la', 'iman']",statement
+426, Aku tahu la dosa pahala,"['la', 'dosa', 'pahala']",statement
+427,"Satu malam dalam dua minggu lepas tu, aku scroll FB, search tentang depression","['malam', 'minggu', 'lepas', 'tu', 'scroll', 'fb', 'search', 'depression']",statement
+428," Jumpa la satu page ni, Malaysia Suicide Alert (MESRA)","['jumpa', 'la', 'page', 'ni', 'malaysia', 'suicide', 'alert', 'mesra']",statement
+429, Aku try la pm,"['try', 'la', 'pm']",statement
+430, tak berbalas sampai sekarang,['balas'],statement
+431, Aku cuba la call Befrienders,"['cuba', 'la', 'panggil', 'kawan']",statement
+432, Tak dapat,[],statement
+433, Tapi aku faham la sebab dah tengah malam,"['faham', 'la', 'dah', 'malam']",statement
+434," Serius aku cakap, memang waktu tu aku serabut","['serius', 'cakap', 'tu', 'serabut']",statement
+435, Aku rasa berat sangat nak buat benda yang aku selalu buat,"['berat', 'nak', 'benda']",symptom
+436, Aku rasa nak tidur je,"['nak', 'tidur', 'je']",symptom
+437, Aku monyok je,"['monyok', 'je']",symptom
+438, Keluar dengan family pun rasa tak happy,"['family', 'happy']",symptom
+439, Aku sedih je,"['sedih', 'je']",symptom
+440,Aku jumpa satu link,"['jumpa', 'link']",statement
+441, Questionnaire,['soal selidik'],statement
+442, Saringan Kesihatan Mental,"['saring', 'kesihatan', 'mental']",statement
+443, Aku cuba la jawab,"['cuba', 'la']",statement
+444," Dapat keputusan dalam email, dia suruh aku pergi ke Klinik Kesihatan","['putus', 'email', 'suruh', 'pergi', 'klinik', 'kesihatan']",statement
+445," Esoknya aku pergi, aku tunjuk kat kaunter klinik kesihatan, diorang pun blur","['esok', 'pergi', 'kat', 'kaunter', 'klinik', 'kesihatan', 'orang', 'kabur']",statement
+446, Tapi diorang suruh aku daftar dulu,"['orang', 'suruh', 'daftar']",statement
+447," Aku daftar, Aku tunggu lama","['senarai', 'tunggu']",statement
+448, Pastu aku balik sebelum sempat diorang panggil aku,"['pastu', 'orang', 'panggil']",statement
+449," Aku fikir, takpe la, aku setel sendiri……I got better a few days later","['fikir', 'takpe', 'la', 'setel', 'sendiri angan angan i', 'dapat', 'lebih baik', 'a', 'beberapa', 'hari - hari', 'kemudian']",statement
+450, Ada beberapa benda yang aku buat menjadi,['benda'],statement
+451, Aku semangat balik,['semangat'],statement
+452, Aku ok balik,['okey'],statement
+453, Tapi perasaan tu masih ada la,"['asa', 'tu', 'la']",statement
+454," Aku start balik bangun awal pagi, ulang balik rutin dulu","['mula', 'bangun', 'pagi', 'ulang mula', 'rutin']",statement
+455," Pastu hari ini, aku buat keputusan untuk pergi klinik kesihatan lagi sebab aku ada gatal-gatal tanpa ruam yang miang sesangat","['pastu', 'putus', 'pergi', 'klinik', 'kesihatan', 'gatalg', 'ruam', 'miang', 'sangat']",statement
+456," Pergi klinik kali ni, aku tunggu","['pergi', 'klinik', 'kali', 'ni', 'tunggu']",statement
+457, Tunggu sampai dipanggil masuk bilik doktor,"['tunggu', 'angan', 'masuk', 'bilik', 'doktor']",statement
+458,"Jumpa doktor, aku cerita pasal gatal-gatal","['jumpa', 'doktor', 'cerita', 'pasal', 'gatalg']",statement
+459, Dan biasalah doktor klinik kerajaan,"['biasa', 'doktor', 'klinik', 'raja']",statement
+460, Beban kerja terlalu banyak,"['beban', 'kerja']",statement
+461, Memang cuba secepat mungkin untuk selesaikan patient,"['Cuba', 'cepat', 'selesai', 'sakit']",statement
+462, Aku cuba cakap tentang ujian saringan depression yang aku ada ambil,"['Cuba', 'cakap', 'uji', 'saring', 'murung', 'ambil']",statement
+463,"Waktu ini, nampak gaya macam ada sinis sikit","['nampak', 'gaya', 'sin', 'sikit']",statement
+464, Macam mana nak cakap ye? Macam gaya nak kata kita ni mengada-ada,"['nak', 'cakap', 'awak', 'gaya', 'nak', 'ni', 'mengada']",statement
+465," Mungkin aku sangka buruk, tapi aku orang sales, aku boleh baca sikit2 gaya orang ni","['sangka', 'buruk', 'orang utan', 'jual', 'baca', 'sikitp', 'gaya', 'orang utan', 'ni']",statement
+466," But don’t get me wrong, the doctor was still professional","['tetapi', 'jangan', 'dapat', 'saya', 'salah', 'yang', 'doktor', 'adalah', 'masih', 'profesional']",statement
+467," Dia suruh aku ambil satu borang kat luar, suruh aku isi borang tu","['suruh', 'ambil', 'borang', 'kat', 'suruh', 'isi', 'borang', 'tu']",statement
+468, Borang DASS namanya,"['borang', 'dass', 'nama']",statement
+469,Borang mengandungi soalan2 yang lebih kurang sama macam soalan saringan depression hari tu,"['borang', 'kaedah', 'soalan ph', 'soal', 'saring', 'murung', 'tu']",statement
+470, Aku jawab la ikut arahan,"['la', 'arah']",statement
+471," Arahannya, berdasarkan apa yang kita rasa dalam seminggu yang lepas","['arah', 'berdasarkan', 'masa', 'lepas']",statement
+472, Aku masih rasa,[],statement
+473, Cuma dah kurang,['dah'],statement
+474,"Aku bawa balik masuk borang tu, Keputusan memang lebih kurang dengan saringan","['bawa', 'masuk', 'borang', 'tu', 'putus', 'saring']",statement
+475,"  Kemurungan – Sangat TerukAnzieti – SederhanaStres – Sangat TerukOk, jumpa doktor balik","['murung', '-', 'terukanziet', '-', 'sederhanastres', '-', 'terukok', 'jumpa', 'doktor']",statement
+476, Kesinisan bermula sekali lagi,['sinis'],statement
+477, Doktor tanya soalan untuk pastikan sama ada aku faham soalan yang ditanya dalam borang,"['doktor', 'soal', 'jalan', 'faham', 'soal', 'borang']",statement
+478, Aku jawab,[],statement
+479," Ada cara doktor tu balas, itu biasa la","['doktor', 'tu', 'balas', 'la']",statement
+480, Saya pun rasa macam tu,['tu'],statement
+481,Cara doktor tanya macam menekan,"['doktor', 'angan']",risk factor
+482, Macam aku ni sungguh mengada-ada,"['ni', 'sungguh', 'mengada']",risk factor
+483," Ada satu part, aku beritahu tentang suicidal thoughts aku","['bahagian', 'beritahu', 'bunuh diri', 'pikir']",symptom
+484," Dia kata, “Tapi takde la nak buat apa-apa kan?” Dan dia juga ada cakap, “Tak bolehlah macam tu, bila terlintas, fikir anak isteri”","['"" Tapi', 'bukan', 'la', 'nak', 'apaap', 'kan angan', 'cakap', '"" Tak', 'tu', 'lintas', 'fikir', 'anak', 'isteri angan']",statement
+485, Aku pergi jumpa doktor sebab aku fikir anak isteri la,"['pergi', 'jumpa', 'doktor', 'fikir', 'anak', 'isteri', 'la']",statement
+486, Aku nak baik,['nak'],statement
+487,"Sampailah satu soalan, dia tanya tentang family, dia tanya aku tak boleh kongsi dengan isteri aku ke? Dengan parents macam mana","['sampai', 'soal', 'keluarga', 'kongsi', 'isteri', 'ibu bapa']",statement
+488, SH*t,['sht'],statement
+489, Masa ni aku nangis,"['ni', 'nang']",symptom
+490, Sebak,['sebak'],symptom
+491, Tetiba,['tetiba'],statement
+492, Aku tak tahu kenapa,[],symptom
+493, Depan doktor tu,"['doktor', 'tu']",statement
+494, Aku dah bertahun-tahun kot tak menangis macam tu,"['dah', 'bertahuntun', 'kot', 'menang', 'tu']",symptom
+495, Anak aku sakit dulu pun aku tak nangis macam tu,"['anak', 'sakit', 'nang', 'tu']",symptom
+496,Last2 doktor set aku untuk terapi pemulihan carakerja,"['terakhiru', 'doktor', 'set', 'terapi', 'pulih', 'carakerja']",medical history
+497, Memang terapi yang aku nak,"['terapi', 'nak']",medical history
+498, Bukan nak bantai ubat terus,"['nak', 'banta', 'ubat']",medical history
+499,"Aku yang sepatutnya dah ok sikit, pasal insiden hari ini, dengan doktor tu, aku dah rasa macam haritu balik","['masa', 'dah', 'okey', 'sikit', 'pasal', 'orang dalam', 'doktor', 'tu', 'dah', 'haritu']",symptom
+500,Rasa nak mati je…,"['nak', 'mati', 'je . . .']",symptom
+501,– AkuHantar confession anda di sini -> www,"['-', 'akuhantar', 'aku', 'ww']",statement
+502,iiumc,['iiumc'],statement
+503,com/submit,['hantar'],statement
+504,Aku terpanggil untuk tulis pengalaman aku lepas baca confession bertarikh 28/9/2018 bertajuk “doktor dan kemurungan” (https://iiumc,"['panggil', 'tulis', 'alam', 'lepas', 'baca', 'aku', 'tarikh', 'angan', 'tajuk', '"" Doktor', 'murung angan', 'htpsiiumc']",statement
+505,com/doktor-dan-kemurungan/),['comdoktordankemurungan'],statement
+506, Moga kisah aku sedikit sebanyak dapat membantu insan-insan yang sedang cuba menyelesaikan isu kesihatan mental mereka,"['moga', 'kisah', 'tolong', 'orang gila', 'Cuba', 'selesai', 'isu', 'kesihatan', 'mental']",statement
+507,"Aku rasa aku melalui fasa depression yang teruk sebanyak tiga kali, cuma kali ketiga baru dapat diagnosis rasmi dan rawatan yang betul","['fasa', 'murung', 'teruk', 'kali', 'kali', 'Tiga', 'diagnosis', 'rasmi', 'rawat']",medical history
+508,Kali pertama adalah 5 tahun lepas,"['kali', 'angan', 'lepas']",medical history
+509, Masa ni aka sangat tak boleh function,"['ni', 'aka', 'fungsi']",symptom
+510, Bilik aku sentiasa bersepah macam kena ribut taufan,"['bilik', 'selalu', 'sepah', 'kena', 'ribut', 'taufan']",symptom
+511, Bahagian rumah lain aku kemas je sebab mak aku suruh,"['bahagian', 'rumah', 'masuk', 'je', 'mak', 'suruh']",statement
+512, Tapi bilik aku macam tongkang pecah,"['bilik', 'tongkang', 'pecah']",symptom
+513, Tidur aku haru biru,"['tidur', 'haru', 'biru']",symptom
+514, Hidup aku tak ada arah tuju dan banyak jugaklah benda merepek aku buat masa ni antaranya lari daripada rumah,"['hidup', 'arah', 'tuju', 'jugak', 'benda', 'repek', 'ni', 'lari', 'rumah']",symptom
+515, Ade lagi yang lagi merepek tapu tak perlu pun confess,"['ade', 'repek', 'tapu', 'menga']",statement
+516," Senang cerita, aku memang tak ok","['nang', 'cerita', 'okey']",symptom
+517,"Time nilah aku mula hafal al-Quran, seperti kebanyakan netizen muslim aku pun ingat aku ni lemah iman je kot","['masa', 'nilah', 'hafal', 'alquran', 'lazim', 'netizen', 'muslim', 'ni', 'lemah', 'iman', 'je', 'kot']",statement
+518, So aku fikir cara terbaik untuk aku mantapkan iman aku adalah dengan hafaz al-Quran serta jaga tahajjud,"['begitu', 'fikir', 'baik', 'mantap', 'iman', 'hafaz', 'alquran', 'jaga', 'tahajjud']",statement
+519,"Aku mula rasa hafaz al-Quran tu sangat menenangkan dan best, semakin dekat aku dengan al-Quran semakin aku jauh daripada derita aku","['hafaz', 'alquran', 'tu', 'tenang', 'baik', 'alquran', 'derita']",statement
+520," Dan bila kau menghafaz Kalamullah ni, kau kena tumpu 100% fikiran kau pada ayat al-Quran, well at least bagi aku lah cara aku menghafal macam tu","['awak', 'menghafaz', 'kalamullah', 'ni', 'kau', 'kena', 'tumpu', 'angan', 'fikiran', 'awak', 'ayat', 'alquran', 'dengan baik', 'di', 'paling tidak', 'hafal', 'tu']",statement
+521,Tapi aku jadi macam robot,['robot'],statement
+522, 24 jam aku dengan al-Quran,"['angan', 'jem', 'alquran']",statement
+523, Aku sentiasa menyendiri dengan al-Quran,"['selalu', 'sendiri', 'alquran']",statement
+524, Dengan family aku makin jauh,['keluarga'],symptom
+525, Diorg borak aku sumbat telinga dengan earphone dengar al-Quran,"['diorg', 'borak', 'sumbat', 'telinga', 'fon telinga', 'dengar', 'alquran']",symptom
+526, End up aku hafal 6 juzu dalam masa 4 bulan (aku duk rumah time ni),"['akhir', 'naik', 'hafal', 'angan', 'juzu', 'angan', 'duk', 'rumah', 'masa', 'ni']",statement
+527, Dan hafazan ni adalah hafazan aku yang paling kuat sampai sekarang,"['hafazan', 'ni', 'hafazan', 'kuat']",statement
+528," Time ni juga setiap hari aku menangis, tapi aku happy sebab aku dah boleh function balik lepas mula menghafaz","['time', 'ni', 'menang', 'happy', 'dah', 'function', 'lepas', 'menghafaz']",symptom
+529, Tahun seterusnya aku ambil keputusan untuk hafaz al-Quran 30 juzu sebab bagi aku al-Quran penawar aku,"['ambil', 'putus', 'hafaz', 'alquran', 'angan', 'juzu', 'alquran', 'tawar']",statement
+530," Aku fikir, mesti aku takkan lagi lalui fasa yang menyakitkan tu kalau aku jadi hafizah","['fikir', 'mesti', 'tak', 'lalu', 'fasa', 'sakit', 'tu', 'hafizah']",statement
+531, Ternyata aku salah,['salah'],statement
+532,Alhamdulillah aku diterima masuk sebuah institusi yang membolehkan aku hafaz 30 Juzu al-Quran,"['alhamdulillah', 'terima', 'masuk', 'institusi', 'boleh', 'hafaz', 'angan', 'juzu', 'alquran']",statement
+533, Tahun pertama ok je,"['ok', 'je']",statement
+534, Masuk tahun 2 aku mula rasa balik macam aku rasa dulu,"['masuk', 'angan']",medical history
+535, Di mana waktu tu aku pun tak tahu tu kemurungan ke apekebenda,"['tu', 'tu', 'murung', 'apekebenda']",statement
+536, Malam aku xleh tidur,"['malam', 'xleh', 'tidur']",symptom
+537, Aku termenung je tengok silinh,"['menung', 'je', 'tengok', 'silinh']",symptom
+538," Dok fikir macam-macam, antaranya cara nak bunuh diri","['dok', 'fikir', 'macamm', 'nak', 'bunuh']",symptom
+539, Aku dah tak rasa nak hidup,"['dah', 'nak', 'hidup']",symptom
+540, Kelas jangan cakap lah,"['kelas', 'cakap']",symptom
+541, Aku rasa 40% kelas aku tak masuk,"['angan', 'kelas', 'masuk']",symptom
+542, Aku buat apa? Aku termenung je time aku tak masuk kelas,"['menung', 'je', 'time', 'masuk', 'kelas']",symptom
+543, Tak termenung aku tertidur,"['menung', 'tidur']",symptom
+544, Terbangun daripada tidur aku termenung,"['bangun', 'tidur', 'menung']",symptom
+545, Ingat best? Tak best langung,"['best', 'best', 'langung']",statement
+546, Orang yang lalui je faham peritnya,"['orang', 'lalu', 'je', 'faham', 'perit']",statement
+547, Aku pemalas? Sila cuba dan fahami tentang depresi,"['malas', 'sila', 'cuba', 'fahami', 'depresi']",statement
+548,Aku dah tak ada perasaan langsung,"['dah', 'asa', 'langsung']",symptom
+549, Masa tu aku masih dok hafaz al-Quran,"['tu', 'dok', 'hafaz', 'alquran']",statement
+550, Tapi aku menghafaz ikut sukatan je lah,"['menghafaz', 'sukat', 'je']",statement
+551, Aku dah tak semangat macam mula-mula,"['dah', 'semangat', 'mulama']",symptom
+552," Bila kau dah biasa menghafal pulak, memang kejap je nak hafal satu mukasurat tu","['kau', 'dah', 'hafal', 'pulak', 'kejap', 'je', 'nak', 'hafal', 'mukasurat', 'tu']",statement
+553, 15-20 minit dah boleh ingat satu mukasurat,"['angan', 'min', 'dah', 'mukasurat']",statement
+554, So biasanya aku sebelum nak tasmik baru aku tengok dan hafal,"['so', 'nak', 'tasmik', 'tengok', 'hafal']",statement
+555,Last-last aku dah rasa penat sangat dengan diri sendiri aku nekad pergi klinik psikiatri,"['lastl', 'dah', 'penat', 'nekad', 'pergi', 'klinik', 'psikiatri']",statement
+556, Masa tu aju dah nak habis belajar dah,"['tu', 'aju', 'dah', 'nak', 'habis', 'bajar', 'dah']",statement
+557, Lagi dua tiga bulan macam tu,['tu'],statement
+558, Lebih kurang setahun lebih jugak lah aku menderita,"['tahun', 'jugak', 'derita']",medical history
+559,Ni lah first time aku jumpa dokto untuk isu kesihatan mental aku,"['ni', 'first', 'time', 'jumpa', 'dokto', 'isu', 'kesihatan', 'mental']",medical history
+560, Dan pengalaman pertama aku tak best,"['alam', 'best']",statement
+561," Sebelum aku pergi klinik ni, aku dah cerita masalah aku dengan kawan, dengan ustaz, dengan ustazah, dengan kaunselor tapi mereka hanya mampu terkedu dan suruh aku bertabah","['pergi', 'klinik', 'ni', 'dah', 'cerita', 'kawan', 'ustaz', 'ustazah', 'kaunselor', 'kedu', 'suruh', 'tabah']",statement
+562, So aku pergi jelah klinik psikiatri sebab aku tahu aku perlukan bantuan,"['so', 'pergi', 'jelah', 'klinik', 'psikiatri', 'perlu', 'bantu']",statement
+563, Malangnya pengalaman kali pertama ni x berapa best,"['malang', 'alam', 'kali', 'ni', 'x', 'best']",statement
+564,Doktor ni perlekehkan aku masa aku nak explain apa yang aku fikirkan,"['doktor', 'ni', 'perlekehkan', 'nak', 'explain', 'fikirkan']",risk factor
+565, Aku cakap “I think of patterns…” belum sempat aku habiskan ayat ni doktor ni potong cakap aku dan dengan penuh kekerekkan beliau berkata “are you trying to diagnose yourself? I do the diagnosis here ok” dan dia pun diagnose aku dengan poor sleep hygiene dan aku hanya stress dan bukan depressed,"['cakap', 'angan i', 'think', 'of', 'patterns angan angan', 'habis', 'ayat', 'ni', 'doktor', 'ni', 'potong', 'cakap', 'penuh', 'kerek', 'beliau', 'angan are', 'you', 'trying', 'ke', 'mendiagnosis', 'yourself', 'i', 'buat', 'the', 'diagnosis', 'here', 'ok angan', 'mendiagnosis', 'miskin', 'sleep', 'bersih', 'tekan', 'tek']",risk factor
+566, Aku ikut segala nasihat dan saranan doktor ni tapi aku jadi lagi teruk,"['nasihat', 'saran', 'doktor', 'ni', 'teruk']",risk factor
+567,"Alhamdulillah Allah bagi aku otak yang agak cepat pickup jadi walaupun aku miss2 kelas dan x baca buku langsung, Allah rezekikan aku untuk berjaya habiskan belajar dan tamatkan hafazan 30 juzu","['alhamdulillah', 'allah', 'otak', 'cepat', 'ambil', 'missya', 'kelas', 'x', 'baca', 'buku', 'cara langsung', 'allah', 'rezeki', 'jaya', 'habis', 'bajar', 'tamat', 'hafazan', 'angan', 'juzu']",statement
+568, Walaupun aku sampai sekarang rasa bersalah dengan pengajar2 aku sebab seolah aku tak hormat diorang,"['salah', 'pengajarakan', 'hormat', 'orang']",symptom
+569, Dan aku juga rasa aku belum betul-betul hafaz al-Quran walaupun secara rasminya aku diiktiraf sebagai penghafaz al-Quran,"['betulb', 'hafaz', 'alquran', 'rasmi', 'iktiraf', 'penghafaz', 'alquran']",symptom
+570,"Fast forward kepada tahun ni, aku lalui episod ketiga","['pantas', 'ke hadap', 'ni', 'lalu', 'episod', 'Tiga']",statement
+571, Dan kalau ikutkan aku dah malas nak jumpa doktor,"['ikut', 'dah', 'malas', 'nak', 'jumpa', 'doktor']",statement
+572," Kalau kau ikut kata orang sebab iman lemah, aku dah siap hafal satu Quran lagi sebab nak pulihkan diri aku","['awak', 'orang utan', 'iman', 'lemah', 'dah', 'hafal', 'quran', 'nak', 'pulih']",statement
+573, Kau rasa? Aku rasa aku dah cuba segala-galanya tapi aku tetap miserable dan rasa tak nak hidup,"['awak', 'dah', 'Cuba', 'semua gala', 'sengsara', 'nak', 'hidup']",symptom
+574,Last2 aku pergi juga ke klinik psikiatri,"['terakhiru', 'pergi', 'klinik', 'psikiatri']",statement
+575, Sekarang aku dah masuk 5 bulan makan antidepressant pagi dan malam,"['dah', 'masuk', 'angan', 'makan', 'antidepresan', 'pagi', 'malam']",medical history
+576, 6 atau 7 kali sesi psikoterapi dengan doktor aku yang sangat2 baik,"['angan', 'angan', 'kali', 'sesi', 'psikoterapi', 'doktor', 'sangatp']",medical history
+577, Aku di diagnose dengan OCD dan depression,"['mendiagnosis', 'ocd', 'murung']",medical history
+578, Sebab apa? Tu tak perlu tahu kot,"['tu', 'kot']",statement
+579, Panjang sangat ceritanya,['cerita'],statement
+580,  Point aku kat sini ada dua,"['titik', 'kat']",statement
+581,1,['angan'],statement
+582," Bagi yang sedang mengalami masalah yang kau rasa ada kaitan dengan kesihatan mental kau aku doakan kau tabah dan tetap teruskan untuk dapatkan rawatan, stick dengan rawatan, kalau dapat ubat kau makan, doktor suruh buat apa kau buat, doktor suruh tinggal apa kau tinggal","['laku', 'awak', 'kait', 'kesihatan', 'mental', 'awak', 'doa', 'awak', 'tabah', 'terus', 'dapat', 'rawat', 'tongkat', 'rawat', 'ubat', 'awak', 'makan', 'doktor', 'suruh', 'awak', 'doktor', 'suruh', 'tinggal', 'awak', 'tinggal']",statement
+583," Doktor kau kerek, kaunselor kau tak dengar, kau cari lagi dan lagi dan lagi sampailah kau jumpa orang yang boleh bantu kau atasi masalah kau","['doktor', 'awak', 'kerek', 'kaunselor', 'awak', 'dengar', 'awak', 'cari', 'sampai', 'awak', 'jumpa', 'orang utan', 'bantu', 'awak', 'atas', 'awak']",statement
+584, Doktor pun manusia jugak,"['doktor', 'manusia', 'jugak']",statement
+585, Mungkin nasib kau kurang baik dia bad mood masa hari kau jumpa dia,"['nasib', 'awak', 'buruk', 'mood', 'awak', 'jumpa']",statement
+586, Yang penting kau terus dan terus dan terus doa dan ikhtiar supaya kau ok dan boleh function balik,"['awak', 'doa', 'ikhtiar', 'awak', 'okey', 'fungsi']",statement
+587, Kesihatan mental SANGAT penting ok,"['kesihatan', 'mental', 'okey']",statement
+588,2,['angan'],statement
+589, Kau sakit tak semestinya Iman kau lemah tapi tak semestinya juga Iman kau ok,"['awak', 'sakit', 'mesti', 'iman', 'awak', 'lemah', 'mesti', 'iman', 'awak', 'okey']",statement
+590, Hakikat Iman tu memang naik dan turun ini memang ulama bersepakat tentang hakikat ini,"['hakikat', 'iman', 'tu', 'turun', 'ulama', 'sepakat', 'hakikat']",statement
+591, Kau sakit ke sihat ke iman kau memang turun naik,"['awak', 'sakit', 'sihat', 'iman', 'awak', 'turun']",statement
+592," Dan kau sakit ke sihat ke kau sentiasa kena usaha perbaiki iman kau, perbaiki ibadah kau","['awak', 'sakit', 'sihat', 'awak', 'selalu', 'kena', 'usaha', 'baik', 'iman', 'awak', 'baik', 'ibadah', 'awak']",statement
+593," Ada kaitan tak dengan kesihatan mental? Bagi aku secara generalnya tidak, tapi dari segenap sudut ada kena mengena juga","['kait', 'kesihatan', 'mental', 'amnya', 'segenap', 'sudut', 'kena', 'kena']",statement
+594,"Maksud aku, stigma yang depression yang PUNCA UTAMA adalah kelemahan iman tu bagi aku salah","['maksud', 'stigma', 'murung', 'punca', 'utama', 'lemah', 'iman', 'tu', 'salah']",statement
+595, Iman ni Allah je yang tahu kat mana levelnya,"['iman', 'ni', 'allah', 'je', 'kat', 'levelnya']",statement
+596," Aku tak nafi, boleh jadi lemahnya iman tu ANTARA PUNCA kau kemurungan","['nafi', 'lemah', 'iman', 'tu', 'punca', 'awak', 'murung']",statement
+597," So disebabkan mustahil untuk buktikan kelemahan iman ni punca kemurungan, sebab tu kalau kau cuba ambil langkah-langkah untuk kuatkan iman pun kau still murung","['begitu', 'sebab', 'mustahil', 'bukti', 'lemah', 'iman', 'ni', 'punca', 'murung', 'tu', 'awak', 'Cuba', 'ambil', 'langkah langkah', 'kuat', 'iman', 'awak', 'masih', 'murung']",medical history
+598," Macam aku dulu la, hari-hari baca al-Quran, solat cukup, orang sekeliling pun semua dok mengaji je tapi last2 kemurungan datang balik jugak","['la', 'harih', 'baca', 'alquran', 'solat hari raya', 'orang utan', 'masa', 'dok', 'aji', 'je', 'terakhiru', 'murung', 'jugak']",medical history
+599," Tapi aku tak nafikan, yang aku hafaz al-Quran ni sangat membantu aku","['nafi', 'hafaz', 'alquran', 'ni', 'tolong']",statement
+600, Ayat-ayat Allah ni macam pelampung yang aku berpaut dalam ombak dan badai kemurungan yang hampir menenggelamkan aku,"['ayat', 'allah', 'ni', 'pelampung', 'paut', 'ombak', 'badai', 'murung', 'tenggelam']",medical history
+601,"Kesimpulannya, bila kemurungan tu lau ikhtiar dapatkan rawatan perubatan dalam masa yang sama hubungan dengan Allah pun kau cuba improve","['simpul', 'murung', 'tu', 'lau', 'ikhtiar', 'dapat', 'rawat', 'ubat', 'hubung', 'allah', 'awak', 'Cuba', 'baik']",statement
+602, Dan pandangan negatif termasuklah doktor atau kakitangan kesihatan yang tak memahami kau tolak tepi walaupun kau rasa sakit hati dan takde sape paham kau,"['pandang', 'negatif', 'masuk', 'doktor', 'kaedah', 'kesihatan', 'jalan', 'awak', 'tolak', 'tepi', 'awak', 'sakit', 'hati', 'bukan', 'sape', 'paham', 'awak']",statement
+603, Jangan biarkan pengalaman tak best menghalang kau daripada teruskan rawatan,"['biar', 'alam', 'baik', 'jalan', 'awak', 'terus', 'rawat']",statement
+604,"Dan start je kau dapat diagnosis, time tu akan jadi lagi susah, aku mula aku amek ubat pun ade yg x kena, nak aplikasikan nasihat doktor daripada psikoterapi pun sakit, kau kena lawan diri kau","['mula', 'je', 'awak', 'diagnosis', 'masa', 'tu', 'susah', 'amek', 'ubat', 'ade', 'yg', 'x', 'kena', 'nak', 'aplikasi', 'nasihat', 'doktor', 'psikoterapi', 'sakit', 'awak', 'kena', 'lawan', 'awak']",statement
+605, It does not get easier but eventually it will,"['ia', 'ada', 'tidak', 'dapat', 'lebih mudah', 'tetapi', 'akhir', 'ia', 'akan']",statement
+606,Keep moving,"['jaga', 'gerak']",statement
+607, Keep trying,"['jaga', 'mencuba']",statement
+608, Teruskan bernafas walau kau rasa tak mau,"['terus', 'nafas', 'awak']",statement
+609, Teruskan bernafas sampai kau betul-betul rasa nak hidup,"['terus', 'nafas', 'awak', 'betulb', 'nak', 'hidup']",statement
+610,"Alhamdulillah sekarang aku dah sangat banyak improvement, asbab rawatan doktor aku dan sokongan orang-orang terdekat aku","['alhamdulillah', 'dah', 'tingkat', 'asbab', 'rawat', 'doktor', 'jalan', 'orangor', 'dekat']",statement
+611, Semoga Allah rahmati mereka dan semoga lebih ramai doktor yang baik macam doktor aku,"['moga', 'allah', 'rahmati', 'moga', 'ramai', 'doktor', 'doktor']",statement
+612, Kau takkan tahu betapa nikmatnya perasaan nak hidup bila kau pernah lalui fasa taknak hidup,"['awak', 'tak', 'kaedah', 'nikmat', 'asa', 'nak', 'hidup', 'awak', 'lalu', 'fasa', 'takn', 'hidup']",statement
+613,Last aku nak share,"['akhir', 'nak', 'kongsi']",statement
+614, Sentiasa amalkan doa ni :اللّهم إني أعوذبك من الهَمِّ و الحزنAda sambungan dia lagi korang carik lah sendiri eh,"['sentiasa', 'amal', 'doa', 'ni', 'angan angan angan', 'angan', 'angan', 'angan', 'angan angan angan angan angan', 'angan', 'angan ada', 'sambung', 'awak', 'karik', 'eh']",statement
+615," Hammi tu maksud die anxiety, hazan to sadness aka depression","['hammi', 'tu', 'maksud', 'mati', 'gelisah', 'hazan', 'ke', 'sedih', 'aka', 'murung']",statement
+616,P/s : aku pergi klinik kerajaan pada kedua-dua fasa yang berbeza tersebut,"['ps', 'pergi', 'klinik', 'raja', 'keduadua', 'fasa', 'berbeza']",statement
+617,– FibonacciHantar confession anda di sini -> www,"['-', 'fibonaccihantar', 'aku', 'ww']",statement
+618,iiumc,['iiumc'],statement
+619,com/submit,['comsubmit'],statement
+620,Assalamualaikum dan salam sejahtera kepada pembaca IIUM Confessions dan para admins,"['assalamualaikum', 'salam', 'sejahtera', 'baca', 'iium', 'confessions', 'admins']",statement
+621," Terlebih dahulu, saya berterima kasih kepada pihak admins jika coretan ini diterbitkan","['terima', 'kasih', 'admins', 'coret', 'terbit']",statement
+622," Walaupun tidak diterbitkan, terima kasih kerana sudi membaca","['terbit', 'terima', 'kasih sayang', 'rana', 'sudi', 'baca']",statement
+623,Saya mulakan dengan pengenalan diri saya,"['mula', 'kenal']",statement
+624," Nama saya Tia, anak sulung daripada tiga beradik","['nama', 'tia', 'anak', 'sulung', 'adik']",statement
+625," Sebagai anak sulung, saya sedar jika sesuatu berlaku kepada ibu bapa saya, secara automatik tanggungjawab keluarga dipikul oleh saya","['anak', 'sulung', 'dar', 'laku', 'bapa', 'automatik', 'tanggungjawab', 'keluarga', 'pikul']",risk factor
+626," Sebenarnya, saya merasakan bahawa saya mengalami kemurungan","['rasa', 'bahawa', 'alami', 'murung']",statement
+627," Ya, saya pasti ramai pembaca akan menyuruh saya untuk berjumpa dengan doktor untuk kepastian","['ya', 'ramai', 'baca', 'suruh', 'jumpa', 'doktor', 'pasti']",statement
+628, Ada beberapa sebab yang menyebabkan saya untuk tidak pergi berjumpa dengan doktor,"['sebab', 'pergi', 'jumpa', 'doktor']",statement
+629,Kisah saya bermula sewaktu saya sekolah rendah,"['kisah', 'sekolah', 'rendah']",statement
+630," Seorang pelajar yang pintar dan disayangi guru, kehidupan saya dipenuhi dengan momen ceria","['ajar', 'pintar', 'sayang', 'guru', 'hidup', 'penuh', 'momen', 'ceria']",statement
+631," Namun, semua itu berubah apabila saya mengalami epilepsi atau lebih dikenali sebagai sawan","['rubah', 'alami', 'epilsi', 'nali', 'sawan']",risk factor
+632, Penyakit ini secara tidak langsung telah mengubah kehidupan saya,"['sakit', 'langsung', 'ubah', 'hidup']",risk factor
+633, Penyakit saya dibicara oleh para guru tanpa segan-silu malah ada pelajar mendengarnya,"['sakit', 'bicara', 'guru', 'segansilu', 'ajar', 'dengar']",risk factor
+634," Saya diejek dengan perkataan “sawan babi”, “wayar putus” dan beberapa perkataan yang sudah saya lupakan","['ejek', 'kata', 'angan sawan', 'babi angan', 'angan wayar', 'putus angan', 'kata', 'lupa']",risk factor
+635," Sampai satu ketika, saya pernah menangis kerana diejek sebegitu","['menang', 'rana', 'ejek']",risk factor
+636, Faktor ejekan tersebut mendorong saya untuk membuat keputusan memasuki sekolah menengah di mana tiada langsung pelajar sekolah rendah yang sama dengan saya,"['faktor', 'ejek', 'dorong', 'putus', 'masuk', 'sekolah', 'tengah', 'tiada', 'langsung', 'ajar', 'sekolah', 'rendah']",risk factor
+637,"Alam sekolah menengah, saya menyembunyikan penyakit saya dan Alhamdulillah, saya tidak diserang sawan sehingga Tingkatan 3","['alam', 'sekolah', 'tengah', 'sembunyi', 'sakit', 'alhamdulillah', 'serang', 'sawan', 'tingkat', 'angan']",statement
+638," Ketika itu, ayah saya bertugas di luar negara","['ayah', 'tugas', 'negara']",statement
+639, Hanya ibu yang mengurus keluarga,"['urus', 'keluarga']",statement
+640," Sewaktu penyakit ini menyerang, saya melihat betapa lemahnya seorang ibu","['sakit', 'serang', 'betapa', 'lemah']",risk factor
+641," Dia yang tak pernah tunjuk penatnya, menangis melihat saya diserang sawan","['penat', 'menang', 'serang', 'sawan']",risk factor
+642, Malah ayah saya turut dihubungi dan diminta pulang dengan kadar segera,"['ayah', 'hubung', 'pulang', 'kadar']",risk factor
+643," Pada ketika itu, saya tidak merasakan apa-apa","['rasa', 'apaap']",statement
+644, Tumpuan saya hanya pada PMR,"['tumpu', 'pmr']",statement
+645, Saya lulus dengan cemerlang and juga bersyukur kerana rakan-rakan serta para guru langsung tidak pernah menyebut soal penyakit saya,"['lulus', 'cemerlang', 'and', 'syukur', 'rana', 'rakrakan', 'guru', 'langsung', 'sebut', 'sakit']",statement
+646," Namun begitu, kami sekeluarga terpaksa berpindah atas tuntutan kerja ayah","['sekeluarga', 'paksa', 'pindah', 'tuntut', 'kerja', 'ayah']",risk factor
+647,"Di sini, bermula episod kemurungan saya","['episod', 'murung']",risk factor
+648, Saya yang berasal daripada sekolah perempuan sahaja memasuki sekolah di mana pelajarnya bercampur lelaki dan perempuan,"['asal', 'sekolah', 'perempuan', 'sahaja', 'masuk', 'sekolah', 'ajar', 'campur', 'lelaki', 'perempuan']",statement
+649, Membawa nama sekolah perempuan saya pada ketika itu telah menyebabkan saya dipulau tanpa ditanya apa-apa,"['bawa', 'nama', 'sekolah', 'perempuan', 'sebab', 'pulau', 'apaap']",risk factor
+650, Saya hanya berkawan dengan rakan-rakan cina,"['kawan', 'rakrakan', 'cina']",statement
+651," Pada ketika ini, saya merasakan kehidupan saya sunyi dan saya memberontak secara diam terhadap ibu bapa saya","['masa', 'hidup', 'sunyi', 'berontak', 'diam', 'bapa']",symptom
+652, Pelajaran saya mulai merosot dan kedatangan saya ke sekolah diselangi dengan ponteng di bawah pengawasan ibu saya,"['ajar', 'merosot', 'masa', 'sekolah', 'lang', 'ponteng', 'awas']",symptom
+653, Saya menjadi seorang yang lebih gemar bersendirian dan mula mencipta rakan imaginasi,"['gemar', 'sendiri', 'cipta', 'rak', 'khayal']",symptom
+654, Sehingga sekarang ibu bapa saya tidak tahu soal rakan imaginasi saya,"['bapa', 'rak', 'imaginasi']",symptom
+655, Kejadian pulau itu tidak berlarutan lama,"['jadi', 'pulau', 'larut']",statement
+656," Setelah saya menjelaskan nama sekolah lama dan berbuat baik, ada yang sudi berkawan dengan saya","['nama', 'sekolah', 'cara', 'sudi', 'kawan']",statement
+657," Namun begitu, saya tidak meletakkan sepenuh kepercayaan terhadap mereka","['letak', 'sepenuh', 'percaya']",symptom
+658," Malah, pada waktu itu saya tidak mempercayai sesiapa kecuali diri saya","['terap', 'siapa', 'lepas']",symptom
+659,"Tamat persekolahan, saya banyak menghabiskan masa di sosial media","['tamat', 'sekolah', 'habis', 'sosial', 'media']",symptom
+660, Medium ini menjadi tempat saya meluahkan perasaan malah rakan maya saya banyak membantu saya,"['sederhana', 'luah', 'asa', 'rak', 'maya', 'tolong']",symptom
+661, Saya meneruskan pengajian ke sebuah universiti dan di sana saya mula mempercayai rakan sekelas saya,"['terus', 'aji', 'universiti', 'percaya', 'rak', 'kelas']",statement
+662," Ibarat kaca yang telah dicantum berderai semula, begitu juga kepercayaan saya","['kaca', 'cantum', 'derai', 'percaya']",statement
+663, Saya ditinggalkan oleh rakan sekelas saya malah dipulau secara tidak langsung oleh mereka,"['tinggal', 'rak', 'kelas', 'pulau', 'cara langsung']",risk factor
+664," Bahkan, para pensyarah dapat melihat apa yang dilakukan oleh mereka terhadap saya",['syarah'],statement
+665, Saya mula bergerak secara solo dan perangai ini saya bawa ke pengajian ijazah,"['gerak', 'cara solo', 'perangai', 'bawa', 'aji', 'ijazah']",statement
+666," Sewaktu pengajian ijazah, saya bertemu dengan rakan-rakan yang sekarang ini saya anggap keluarga kedua saya","['aji', 'ijazah', 'temu', 'rakrakan', 'anggap', 'keluarga']",statement
+667,"  Soal percaya, ya saya masih tidak mampu mempercayai manusia sepenuhnya","['percaya', 'ya', 'terap', 'manusia', 'sepenuhnya']",statement
+668," Bahkan, diri saya sendiri saya tak mampu untuk percaya",['percaya'],statement
+669, Saya mengalami kemurungan kali ketiga sewaktu tahun ketiga pengajian ijazah,"['laku', 'murung', 'kali', 'tiga', 'tiga', 'aji', 'ijazah']",statement
+670, Saya kehilangan seorang rakan baik dan pada waktu yang sama saya mengetahui bahawa orang yang saya menaruh harapan hanyalah mempermainkan saya,"['hilang', 'rak', 'bahawa', 'orang', 'menaruh', 'harap', 'main']",risk factor
+671, Kehilangan rakan baik ditambah pula kesibukan membuat tesis telah mejadikan saya terlampau stres,"['hilang', 'rak', 'tambah', 'sibu', 'tesis', 'mejadikan', 'lampau', 'helai']",risk factor
+672," Apabila stres saya memuncak, saya mula memikirkan tentang kesedihan saya dan tidak melakukan sebarang kerja","['helai', 'puncak', 'pikir', 'sedih', 'masalah', 'kerja']",symptom
+673, Hanya tidur dan menyelubungi diri saya dengan selimut,"['tidur', 'selubung', 'selimut']",symptom
+674, Air mata gugur berkali-kali,"['udara', 'mata', 'gugur', 'kal kali']",symptom
+675, Tiada siapa pun tahu,['tiada'],statement
+676," Malah sehingga sekarang, apabila kemurungan melanda, saya hanya mampu menangis dalam senyap tanpa pengetahuan sesiapa","['murung', 'landa', 'menang', 'senyap', 'tahu', 'orang']",symptom
+677,Saya tidak pasti berapa ramai lagi pembaca yang sedang membaca kisah saya,"['ramai', 'baca', 'baca', 'kisah']",statement
+678, Berbalik kepada soalan mengapa saya tidak berjumpa dengan doktor untuk kepastian,"['balik', 'soal', 'jumpa', 'doktor', 'pasti']",statement
+679, Saya yang mempunyai tahap keyakinan diri yang lemah,"['mabuk', 'masalah', 'lemah']",symptom
+680, Ibu saya menyedari hal ini dan sering membezakan saya dengan adik saya,"['dari', 'membezakan', 'adik']",risk factor
+681, Hal ini telah mengakibatkan diri saya berada dalam keadaan stres,"['akibat', 'helai']",symptom
+682," Selain itu, saya merupakan seorang yang pendiam dan hanya berbicara jika perlu","['diam', 'ucap']",statement
+683," Berat mulut, itulah ungkapan ibu saya kepada saya","['berat', 'mulut', 'ungkap']",statement
+684," Ya, saya mampu untuk pergi ke hospital sendiri","['ya', 'pergi', 'hospital']",statement
+685," Namun, kehidupan saya sentiasa dibayangi ibu bapa saya","['hidup', 'selalu', 'bayang', 'bapa']",risk factor
+686, Tidak kah mereka pelik untuk apa saya pergi ke klinik atau hospital sedangkan saya sihat? Malah setiap pergerakan keluar masuk rumah saya pasti ditemani oleh ibu bapa saya,"['kah', 'pelik', 'pergi', 'klinik', 'hospital', 'sihat', 'gera', 'masuk', 'rumah', 'tani', 'bapa']",statement
+687, Memberitahu soal kemurungan kepada ibu bapa? Kepercayaan saya terhadap mereka belum pulih sepenuhnya,"['memberitahu', 'murung', 'bapa', 'percaya', 'pulih', 'sepenuhnya']",symptom
+688, Saya juga masih ingat sesi di hospital di mana ayah saya berpura-pura menghidap sawan sedangkan saya yang sakit,"['sesi', 'hospital', 'ayah', 'pura pura', 'menghidap', 'sawan', 'sakit']",statement
+689," Wajarkah saya untuk membebani hati serta kepala mereka dengan kemurungan saya?Jika dahulu, saya hanya menangis","['wajar', 'beban', 'hati', 'kepala', 'murung', 'sayajika', 'menang']",risk factor
+690," Tapi kini, saya membayangkan pisau dan saya pasti anda memahami apa yang saya bayangkan","['bayang', 'pisau', 'jalan', 'bayang']",symptom
+691, Saya sedar kemurungan saya semakin teruk dan saya perlu bantuan segera,"['dar', 'murung', 'teruk', 'tolong']",statement
+692, Saya berharap agar saya cepat mendapatkan pekerjaan dan keluar daripada rumah,"['harap', 'cepat', 'kerja', 'rumah']",statement
+693," Dengan cara ini, saya dapat pergi mendapatkan bantuan tanpa pengetahuan ibu bapa","['pergi', 'tolong', 'tahu', 'bapa']",statement
+694,Saya berharap sangat para pembaca dapat membantu saya secara tidak langsung,"['harap', 'baca', 'tolong', 'cara langsung']",statement
+695, Berhati-hati dengan komen anda kerana bisa kata-kata boleh menjatuhkan seseorang,"['hatih', 'komen', 'rana', 'katakata', 'jatuh']",statement
+696,– TiaHantar confession anda di sini -> www,"['-', 'tiahantar', 'aku', 'xaaew']",statement
+697,iiumc,['iiumc'],statement
+698,com/submit,['hantar'],statement
+699,Kemurungan dan Rasa Cemas yang tak dapat Di kawal,"['murung', 'cemas', 'kawal']",statement
+700, Pengakuan diri sendiri harap dapat membantu sesiapa yg pernah dan tengah alami di luar sana,"['aku', 'harap', 'tolong', 'orang', 'yg', 'alami']",statement
+701, Ini berlaku setelah aku bertukar tempat kerja yg nyata pada awalnya dapat di urus dengan baik tetapi setelah 3 bulan di tukar ke assignment yang lebih susah,"['laku', 'jalan', 'kerja', 'yg', 'nyata', 'urus', 'angan', 'tukar', 'tugas', 'susah']",risk factor
+702, Assignment baru ini telah menyebabkan ramai rakan rakan kerja sejawatan dan rakan rakan lain telah ambil keputusan untuk berhenti dan menukar kerja ke jabatan lain ataupun ke syarikat lain,"['tugas', 'sebab', 'ramai', 'rak', 'rak', 'kerja', 'jawat', 'rak', 'rak', 'ambil', 'putus', 'henti', 'jalan', 'kerja', 'jabat', 'syarikat']",risk factor
+703, benda nie berlaku di syarikat international-kilang electronics,"['benda', 'nie', 'laku', 'syarikat', 'antarabangsakil', 'elektronik']",statement
+704, Bagi aku ,[],statement
+705,,['nan'],statement
+706, aku suka dengan challenge dan aku sahut cabaran dari boss aku ,"['suka', 'cabar', 'sahut', 'cabar', 'bos']",statement
+707,,['nan'],statement
+708, yg mana boss aku nie aku katergorykan old style dan lembab dalam buat keputusan ,"['yg', 'bos', 'nie', 'katergorykan', 'tua', 'gaya', 'lembab', 'putus']",statement
+709,,['nan'],statement
+710, bayankan satu isu meeting untuk finalize boleh ambil masa sampai 4 jam ,"['bayan', 'isu', 'jumpa', 'muktamad', 'ambil', 'angan', 'jem']",statement
+711,,['nan'],statement
+712, kadang kadang stress bukan sebab kerja tapi sebab terlampau banyak menunggu keputusan dari boss,"['kadang kala', 'kadang', 'tekan', 'kerja', 'lampau', 'tunggu', 'putus', 'boss']",risk factor
+713, diri terkesan apabila kesibukkan melampau sehingga banyak kerja yang tertangguh di sertai dengan di herdik dan di marah oleh orang atasan di sebabkan KPI tidak seperti yang di hendaki,"['kes', 'sibuk', 'lampau', 'kerja', 'tangguh', 'serta', 'herdik', 'marah', 'orang', 'atasan', 'sebab', 'kpi', 'hendaki']",risk factor
+714, Badan akan rasa panas sejuk tetapi bukan demam,"['badan', 'panas', 'sejuk', 'demam']",risk factor
+715,,['nan'],statement
+716, banyak masalah yang di fikirkan dan setiap masalah kita nak selesaikan dengan yang terbaik,"['fikirkan', 'nak', 'selesai', 'baik']",statement
+717, bermula kisah setelah 2 bulan di dalam project/ assigment baru … kesibukkan dia sampai hanya sempat ambil lunch sahaja ,"['kisah', 'angan', 'projek', 'tugas', 'angan', 'sibuk', 'ambil', 'makan tengah hari', 'sahaja']",statement
+718,,['nan'],statement
+719, dan waktu solat sentiasa delay… kadang kadang siap kena qoda’ sebab berada dalam meeting,"['solat hari raya', 'selalu', 'lewat . . .', 'kadang kala', 'kadang kala', 'kena', 'qoda angan', 'jumpa']",risk factor
+720, kemuncak Depression and Anxiety Disorders ini apabila perasaan nak bunuh diri datang … di sebabkan give up yang teramat sangat ,"['kemuncak', 'depression', 'and', 'gelisah', 'ganggu', 'asa', 'nak', 'bunuh', 'angan', 'sebab', 'beri', 'naik', 'amat']",symptom
+721,,['nan'],statement
+722, aku alami benda nie setelah 5 bulan dalam keadaan Depression and Anxiety Disorders Selain seram sejuk diri rasa macam kecil sekecil nya dan rasa rendah diri yang amat sangat sehingga untuk berjumpa jiran tetangga pun boleh nak pitam … dengan kenalan lain lagi laa,"['alami', 'benda', 'nie', 'angan', 'depression', 'dan', 'anxiety', 'ganggu', 'seram', 'sejuk', 'nya', 'rendah', 'jumpa', 'jiran', 'tetangga', 'nak', 'pitam', 'angan', 'kenal', 'la']",symptom
+723,,['nan'],statement
+724, pernah pitam 2 kali semasa solat berjemaah,"['pitam', 'angan', 'kali', 'solat hari raya', 'jemaah']",symptom
+725, sebab rasa rendah diri dan tidak cukup tidur,"['rendah', 'tidur']",symptom
+726, Langkah paling selamat untuk elakkan dari buat benda paling bodoh adalah : 1- banyakkan diri berada di surau dan masjid ,"['langkah', 'selamat', 'elak', 'benda', 'bodoh', 'angan', 'banyak', 'surau', 'masjid']",statement
+727,,['nan'],statement
+728,mengaji quran dan dengan kuliah …ini aku hanya sedar setelah hampir sembuh di mana setelah 7 bulan menderita,"['aji', 'quran', 'kuliah', 'angan ini', 'dar', 'sembuh', 'angan', 'derita']",statement
+729, 2- jangan bersendirian,"['angan', 'sendiri']",statement
+730, kalau rasa rendah diri kena berada dalam jemaah yang ramai ,"['rendah', 'kena', 'jemaah', 'ramai']",statement
+731,,['nan'],statement
+732, seperti di masjid atau pasaraya ,"['masjid', 'pasaraya']",statement
+733,,['nan'],statement
+734, (Pernah stay kat surau hotel tingkat 14 sorang diri dan plan nak terjun ikut tingkap – astaghfirullah)sila jauhkan dan jangan buat,"['stay', 'kat', 'surau', 'hotel', 'tingkat', 'angan', 'sorang', 'plan', 'nak', 'terjun', 'tingkap', 'angan', 'astaghfirullahsila', 'jauh']",symptom
+735, 3- pernah berada dalam kereta dan ambil tali pinggan kaledar jerut leher,"['angan', 'kereta', 'ambil', 'tali', 'pinggan', 'kaledar', 'jerut', 'leher']",symptom
+736,,['nan'],statement
+737, nasib masih hidup ,"['nasib', 'hidup']",statement
+738,,['nan'],statement
+739, Alhamdulillah- jangan terpenung walaupun dalam kereta…,"['alhamdulillah', 'penung', 'kereta angan']",statement
+740, 4- Aku berhenti kerja dan dapatkan kerja di tempat yang lebih senang/mudah,"['angan', 'henti', 'kerja', 'dapat', 'kerja', 'nangmudah']",statement
+741, dengan kommitment yang tinggi,['kommitent'],statement
+742, aku redah dan nekad ,"['redah', 'nekad']",statement
+743,,['nan'],statement
+744, Alhamdulillah ,['alhamdulillah'],statement
+745,,['nan'],statement
+746, Allah penentu segalanya ,"['allah', 'tentu']",statement
+747,,['nan'],statement
+748, untuk kurang stress,['stress'],statement
+749, jangan terus kalau diri dah rasa give up,"['dah', 'give', 'up']",statement
+750, 5- solat sunat dan qada solat lepas banyak banyak kalau tak boleh tido ,"['angan', 'solat', 'sunat', 'qada', 'solat', 'lepas', 'tido']",statement
+751,,['nan'],statement
+752, mengaji ,['aji'],statement
+753,,['nan'],statement
+754, insyaAllah akan sampai masa mata akan tertidur dek syaitan ni rojim yang tak suka kita buat kebaikan ,"['insyaallah', 'mata', 'tidur', 'dek', 'syaitan', 'ni', 'rojim', 'suka', 'baik']",statement
+755, 6- perlu ada rakan bercerita atau paling tak untuk makan sekali ,"['angan', 'rak', 'cerita', 'makan']",statement
+756,,['nan'],statement
+757, 7- berserah pada Allah untuk jalan penyelesain dan follow the flow sampai sembuh ,"['angan', 'serah', 'allah', 'jalan', 'penyelesain', 'follow', 'the', 'flow', 'sembuh']",statement
+758,,['nan'],statement
+759," baca quran , zikir dan berdoa sentiasa dan setiap masa ","['baca', 'quran', 'zikir', 'doa', 'sentiasa']",statement
+760,Ingat Depression and Anxiety Disorders penyakit kategori amat bahaya ,"['depression', 'and', 'anxiety', 'disorders', 'sakit', 'kategori', 'bahaya']",statement
+761,,['nan'],statement
+762, sihat tubuh badan tapi mental sengsara,"['sihat', 'tubuh', 'badan', 'mental', 'sengsara']",statement
+763, Aku pernah ke klinik psikitiarik dan juga hospital pakar sakit jiwa ( 6 bulan lebih ulang alik untuk dapatkan rawatan ) mereka hanya banyak bagi nasihat dan ubat penenang,"['klinik', 'psikitiar', 'hospital', 'pakar', 'sakit', 'jiwa', 'angan', 'ulang', 'alik', 'dapat', 'rawat', 'nasihat', 'ubat', 'tenang']",medical history
+764, diri sendiri kena kuat untuk keluar ,"['kena', 'kuat']",statement
+765, Aku juga berusaha dengan rawatan islam ,"['berusaha', 'rawat', 'islam']",medical history
+766,,['nan'],statement
+767, Alhamdulillah ,['alhamdulillah'],statement
+768,,['nan'],statement
+769, rawatan di perak dapat beroleh perubahan dalam diri dan sampai sekarang Alhamdulillah penyakit x datang lagi dan aku tak nak ada penyakit tuh lagi,"['rawat', 'perak', 'oleh', 'ubah', 'alhamdulillah', 'sakit', 'x', 'nak', 'sakit', 'tuh']",statement
+770, kepelbagaian rawatan dengan dalam hati jangan syirik/ sekutukan Allah ,"['pelbagai', 'rawat', 'hati', 'syirik', 'sekutu', 'allah']",statement
+771,,['nan'],statement
+772, tanam dalam diri Allah penyembuh ,"['tanam', 'allah', 'sembuh']",statement
+773, kita hanya berusaha … Untung ada isteri dan keluarga yang sentiasa beri sokongn dan dorongan ,"['berusaha', 'angan', 'untung', 'isteri', 'keluarga', 'sentiasa', 'sokongn', 'dorong']",statement
+774, alhamdulillah,['alhamdulillah'],statement
+775,,['nan'],statement
+776, HARGAILAH ORANG DISEKELILING KITA KETIKA KITA SUSAH,"['harga', 'orang', 'keliling', 'susah']",statement
+777,  – DartHHantar confession anda di sini -> www,"['angan', 'darthantar', 'confession', 'xaaew']",statement
+778,iiumc,['iiumc'],statement
+779,com/submit,['comsubmit'],statement
+780,Terima kasih admin kerana sudi menyiarkan confession aku,"['terima', 'kasih', 'pentadbir', 'rana', 'sudi', 'siar', 'aku']",statement
+781," Maaf kalau cerita ini panjang, tapi terima kasih pada sudi membaca","['maaf', 'cerita', 'terima', 'kasih sayang', 'sudi', 'baca']",statement
+782, Aku harap ada terbuka minda sedikit jika baca idea korang nanti,"['harap', 'buka', 'minda', 'baca', 'idea', 'korang']",statement
+783,Ini sebenarnya kali pertama aku berani meluahkan walaupun dah berkali-kali cuba,"['kali', 'berani', 'luah', 'dah', 'berkalikali', 'cuba']",statement
+784,"Ringkasnya, dari dulu aku memang seorang yang tidak berapa pandai jika dibandingkan dengan orang lain","['ringkas', 'panda', 'berbeza', 'orang utan']",risk factor
+785, Aku lambat faham dan selalu rasa ketinggalan,"['lambat', 'faham', 'tinggal']",risk factor
+786," Tapi berkat usaha dan doa, aku tunjukkan semangat yang aku nak sesuatu itu","['berkat', 'usaha', 'doa', 'tunjuk', 'semangat', 'nak']",statement
+787, Contoh masa aku UPSR,"['contoh', 'upsr']",statement
+788, Aku tak pernah dapat A pun apa apa subjek sehingga dipanggil bodoh oleh rakan sekelas,"['a', 'subjek', 'angan', 'bodoh', 'rak', 'kelas']",risk factor
+789," Tapi sekali lagi, aku nekad untuk dapatkan target tu","['nekad', 'dapat', 'sasar', 'tu']",statement
+790," Akhirnya, aku berjaya raih 5A dan rangkul anugerah pelajar berpontensi","['jaya', 'raih', 'angan a', 'rangkul', 'anugerah', 'ajar', 'berpontensi']",statement
+791,Tapi tu zaman UPSR,"['tu', 'zaman', 'upsr']",statement
+792," Aku perlu cerita ini, sebab saat itulah yang jadikan aku sebagai anak harapan kepada ibu bapa aku","['cerita', 'jadi', 'anak', 'harap', 'bapa']",statement
+793, Aku mula ditaruh setinggi harapan setiap zaman sekolah sehingga sekarang,"['taruh', 'harap', 'zaman', 'sekolah']",statement
+794,Sekali lagi aku nyatakan aku bukan seorang yang pandai,"['nyata', 'panda']",statement
+795, Tapi sentiasa fokus dalam kelas dan aku akan mengulangkaji ketika semua tidur,"['selalu', 'fokus', 'kelas', 'mengulangkaji', 'tidur']",statement
+796, Perangai tu aku terbawa sehinggalah zaman Universiti,"['perangai', 'tu', 'bawa', 'sehingga', 'zaman', 'universiti']",statement
+797,Aku jenis tak boleh nak study waktu ada orang,"['jenis', 'nak', 'bajar', 'orang utan']",statement
+798, Rasa macam diperhatikan,['perhati'],statement
+799," Oleh itu, ramai yang menganggap aku semulajadinya seorang yang bijaksana","['ramai', 'jalan', 'semulajadinya', 'bijaksana']",statement
+800," Sebab hidup selalu happy je dan tak study, tapi result Alhamdulillah","['hidup', 'gembira', 'je', 'study', 'result', 'alhamdulillah']",statement
+801,"Tapi biasalah setiap orang ada saat naik surutnya, jika aku perhatikan garis hidup aku sekarang","['biasa', 'orang utan', 'surut', 'perhati', 'garis', 'hidup']",statement
+802," Aku seorang graduan Prauniversiti (STPM), aku tak berniat nak ambil STPM langsung","['graduan', 'prauniversiti', 'stpm', 'niat', 'nak', 'ambil', 'stpm', 'cara langsung']",statement
+803, Tapi disebabkan result SPM yang mengecewakan,"['sebab', 'hasil', 'spm', 'kecewa']",risk factor
+804, Aku hanya ada dua pilihan,['pilih'],statement
+805, STPM atau Politeknik,"['stpm', 'politeknik']",statement
+806," Aku pilih STPM atas desakan keluarga, dan aku berjaya jadi pelajar cemerlang STPM","['pilih', 'stpm', 'desa', 'keluarga', 'jaya', 'ajar', 'cemerlang', 'stpm']",statement
+807, Top5 dalam tingkatan aku,"['atasp', 'tingkat']",statement
+808,"Memang membanggakan sehingga zaman Uni, aku menyambung pelajaran di Universiti awam","['bangga', 'zaman', 'uni', 'sambung', 'ajar', 'universiti', 'awam']",statement
+809,Pada awalnya memang aku memang tunjukkan prestasi yang sangat bagus dan sentiasa bersemangat,"['tunjuk', 'prestasi', 'bagus', 'selalu', 'semangat']",statement
+810," Tapi pada tahun akhir ijazah aku, aku mulai jatuh","['ijazah', 'jatuh']",risk factor
+811," Aku mula hilang fokus, aku tak dapat menyiapkan tugasan dalam masa yang diberikan","['hilang', 'fokus', 'tugas']",symptom
+812, Aku jadi hilang semangat dan seolah olah kemurungan,"['hilang', 'semangat', 'olah', 'murung']",symptom
+813,"Aku akan menangis seorang diri, dalam tidur bila mengenangkan prestasi yang tak cemerlang","['menang', 'tidur', 'kenang', 'prestasi', 'cemerlang']",symptom
+814, Dan aku sukar tidur pada waktu malam,"['sukar', 'tidur', 'malam']",symptom
+815," Bila ditambah dengan tekanan dari keluarga, selalu menekan aku","['tambah', 'tekan', 'keluarga', 'angan']",risk factor
+816, Aku jadi lagi tertekan,['tek'],symptom
+817,  Aku akan jadi iri bila lihat orang lain sudah berjaya dan aku terus keluar dari media sosial apabila terlihat post post kawan kawan yang berjaya,"['iri', 'lihat', 'orang utan', 'jaya', 'media', 'sosial', 'jawat', 'jawat', 'kawan', 'kawan', 'jaya']",statement
+818,"Sehingga kini, aku masih terperangkap dalam diri sendiri bila masih lagi tak berjaya menyiapkan Final Year Project (FYP)","['perangkap', 'jaya', 'akhir', 'tahun', 'projek', 'fyp']",statement
+819, Setelah satu sem aku extend,"['sem', 'panjang']",statement
+820,Aku bukan nak menunding jari tapi aku dapat rasa ini bukannya salah aku seorang,"['nak', 'tunding', 'jari', 'salah']",statement
+821, Pensyarah yang sepatutnya mengawasi aku pun tidak bertindak sepatutnya,"['syarah', 'masa', 'awas', 'cara', 'masa']",statement
+822," Dia buat endah tak endah pada aku, dan bila aku bertanyakan soalan","['endah', 'endah', 'tanya', 'soal']",risk factor
+823, Dia akan memusingkan perkara tu seperti semuanya salah aku,"['pusing', 'perkara', 'tu', 'salah']",risk factor
+824," Tapi tidak apa, sebab aku tetap salah",['salah'],statement
+825, Aku tidak letakkan kesungguhan sepenuhnya,"['letak', 'sungguh', 'sepenuhnya']",statement
+826,"Disebabkan aku selalu rasa down, aku selalu memikirkan tentang bunuh diri","['sebab', 'turun', 'masa', 'bunuh']",symptom
+827, Aku tak tahu betapa rapuhnya iman aku sampai terfikir nak berbuat demikian,"['kaedah', 'rapuh', 'iman', 'terfikir', 'nak', 'cara']",statement
+828," Tapi sampai sekarang, aku masih tak lakukan sebab aku tak boleh siakan ibu bapa aku dan semua orang yang ada dengan aku","['laku', 'sia', 'bapa', 'orang utan']",statement
+829,"Aku dekatkan diri dengan Tuhan, aku bersungguh nak khatam Alquran (ya, aku masih belum khatam walaupun umur dah bangka)","['dekat', 'tuhan', 'sungguh - sungguh', 'nak', 'khatam', 'alquran', 'ya', 'khatam', 'rumur', 'dah', 'bangka']",statement
+830,Aku terfikir untuk mengambil cuti sementara dan mungkin bekerja untuk alihkan perhatian aku dengan pelajaran,"['terfikir', 'mengambil', 'cuti', 'alih', 'perhatiian', 'ajar']",statement
+831, Ye mungkin dengan kelulusan macam ni apa je kerja aku boleh lakukan,"['awak', 'kelulus', 'ni', 'je', 'kerja', 'laku']",statement
+832,Tapi aku perlu counter semula fikiran dan tahap mental aku,"['kaunter', 'fikiran', 'mabuk', 'mental']",statement
+833, Aku bukan lembik tapi cukuplah aku kata aku tak cukup kuat,"['lembik', 'kuat']",statement
+834,– NurulHantar confession anda di sini -> www,"['-', 'nurulhantar', 'aku', 'xaaew']",statement
+835,iiumc,['iiumc'],statement
+836,com/submit,['hantar'],statement
+837,"Hai, it’s me again","['hai', 'ia', 'saya', 'lagi']",statement
+838, Confession sebelum ni pasal gangguan penyesuaian/ adjustment disorder,"['aku', 'ni', 'pasal', 'ganggu', 'sesuai', 'sesuai', 'kecelaruan']",statement
+839," Boleh baca confession berkenaan di sini, (https://iiumc","['baca', 'aku', 'htpsiiumc']",statement
+840,com/gpaddm/),['comgpaddm'],statement
+841,Aku ada baca kat komen di FB yang nak tahu pasal mental illness/ mental health,"['baca', 'kat', 'komen', 'fb', 'nak', 'pasal', 'mental', 'sakit', 'mental', 'kesihatan']",statement
+842, Harap admin boleh publish untuk tambah pengetahuan tentang kesihatan mental sebab kalau google pun tak berapa jelas sangat rawatan,"['harap', 'pentadbir', 'terbit', 'tahu', 'kesihatan', 'mental', 'google', 'rawat']",statement
+843,Aku mention awal-awal yang tak semua alami kemurungan adalah sama dan tak semua yang perlukan rawatan yang sama,"['sebut', 'awal', 'alami', 'murung', 'masalah', 'rawat']",statement
+844," Sebab doktor aku beritahu, setiap pesakit ada kemurungan tersendiri dengan ciri ‘istimewa’ tersendiri","['doktor', 'beritahu', 'sakit', 'murung', 'sendiri', 'ciri', ""' Istimewa '"", 'sendiri']",statement
+845,Aku nak share a few rawatan untuk atas perasaan kemurungan based on pengalaman sendiri dan jawapan daripada pakar dan doktor yang incharge aku kat klinik psikiatri dan kesihatan mental,"['nak', 'kongsi', 'a', 'beberapa', 'rawat', 'asa', 'murung', 'berdasarkan', 'pada', 'alam', 'jawapan', 'pakar', 'doktor', 'besar', 'kat', 'klinik', 'psikiatri', 'kesihatan', 'mental']",statement
+846,"Ok, aku nak highlight kat sini apa yang diperlukan bila ada kemurungan ialah seorang pendengar yang setia dan tidak menghukum luahan hati kau","['ok', 'nak', 'kemuncak', 'kat', 'murung', 'dengar', 'setia', 'hukum', 'luah', 'hati', 'awak']",statement
+847," Bila kau hadapi sesuatu peristiwa yang kau tak boleh hadap, carilah teman untuk meluah perasaan","['awak', 'hadap', 'peristiwa', 'awak', 'hadap', 'cari', 'kawan', 'luah', 'asa']",statement
+848,"Aku tahu yang ramai pembaca kat luar sana yang hadir temujanji dengan doktor psikiatri kan?Ok, rawatan yang diberikan oleh doktor korang ialah psikoterapi; iaitu untuk ubah cara minda korang berfikir","['ramai', 'baca', 'kat', 'hadir', 'temujanji', 'doktor', 'psikiatri', 'kanok', 'rawat', 'doktor', 'korang', 'psikoterapi', 'jalan', 'ubah', 'minda', 'awak', 'pikir']",statement
+849," Kalau selama ni dalam kepala otak kau asyik thought negatif je, jadi peranan dorang ialah untuk betulkan mind set korang","['ni', 'kepala', 'otak', 'awak', 'asyik', 'berfikir', 'negatif', 'je', 'kaedah', 'dorang', 'betul', 'fikiran', 'set', 'awak']",statement
+850, Ini yang pertama dalam rawatan kemurungan,"['rawat', 'murung']",statement
+851,Doktor yang bertugas takkan sesekali cadangkan penyelesaian kepada masalah kau,"['doktor', 'tugas', 'tak', 'cadang', 'selesai', 'kau']",statement
+852," Kau kena fikir sendiri, dia bagi kertas dan suruh senaraikan masalah dan cara tangani masalah kau","['awak', 'kena', 'fikir', 'kertas', 'suruh', 'senarai', 'tangani', 'kau']",statement
+853, Doktor nak ajar kau supaya kau ada self-esteem dan boleh buat keputusan,"['doktor', 'nak', 'ajar', 'kau', 'awak', 'selfesteem', 'putus']",statement
+854,Rawatan kedua ialah ubat-ubatan,"['rawat', 'ubatatan']",statement
+855, Lepas dah jumpa doktor mesti dapat slip ubat kan? Haa itu ialah rawatan anti-depression kalau ada tanda kemurungan dan anti-anxiety kalau ada kegelisahan,"['lepas', 'dah', 'jumpa', 'doktor', 'mesti', 'gelincir', 'ubat', 'ha', 'rawat', 'antidepresi', 'tanda', 'murung', 'antianxiety', 'gelisah']",statement
+856,"Untuk pesakit yang ada simptom psychotic, ubat tambahan mereka ialah ubat anti-psychotic dan ada masalah untuk tidur pun doktor akan beri ubat penenang","['sakit', 'simptom', 'psychotic', 'ubat', 'tambah', 'ubat', 'antipsychotic', 'tidur', 'doktor', 'ubat', 'tenang']",statement
+857, Ni yang dalam drama melayu selalu ada dialog “kau tak makan ubat kau eh?” Haa ubat tulah,"['ni', 'drama', 'layu', 'dialog', '"" Awak', 'makan', 'ubat', 'kau', 'eh angan', 'ha', 'ubat', 'tulah']",statement
+858,Semua jenis ubat yang diberikan ialah untuk tambah/ubah hormon kau dalam otak,"['jenis', 'ubat', 'tambahub', 'hormon', 'kau', 'otak']",statement
+859," Kalau macam aku, aku kekurangan hormon serotonin yang menyebakan aku selalu sedih dan kemurungan","['kurang', 'hormon', 'serotonin', 'seba', 'sedih', 'murung']",statement
+860,"Ubat yang doktor endorse pun bukan ubat Over-The-Counter, ubat tu memerlukan sign dan cop doktor sebab semuanya ubat terkawal","['ubat', 'doktor', 'endorse', 'ubat', 'overthecounter', 'ubat', 'tu', 'sign', 'cop', 'doktor', 'ubat', 'kawal']",statement
+861, Maknanya kalau korang tak perlukan ubat memang dorang takkan beri,"['maknanya', 'korang', 'perlu', 'ubat', 'dorang', 'tak']",statement
+862,  Rawatan yang keempat ialah meditasi/mengenali Tuhan,"['rawat', 'empat', 'meditasimengenali', 'tuhan']",statement
+863, Aku pakai frasa Tuhan yang merujuk kepada semua agama,"['pakai', 'frasa', 'tuhan', 'rujuk', 'agama']",statement
+864, Generally,['generally'],statement
+865," Kalau boleh kau kena rajin-rajinkan solat lima waktu, baca al-quran, solat tahajud semua tu supaya dapat ketenangan kalau kau seorang yang beragama Islam","['kau', 'kena', 'rajinrajkan', 'solat', 'baca', 'alquran', 'solat', 'tahajud', 'tu', 'tenang', 'kau', 'agama', 'islam']",statement
+866,"Kalau agama lain, boleh buat ikut kepercayaan masing-masing sebab aku percaya yang agama mengajar perkara yang baik-baik kepada penganutnya","['agama', 'percaya', 'masingm', 'percaya', 'agama', 'ajar', 'perkara', 'baikb', 'anut']",statement
+867,Rawatan kelima ialah sokongan keluarga,"['rawat', 'sokong', 'keluarga']",statement
+868, Bunyinya macam kejam kalau kau ada konflik dengan keluarga,"['bunyi', 'kejam', 'kau', 'konflik', 'keluarga']",statement
+869," Doktor psikiatri yang incharge kau akan panggil sesiapa yang tinggal serumah dengan kau, yang hari-hari kau jumpa kat tempat kerja/ sekolah/ IPT dan yang rapat dengan kau","['doktor', 'psikiatri', 'incharge', 'kau', 'panggil', 'siapa', 'tinggal', 'rumah', 'kau', 'harih', 'kau', 'jumpa', 'kat', 'kerja', 'sekolah', 'ipt', 'rapat', 'kau']",statement
+870,Doktor akan sedaya-upaya untuk terangkan keadaan mental kau kepada mereka dan tanya macam mana perangai kau supaya apa yang kau cerita sama dengan apa yang family dan kawan rapat kau cerita,"['doktor', 'sedayaup', 'terang', 'mental', 'kau', 'perangai', 'kau', 'kau', 'cerita', 'family', 'kawan', 'rapat', 'kau', 'cerita']",statement
+871,Kat sini doktor akan fahamkan betul-betul kepada family/ kawan rapat yang kau perlukan sokongan keluarga dari segi emosi dan kena pastikan pesakit kena hadir temujanji dengan doktor,"['kat', 'doktor', 'fahamkan', 'betulb', 'family', 'kawan', 'rapat', 'kau', 'perlu', 'sokong', 'keluarga', 'segi', 'emosi', 'kena', 'pasti', 'sakit', 'kena', 'hadir', 'temujanji', 'doktor']",statement
+872,Rawatan yang terakhir ialah DIRI KAU SENDIRI,"['rawat', 'kau']",statement
+873," Ya, kalau diri sendiri taknak keluar dari kemurungan","['ya', 'takn', 'murung']",statement
+874, Maka semua rawatan-rawatan yang aku mention takkan berkesan,"['rawatratan', 'mention', 'tak', 'kes']",statement
+875,Push diri sendiri untuk terima rawatan dan ubah apa yang patut supaya kemurungan kau tak jatuh lebih teruk,"['push', 'terima', 'rawat', 'ubah', 'patut', 'murung', 'kau', 'jatuh', 'teruk']",statement
+876, Belajar untuk cope bila ada masalah dan cari ketenangan bila rasa ‘lemas’ dalam kemurungan,"['bajar', 'atas', 'cari', 'tenang', 'angan lemas angan', 'murung']",statement
+877,"Aku faham, perasaan sedih susah nak dikawal tapi cuba ikut apa petua,tips and trick dari doktor psikiatri kau untuk atasi perasaan tu","['faham', 'asa', 'sedih', 'susah', 'nak', 'kawal', 'Cuba', 'petuatips', 'and', 'trick', 'doktor', 'psikiatri', 'kau', 'atas', 'asa', 'tu']",statement
+878,"Oklah, sampai sini je aku nak beritahu tentang rawatan untuk depresi/ kemurungan","['oklahoma', 'je', 'nak', 'beritahu', 'rawat', 'murung', 'murung']",statement
+879, Maybe next time aku cerita benda lain yang related dengan mental health dan mental illnes,"['maybe', 'terus', 'masa', 'cerita', 'benda', 'kait', 'mental', 'health', 'mental', 'illnes']",statement
+880,Selamat berpuasa,"['selamat', 'puasa']",statement
+881,– Cik H (Bukan nama sebenar)Hantar confession anda di sini -> https://iiumc,"['-', 'cik', 'h', 'nama', 'sebenarnyahant', 'aku', 'xaaehttpsiiumc']",statement
+882,com/submit,['hantar'],statement
+883,Salam all reader IIUM’s confession,"['salam', 'all', 'baca', 'iium', 'aku']",statement
+884, Thanks admin sebab approve confession aku ni,"['terima kasih', 'admin', 'terima', 'aku', 'ni']",statement
+885, Depression,['murung'],statement
+886," Yes, ni tajuk aku","['iya', 'ni', 'tajuk']",statement
+887," Lately aku dengar banyak kes bunuh diri and salah satunya kes bunuh diri sebab kemurungan!Untuk pengetahuan pembaca semua, orang yang menghidap kemurungan ni luaran dia tak nampak pun macam dia ada masalah","['belakang ini', 'dengar', 'kes', 'bunuh', 'and', 'salah', 'khas', 'kes', 'bunuh', 'kemurunganuntuk', 'tahu', 'baca', 'orang', 'menghidap', 'murung', 'ni', 'luar', 'nampak']",statement
+888, Tapi the inside of that person hanya Tuhan je yang tau betapa susahnya dia struggle,"['the', 'dalam', 'daripada', 'itu', 'orang', 'tuhan', 'je', 'tau', 'kaedah', 'susah', 'juang']",statement
+889, Selalunya orang yang ada depression ni ada anxiety (kebimbangan) sekali,"['selalu', 'orang utan', 'depression', 'ni', 'gelisah', 'bimbang']",statement
+890, Sampai boleh terketar2 satu badan,"['ketar', 'badan']",symptom
+891,Tanda-tanda penyakit kemurungan (ni aku amik dekat internet) 1,"['tandata', 'sakit', 'murung', 'ni', 'amik', 'internet', 'angan']",statement
+892, Perasaan murung atau sering marah-marah hampir sepanjang hari dan hampir setiap hari dalam tempoh dua minggu,"['asa', 'murung', 'marahmar', 'masa', 'minggu']",symptom
+893, Perasaan ini dilaporkan oleh pesakit secara subjektif seperti perasaan rendah diri ataupun daripada pengamatan orang luar contohnya selalu menangis,"['asa', 'kaedah', 'sakit', 'subjektif', 'asa', 'rendah', 'amat', 'orang utan', 'contoh', 'menang']",symptom
+894,2,['angan'],statement
+895, Tidak bersemangat atau tidak berminat melakukan aktiviti sosial yang biasa dilakukan hampir setiap hari,"['semangat', 'minat', 'aktiviti', 'sosial']",symptom
+896, Contohnya tidak berminat untuk bersukan lagi atau berjumpa dengan sanak-saudara,"['contoh', 'minat', 'sukan', 'jumpa', 'sanaksaudara']",symptom
+897,3,['angan'],statement
+898, Berat badan merosot (~5%) daripada asal dalam waktu yang singkat atau kurang selera makan,"['berat', 'badan', 'merosot', 'angan', 'pendek', 'selera', 'makan']",symptom
+899,4,['angan'],statement
+900," Corak tidur berubah, sama ada kurang tidur (insomnia) atau terlebih tidur (hypersomnia)","['corak', 'tidur', 'rubah', 'tidur', 'insomnia', 'tidur', 'hipersomnia']",symptom
+901,5,['angan'],statement
+902," Perubahan dalam melakukan aktiviti seharian, sama ada terlebih aktif atau kurang aktif","['ubah', 'aktiviti', 'hari', 'aktif', 'aktif']",symptom
+903,6,['angan'],statement
+904, Selalu letih dan kurang tenaga dalam melakukan aktiviti harian,"['letih', 'tenaga', 'aktiviti', 'hari']",symptom
+905,7,['angan'],statement
+906, Perasaan bersalah yang tidak setimpal dengan sesuatu kesalahan perbuatan atau merasakan diri tidak berguna 8,"['asa', 'salah', 'timpal', 'salah', 'buat', 'masa', 'guna', 'angan']",symptom
+907, Tidak mampu memberikan konsentrasi atau berfikir secara rasional,"['konsentrasi', 'pikir', 'rasional']",symptom
+908, Pesakit juga merasakan susah untuk membuat keputusan dalam kehidupan hariannya,"['sakit', 'masa', 'susah', 'putus', 'hidup', 'hari']",symptom
+909,9,['angan'],statement
+910," Berfikir tentang keinginan untuk mati atau bunuh diri dengan kerap, atau mempunyai pelan masa hadapan untuk membunuh diri","['pikir', 'mati', 'bunuh', 'kerap', 'pelan', 'masa', 'bunuh']",symptom
+911,"Tapi problem orang kita di Malaysia ni, asal depression je dah anggap gila","['masalah', 'orang utan', 'malaysia', 'ni', 'murung', 'je', 'dah', 'anggap', 'gila']",risk factor
+912," Tak pun orang akan cakap “Takde apa la, jangan nak depressed sangat","['orang utan', 'cakap', '"" Tiada', 'la', 'nak', 'tek']",risk factor
+913,” Jadi orang yang ada depression ni jadi malu nak mengaku yang dia ada sakit kemurungan ni,"['""', 'orang utan', 'murung', 'ni', 'malu', 'nak', 'menga', 'sakit', 'murung', 'ni']",statement
+914," Yes, aku tau orang akan cakap banyakkan dekatkan diri dengan Tuhan, mengadu pada Dia dan banyakkan baca Al-quran","['iya', 'tau', 'orang utan', 'cakap', 'banyak', 'dekat', 'tuhan', 'adu', 'banyak', 'baca', 'alquran']",statement
+915," The point is, memang orang yang ada depression ni buat or mungkin ada yang tak, tapi macam aku cakap innerself dia kalau boleh nak rant as long as she/he can sebab dia susah nak control emosi dia","['the', 'titik', 'adalah', 'orang utan', 'murung', 'ni', 'atau', 'cakap', 'dalam diri', 'nak', 'ejek', 'bagai', 'long', 'bagai', 'dia dia', 'boleh', 'susah', 'nak', 'kawal', 'emosi']",statement
+916,Macam mana aku tau? Sebab aku pernah mengalami masalah yang sama,"['tau', 'laku']",statement
+917," Sumpah waktu aku kena tu, aku macam tak ada point untuk hidup","['sumah', 'kena', 'tu', 'titik', 'hidup']",symptom
+918, Lifeless dan rasa tak ada tempat nak bergantung,"['tidak maya', 'nak', 'jalan']",symptom
+919, Study aku? Memang terjun ke laut resultnya,"['bajar', 'terjun', 'laut', 'hasil']",symptom
+920, Hubungan dengan lecturer pun tak berapa nak okayy sebab masalah depression aku ni agak teruk,"['hubung', 'syarah', 'nak', 'okey', 'depression', 'ni', 'teruk']",symptom
+921, Banyak orang pandang serong sebab aku tetiba jadi pendiam kadang-kadang menangis sorang diri tak tahu punca,"['orang utan', 'pandang', 'serong', 'tetiba', 'diam', 'kadangkang', 'menang', 'sorang', 'punca']",symptom
+922," Tapi akuk tak mengalah, aku cuba cari something yang boleh motivate aku","['akuk', 'kalah', 'Cuba', 'cari', 'sesuat', 'motivasi']",statement
+923, Aku tak pergi ke kaunselor sebab tak mampu nak bayar,"['pergi', 'kaunselor', 'nak', 'bayar']",statement
+924, Aku guna laman social,"['lam', 'sosial']",statement
+925," Aku cari group orang yang senasib dengan aku, yang ada masalah depression ni","['cari', 'kumpul', 'orang utan', 'nasib', 'murung', 'ni']",statement
+926, Group depression untuk Malaysian people susah aku nak jumpa,"['kumpul', 'murung', 'orang malaysia', 'orang', 'susah', 'nak', 'jumpa']",statement
+927, Boleh kira dengan jari je,"['jari', 'je']",statement
+928,Tapi mostly aku jumpa group yang mostly over the world punya participant,"['banyak', 'jumpa', 'kumpul', 'banyak', 'akhir', 'yang', 'dunia', 'serta']",statement
+929," Daripada apa yang aku perhati, dia orang ni sangat-sangat OPEN-MINDED","['perhati', 'orang utan', 'ni', 'sangatsat', 'fikiran buka']",statement
+930," Each and every person yang confess dalam group tu, yang mengadu masalah atau tiba-tiba rasa anxious and post dalam group tu, people never condemn or saying anything bad to that person walaupun benda tu kita rasa benda bodoh –bodoh je masalah dia","['masing - masing', 'and', 'tiap', 'orang', 'menga', 'kumpul', 'tu', 'adu', 'tibata', 'cemas', 'dan', 'jawat', 'kumpul', 'tu', 'orang', 'tidak pernah', 'kutuk', 'atau', 'kata', 'apa sahaja', 'buruk', 'ke', 'itu', 'orang', 'benda', 'tu', 'benda', 'bodoh', 'angan Bodoh', 'je']",statement
+931, But they don’t,"['but', 'mereka', 'jangan']",statement
+932," The ask with a caring word, regardless of your religious and races","['yang', 'tanya', 'dengan', 'a', 'sayang', 'kata', 'tidak kira', 'daripada', 'anda', 'agama', 'dan', 'kaum']",statement
+933,  Ada je yang confessed cakap nak bunuh diri sebab dah tak tahan dengan depression yang dia rasa,"['je', 'confessed', 'cakap', 'nak', 'bunuh', 'dah', 'tahan', 'depression']",symptom
+934," Tapi all the people in that group bagi kata-kata semangat balik untuk dia, make sure dia rasa dia sangat dihargai untuk jalani kehidupan dia","['semua', 'the', 'orang', 'in', 'itu', 'kumpul', 'katakata', 'semangat', 'make', 'pasti', 'harga', 'jalan', 'hidup']",statement
+935," Pada aku, kalaulah Malaysian people boleh jadi open-minded macam tu, mesti ukhwah sesama kita dapat dikuatkan","['malaysian', 'orang', 'fikiran buka', 'tu', 'mesti', 'ukhwah', 'kuat']",statement
+936, Dan masalah depression ni dapat dibendung walaupun tak sepenuhnya,"['murung', 'ni', 'bendung', 'sepenuhnya']",statement
+937, Mungkin juga sebab perangai orang Melayu kita suka perlekehkan sesuatu perkara menyebabkan golongan macam ni lebih rela untuk simpan masalah dia sendiri sampai mereput,"['perangai', 'orang utan', 'layu', 'suka', 'perlekehkan', 'perkara', 'sebab', 'golong', 'ni', 'rela', 'simpan', 'reput']",statement
+938,Just my 2cent-Cik Depression-– Cik DepressionHantar confession anda di sini -> www,"['hanya', 'my', '2cent cik', 'murung angan', 'cik', 'kemurunganhantar', 'confession', 'xaaew']",statement
+939,iiumc,['iiumc'],statement
+940,com/submit,['hantar'],statement
+941,Assalamualaikum admin iium confession,"['assalamualaikum', 'admin', 'iium', 'confession']",statement
+942,,['nan'],statement
+943, Terima kasih kerana sudi menyiarkan luahan ini,"['terima', 'kasih sayang', 'rana', 'sudi', 'siar', 'luah']",statement
+944,Luahan ini adalah bertujuan untuk memujuk hati saya sendiri dan mendapat sokongan untuk keluar daripada kemurungan yang telah saya alami sejak 2tahun yg lalu,"['luah', 'tuju', 'pujuk', 'hati', 'jalan', 'murung', 'alami', 'antahun', 'yg']",statement
+945,Saya merupakan seorang wanita yg berumur 26 tahun yang telah berkahwin dan mempunyai seorang anak,"['wanita', 'yg', 'rumur', 'angan', 'berkahwin', 'anak']",statement
+946," Sebelum ini saya merupakan seorang pelajar cemerlang, aktif ,periang di rumah dan agak pendiam dalam kalangan kawan sekelas kerana sifat saya yang agak pemalu","['ajar', 'cemerlang', 'aktif', 'periang', 'rumah', 'diam', 'kalang', 'kawan', 'kelas', 'rana', 'sifat', 'malu']",statement
+947, Saya tidak pernah dibiasakan oleh keluarga untuk melihat pertengkaran walaupun kecil dan jarang sekali marah dalam kalangan rakan sebaya,"['biasa', 'keluarga', 'tengkar', 'jarang', 'marah', 'kalang', 'rak', 'baya']",statement
+948, Boleh dikatakan mereka tidak pernah melihat saya dalam keadaan marah,['marah'],statement
+949, Saya juga merupakan seorang yg pemaaf,"['yg', 'maaf']",statement
+950, Bagi saya setiap org akan melakukan kesilapan dalam hidupnya dan layak untuk diberi peluang berkali-kali sehingga akhir hayatnya,"['org', 'silap', 'hidup', 'layak', 'peluang', 'berkalikali', 'hayat']",statement
+951,Namun kini saya berubah menjadi seorang yg pemarah,"['rubah', 'yg', 'marah']",symptom
+952, Saya sedang bergelut dengan satu perasaan di mana saya harus memaafkan orang sekeliling dan diri saya sendiri,"['gelut', 'asa', 'maaf', 'orang', 'keliling']",risk factor
+953, Dan kemarahan itu saya luahkan dengan tangisan,"['marah', 'luah', 'tangis']",symptom
+954, Setiap hari zikir di lidah dan hati saya ungkapkan namun gangguan daripada syaitan kadangkala menguasai diri saya,"['zikir', 'lidah', 'hati', 'ungkap', 'ganggu', 'syaitan', 'kadangkala', 'menguasai']",statement
+955, Dalam satu keadaan saya akan hilang dari kesibukan dunia,"['hilang', 'sibu', 'dunia']",statement
+956, Apa yg saya rasa hanyalah tekanan yg terlalu kuat semata mata sehingga menyebabkan saya terlalu letih dan tidak dapat menyelesaikan tugas sebagai seorang ibu dan isteri dengan sempurna,"['yg', 'tekan', 'yg', 'kuat', 'mata', 'sebab', 'letih', 'selesai', 'tugas', 'isteri', 'sempurna']",symptom
+957,"Saya kerap melakukan kesalahan bodoh seprti lupa di mana meletakkan kunci, tidak dapat menyusun barang dengan baik, tidak peka dan tidak terurus","['kerap', 'salah', 'bodoh', 'seprti', 'lupa', 'letak', 'kunci', 'susun', 'barang', 'peka', 'urus']",symptom
+958, Bagi saya tiada apa lagi yg ibu bapa dapat banggakan dengan saya,"['tiada', 'yg', 'bapa', 'bangga']",symptom
+959, Saya rasa tidak layak untuk bergelar seorg isteri,"['layak', 'gelar', 'seorg', 'isteri']",symptom
+960, Yang saya tahu saya rasa seperti seorg pekerja yg diletakkan di sebuah tempat dimana saya perlu ikut rentak semua orang di dalamnya,"['seorg', 'pekerja', 'yg', 'letak', 'mana', 'rentak', 'orang', 'dalam']",statement
+961,Saya tahu apa yang saya fikirkan adalah salah,"['fikirkan', 'salah']",statement
+962," Tetapi saya tetap menerima tekanan apabila mendengar pertengkaran, dimarah atas kesalahan kecil berkali kali","['terima', 'tekan', 'dengar', 'tengkar', 'marah', 'salah', 'kal', 'kali']",symptom
+963, Saya rasa sedih,['sedih'],symptom
+964, Sangat sedih,['sedih'],symptom
+965, Bagi saya punca utama terjadinya kemurungan ini adalah pada waktu saya sedang sarat mengandung suami saya selalu mencari peluang untuk bermesej dengan kawan kawan perempuannya,"['punca', 'utama', 'murung', 'sarat', 'kandung', 'suami', 'cari', 'peluang', 'bermesej', 'kawan', 'kawan', 'perempuan']",risk factor
+966, Sejak awal perkahwinan lagi saya telah memaafkan beliau kerana saya yakin satu hati nanti dia pasti berubah menjadi seorang lelaki yg soleh,"['perkahwinan', 'maaf', 'beliau', 'rana', 'hati', 'rubah', 'lelaki', 'yg', 'soleh']",statement
+967,Namun sehingga saya melahirkan anak dia masih melakukan perkara yang sama,"['lahir', 'anak', 'perkara']",risk factor
+968, Pada satu tahap diri saya hilang kawalan dan menjerit seperti orang gila,"['tahap', 'hilang', 'kawal', 'jerit', 'orang', 'gila']",symptom
+969, Perasaan sedih seakan akan tidak dapat dibendung lagi,"['asa', 'sedih', 'seakan', 'bendung']",symptom
+970, Saya meminta suami saya untuk menceraikan saya namun dia masih sayangkan saya,"['suami', 'cerai', 'sayang']",symptom
+971, Namun hati ini telah parah,"['hati', 'parah']",symptom
+972, Terasa seperti ditikam berkali kali,"['tikam', 'kal', 'kali']",symptom
+973,Sehinggalah pada saat ini suami saya telah berubah ke arah kebaikan namun kini saya tidak dapat mengawal perasaan saya apabila saya berhadapan dengan situasi pertengkaran,"['sehingga', 'suami', 'rubah', 'arah', 'baik', 'awal', 'asa', 'hadap', 'ada', 'tengkar']",symptom
+974, Saya hilang,['hilang'],symptom
+975, Saya hilang darpada dunia seorang ibu dan isteri,"['hilang', 'darpada', 'dunia', 'isteri']",symptom
+976, Apa yg saya rasa kini hanyalah tekanan kuat dalam diri,"['yg', 'tekan', 'kuat']",symptom
+977, Hilang keyakinan dan selalu bersedih,"['hilang', 'masalah', 'sedih']",symptom
+978, Kini suami selalu memberi semangat,"['suami', 'semangat']",statement
+979, Tapi dalam memberi semangat itu terkadang terkeluar kemarahan dan ego nya sebagai seorang lelaki,"['semangat', 'terkadang', 'keluar', 'marah', 'ego', 'nya', 'lelaki']",risk factor
+980, Dan saya akan terus bersedih merasakan tiada guna nya lagi menjadi seorang isteri,"['sedih', 'masa', 'tiada', 'nya', 'isteri']",symptom
+981, Saya menangis sekuat hati sehingga sakit segala isi,"['menang', 'kuat', 'hati', 'sakit', 'isi']",symptom
+982, Menggigil tubuh ini menahankan emosi,"['gigil', 'badan', 'tahan', 'emosi']",symptom
+983, Kuatnya ujian ini bagi saya,"['kuat', 'uji']",statement
+984,Saya tahu,[],statement
+985, Saya perlu suburkan hati dengan kesyukuran,"['subur', 'hati', 'syukur']",statement
+986, Namun setiap kali saya mengalami tekanan tersebut saya akan hilang,"['kali', 'alami', 'tekan', 'hilang']",symptom
+987, Saya tergamam memikirkan pengorbanan saya melahirkan dan memaafkan disiakan begitu sahaja,"['tergam', 'masa', 'korban', 'lahir', 'maaf', 'sia', 'sahaja']",risk factor
+988, Kini suami telah menjadi semakin baik dan saya sedang melawan perasaan untuk melupakan segala keburukan,"['suami', 'lawan', 'asa', 'lupa', 'keburu']",statement
+989,  Saya tahu Allah adalah tempat untuk mengadu,"['allah', 'adu']",statement
+990, Saya tahu Allah sahaja yang mampu memulihkan hati saya,"['allah', 'sahaja', 'pulih', 'hati']",statement
+991, Saya perlu usaha lebih lagi untuk keluar daripada kemurungan ini,"['usaha', 'murung']",statement
+992,Saya manusia yang penuh dengan kesilapan,"['manusia', 'penuh', 'silap']",statement
+993, Saya ingin kembali menjadi seorang isteri yang solehah yang sentiasa mendoakan suaminya,"['isteri', 'solehah', 'selalu', 'doa', 'suami']",statement
+994, Saya rasa berdosa,['dosa'],statement
+995, Saya rasa jahat dan kejam kerana dengan keadaan kemurungan ini telah memberi kesan yang tidak baik terhadap orang sekeliling terutamanya keluarga terdekat,"['jahat', 'kejam', 'rana', 'murung', 'kesan', 'orang utan', 'keliling', 'jalan', 'keluarga', 'dekat']",symptom
+996,"Saya cemburu melihat isteri solehah yg meletakkan niqab di atas mukanya,berjalan penuh keyakinan","['cemburu', 'isteri', 'solehah', 'yg', 'masa', 'niqab', 'mukanyaberjalan', 'penuh', 'masalah']",statement
+997, Tak mengharapkan apa apa daripada manusia,"['harap', 'manusia']",statement
+998, Hanya Allah tempat bergantung semata mata,"['allah', 'jalan', 'mata']",statement
+999, Saya cemburu melihat kekuatan seorang wanita yang bergelar suri rumah,"['cemburu', 'kuat', 'wanita', 'gelar', 'suri', 'rumah']",statement
+1000, Saya cemburu melihat kebahagiaan rumah tangga,"['cemburu', 'bahagia', 'rumah', 'tangga']",statement
+1001,Kini saya ingin bangun melawan segala hasutan syaitan,"['bangun', 'lawan', 'hasut', 'syaitan']",statement
+1002, Kini saya ingin keluar daripada segala kemurungan dan ingin menjadi seorang isteri solehah yg sentiasa memaafkan dan memberi pedoman,"['murung', 'isteri', 'solehah', 'yg', 'selalu', 'maaf', 'pedoman']",statement
+1003, Saya tahu ramai yang mengalami situasi ini tapi,"['ramai', 'laku', 'ada']",statement
+1004,tak terungkap dengan luahan kata kata apa yang dilaluinya,"['terungkap', 'luah', 'lalu']",statement
+1005,Terima kasih kepada pembaca,"['terima', 'kasih sayang', 'baca']",statement
+1006, Saya mengharapkan secebis doa daripada kalian supaya hati ini kembali kuat dan teguh apabila diuji,"['harap', 'cebis', 'doa', 'hati', 'kuat', 'teguh', 'uji']",statement
+1007, Sokongan dan pemahaman amat diperlukan pada saat ini,"['sokong', 'kaedah']",statement
+1008,Semoga kita menjadi umat yg kuat diakhir zaman ini,"['moga', 'umat', 'yg', 'kuat', 'akhir', 'zaman']",statement
+1009,– IntanHantar confession anda di sini -> www,"['angan', 'intanhantar', 'aku', 'xaaew']",statement
+1010,iiumc,['iiumc'],statement
+1011,com/submit,['hantar'],statement
+1012,"Assalamualaikum, terima kasih admin kerana approve hantaran ini","['assalamualaikum', 'terima', 'kasih sayang', 'pentadbir', 'rana', 'terima', 'hantar']",statement
+1013,Semalam terkejut sangat sebab jumpa post yang seakan-akan melabel pesakit depression sebagai kufur,"['malam', 'kejut', 'jumpa', 'jawat', 'seakan', 'label', 'sakit', 'murung', 'kufur']",statement
+1014," Bukan itu sahaja, beliau malah menggunakan ayat Quran untuk justify pandangan tersebut","['sahaja', 'beliau', 'ayat', 'quran', 'benar', 'pandang']",statement
+1015,Siapa kita untuk menghukum orang lain? Kita bukanlah antara golongan yang dijamin syurga,"['hukum', 'orang utan', 'golong', 'jamin', 'syurga']",statement
+1016, Tidak adil untuk pukul rata semua pesakit depression tu kufur,"['adil', 'sakit', 'murung', 'tu', 'kufur']",statement
+1017, Malah islam tidak mengajar kita untuk menhukum orang lain,"['islam', 'ajar', 'menhukum', 'orang utan']",statement
+1018,Stigma sebegini sangat bahaya,"['stigma', 'bahaya']",statement
+1019," Boleh menyebabkan pesakit kemurungan tidak mahu berkongsi rasa, malah ada yang mungkin tidak mendapatkan rawatan kerana risau dihukum sebagai “kufur”, “jauh dari Tuhan”, “lemah iman” dan sebagainya","['sebab', 'sakit', 'murung', 'mahu', 'jawapan', 'rawat', 'rana', 'risau', 'hukum', '"" Kufur ""', '"" Jauh', 'tuhan angan', 'Lemah', 'iman angan']",statement
+1020,Sedangkan depression tu merupakan satu penyakit dan boleh dirawat,"['depression', 'tu', 'sakit', 'rawat']",statement
+1021," Seperti penyakit-penyakit lain, depression juga disebabkan beberapa faktor seperti hormon, genetik, dan persekitaran","['penyakitpen', 'murung', 'sebab', 'faktor', 'hormon', 'genetik', 'sekitar']",statement
+1022, Barah bukan disebabkan kufur kan? Haa macam tu jugak la depression,"['barah', 'sebab', 'kufur', 'ha', 'tu', 'jugak', 'la', 'murung']",statement
+1023,"Mungkin lepas baca luahan ni, ada yang akan kata “betullah kalau dekat dengan Allah takkan depress”","['lepas', 'baca', 'luah', 'ni', '"" Betul', 'allah', 'tak', 'tek ""']",statement
+1024, Tapi sebelum tu saya nak kata yang pandangan itu sangat salah,"['tu', 'nak', 'pandang', 'salah']",statement
+1025, Dan merupakan stigma yang sangat berat,"['stigma', 'berat']",statement
+1026,"Haah, betul dengan mendekatkan diri dengan Allah, kita boleh tenang dan hilang tekanan, tetapi perlu ingat, depression ini penyakit","['haah', 'dekat', 'allah', 'tenang', 'hilang', 'tekan', 'murung', 'sakit']",statement
+1027," Dekatkan diri dengan Allah tu perlu, tetapi perlu juga mendapatkan rawatan pakar","['dekat', 'allah', 'tu', 'rawat', 'pakar']",statement
+1028," Antara rawatan yang akan diberi adalah ubatan, terapi atau kedua-dua sekali bergantung pada keadaan pesakit","['rawat', 'kaedah', 'terapi', 'keduadua', 'jalan', 'sakit']",statement
+1029,"Tapi macam mana orang yang sedang depress nak mendapatkan rawatan jika sekali diluahkan perasaan, terus dicop lemah iman dan sebagainya","['orang utan', 'tek', 'nak', 'rawat', 'luah', 'asa', 'cop', 'lemah', 'iman']",statement
+1030, Sedangkan kita dituntut untuk merujuk pakar dan berusaha dalam bertawakal,"['tuntut', 'jalan', 'pakar', 'berusaha', 'tawakal']",statement
+1031,  Stigma sebegini la juga yang menjauhkan orang-orang dari orang alim,"['stigma', 'la', 'jauh', 'orangor', 'orang utan', 'alim']",statement
+1032," Bukankah ini merugikan Islam tu sendiri? Pesakit depression perlukan harapan dan bantuan, bukan kecaman","['rugi', 'islam', 'tu', 'sakit', 'murung', 'masalah', 'harap', 'tolong', 'kecam']",statement
+1033,"Apa kesan stigma ini?Seperti yang dinyataan diatas, dan kesannya bukan sekadar menyebabkan pesakit tidak mendapatkan bantuan, malah kalau keadaan makin teruk boleh menyebabkan pesakit bunuh diri (nauzubillah)","['kesan', 'stigma', 'iniseperti', 'nyata', 'atas', 'kesan', 'sebab', 'sakit', 'tolong', 'teruk', 'sebab', 'sakit', 'bunuh', 'nauzubillah']",statement
+1034,"Jika pandangan-pandangan yang melabel pesakit depression ni tersebar, dan pesakit triggered, boleh membuatkan pesakit self-blame, adakah kita akan bertanggungjawab? Self-blame, rasa diri tidak berguna, rasa diri tiada harapan juga boleh mengakibatkan pesakit bunuh diri","['pandanganp', 'label', 'sakit', 'murung', 'ni', 'bilah sebar', 'sakit', 'cetus', 'jalan', 'sakit', 'selfblame', 'adek', 'jawapan', 'salah diri sendiri', 'guna', 'tiada', 'harap', 'akibat', 'sakit', 'bunuh']",statement
+1035,Penyakit depression ni semakin hari semakin merunsingkan,"['sakit', 'murung', 'ni', 'merunsingkan']",statement
+1036," Selain rawatan doktor psikiatri atau psikologis, sokongan daripada individu sekeliling sangat lah penting","['rawat', 'doktor', 'psikiatri', 'psikolog', 'jalan', 'individu', 'masa']",statement
+1037, Antara gejala depression adalah merasa diri tidak berguna,"['gejala', 'depression', 'guna']",symptom
+1038,"Jadi kita sebagai anggota masyarakat perlu memberi harapan yang mereka sangat diperlukan, dan diri mereka bernilai","['anggota', 'masyarakat', 'harap', 'nila']",statement
+1039, Teruskan berdoa semoga kita tidak mendapat depression,"['terus', 'doa', 'moga', 'murung']",statement
+1040, Dan dalam masa yang sama mendoakan sahabat kita yang sedang bertarung dengan depression dan lain-lain penyakit mental,"['doa', 'sahabat', 'tarung', 'murung', 'lain - lain', 'sakit', 'mental']",statement
+1041,– Zinnirah (Bukan nama sebenar)Hantar confession anda di sini -> https://iiumc,"['angan', 'zinnirah', 'nama', 'sebenarnyahant', 'confession', 'xaaehttpsiiumc']",statement
+1042,com/submit,['hantar'],statement
+1043,Hai assalamualaikum nama mia ( bukan nama sebenar) 15 tahun,"['hai', 'assalamualaikum', 'nama', 'mia', 'nama', 'benar', 'angan']",statement
+1044, saya ada satu perasaan yang saya sendiri tak tahu itu apa,['asa'],statement
+1045, Then saya ade research membawa kepada di bawah ini,"['then', 'ade', 'research', 'bawa']",statement
+1046,Tanda-tanda penyakit kemurungan1,"['tandata', 'sakit', 'kemurungan']",statement
+1047, Perasaan murung atau sering marah-marah hampir sepanjang hari dan hampir setiap hari dalam tempoh dua minggu,"['asa', 'murung', 'marahmar', 'tempoh', 'minggu']",symptom
+1048, Perasaan ini dilaporkan oleh pesakit secara subjektif seperti perasaan rendah diri ataupun daripada pengamatan orang luar contohnya selalu menangis,"['asa', 'kaedah', 'sakit', 'objektif', 'asa', 'rendah', 'amat', 'orang utan', 'contoh', 'menang']",symptom
+1049, ( ok ini memang selalu cth kalau hari tu kena marah or ada orang sumpah seranah even gurau je pon saya boleh dapat perasaan diri rasa ‘xguna’ or benci dekat diri sendiri,"['okey', 'cth', 'tu', 'kena', 'marah', 'or', 'orang utan', 'sumah', 'seranah', 'even', 'gurau', 'je', 'pon', 'asa', 'angan xguna angan', 'or', 'benci']",symptom
+1050, and macam ada orang bercakap dalam kepala ‘ ko ni tak guan mia benda macam tu pon tak boleh buat ke?’ atau ‘ ko ni tak layak hidup la mia’ atau ‘ semua ni salah ko la mia’ kata- kata tu berlegar dalam kepala walaupun salah yang saya buat alahai sangat sikit,"['and', 'orang', 'cakap', 'kepala', 'angan', 'ko', 'ni', 'guan', 'mia', 'benda', 'tu', 'pon', 'ke angan', 'angan', 'ko', 'ni', 'layak', 'hidup', 'la', 'mia angan', 'angan', 'ni', 'salah', 'ko', 'la', 'mia angan', 'tu', 'legar', 'kepala', 'salah', 'alahai', 'sikit']",symptom
+1051, Lagi- lagi bila orang salahkan saya depan – depan secara gurauan dia punya feel tu macam dah tak nak buat ape dah,"['orang', 'salah', 'angan', 'gurau', 'feel', 'tu', 'dah', 'nak', 'ape', 'dah']",risk factor
+1052, Lebih tepat lagi rasa macam tak nak hidup bila ade orang salah kan kita la,"['nak', 'hidup', 'ade', 'orang', 'salah', 'la']",symptom
+1053,(nampak remeh kan sorry tak reti nak luahkan macam mana harap faham)2,"['nampak', 'remeh', 'sorry', 'reti', 'nak', 'luah', 'harap', 'fahamp']",statement
+1054, Tidak bersemangat atau tidak berminat melakukan aktiviti sosial yang biasa dilakukan hampir setiap hari,"['semangat', 'minat', 'aktiviti', 'sosial']",symptom
+1055, Contohnya tidak berminat untuk bersukan lagi atau berjumpa dengan sanak-saudara,"['contoh', 'minat', 'sukan', 'jumpa', 'sanaksaudara']",symptom
+1056, sangat-sangatlah iye,"['sangatsatlah', 'iye']",statement
+1057,3,['angan'],statement
+1058, Berat badan merosot (~5%) daripada asal dalam waktu yang singkat atau kurang selera makan,"['berat', 'badan', 'merosot', 'angan', 'singkat', 'selera', 'makan']",symptom
+1059, Yang ni tak kot sebab aq ni jenis banyak memikir bila penat memikir aq makan,"['ni', 'kot', 'aq', 'ni', 'jenis', 'pikir', 'penat', 'pikir', 'aq', 'makan']",symptom
+1060,4,['angan'],statement
+1061," Corak tidur berubah, sama ada kurang tidur (insomnia) atau terlebih tidur (hypersomnia)","['corak', 'tidur', 'rubah', 'tidur', 'insomnia', 'tidur', 'hypersomnia']",symptom
+1062,Yang ni sekarang ya,"['ni', 'ya']",statement
+1063," Tak tahu kenapa aq dari dulu lagi kalau buat ujian yg stress, depression, anxiety","['aq', 'uji', 'yg', 'stress', 'depression', 'anxiety']",statement
+1064, Depression dengan anxiety tahap max nun,"['depression', 'anxiety', 'tahap', 'max', 'nun']",statement
+1065, kuat tidoq waktu tu la ni ja tiba-tiba dia berubah,"['kuat', 'tidoq', 'tu', 'la', 'ni', 'ja', 'tibata', 'rubah']",symptom
+1066,5,['angan'],statement
+1067," Perubahan dalam melakukan aktiviti seharian, sama ada terlebih aktif atau kurang aktif","['ubah', 'aktiviti', 'hari', 'aktif', 'aktif']",symptom
+1068, yup ni ye ( kadang – kadang benci dengan diri sendiri sebab ni)6,"['yup', 'ni', 'ye', 'kadang kala', 'angan', 'kadang', 'benci', 'niep']",symptom
+1069, Selalu letih dan kurang tenaga dalam melakukan aktiviti harian,"['letih', 'tenaga', 'aktiviti', 'hari']",symptom
+1070, even sabtu ahad cuti pon rasa tak larat sangat nak buat keje,"['even', 'sabtu', 'ahad', 'cuti', 'pon', 'larat', 'nak', 'keje']",symptom
+1071, Rasa letih dia macam orang kemas rumah dari A-Z ,"['letih', 'orang utan', 'kemas', 'rumah', 'az']",symptom
+1072,7,['angan'],statement
+1073, Perasaan bersalah yang tidak setimpal dengan sesuatu kesalahan perbuatan atau merasakan diri tidak berguna ( yang ni sangat -sangat accurate 10/10,"['asa', 'salah', 'timpal', 'salah', 'buat', 'rasa', 'guna', 'ni', 'tepat', 'angan']",symptom
+1074, suka sangat salahkan diri sendiri sebab tu saya lebih suka berdiam diri kalau jadi apa-apa saya tak kena mengenalah)  8,"['suka', 'salah', 'tu', 'suka', 'diam', 'apaap', 'kena', 'kena', 'angan']",symptom
+1075, Tidak mampu memberikan konsentrasi atau berfikir secara rasional,"['konsentrasi', 'berfikir', 'rasional']",symptom
+1076, Pesakit juga merasakan susah untuk membuat keputusan dalam kehidupan hariannya,"['sakit', 'masa', 'susah', 'putus', 'hidup', 'hari']",symptom
+1077,yup9,['yup'],statement
+1078," Berfikir tentang keinginan untuk mati atau bunuh diri dengan kerap, atau mempunyai pelan masa hadapan untuk membunuh diri","['pikir', 'mati', 'bunuh', 'kerap', 'pelan', 'hadap', 'bunuh']",symptom
+1079,Tidak ni je tak mungkin sebab saya agama islam saya rasa selagi solat tak tinggal saya ok je,"['ni', 'je', 'agama', 'islam', 'selagi', 'solat hari raya', 'tinggal', 'okey', 'je']",statement
+1080," cuma bila perasaan tu datang susahApa yang saya nak cakap, tiap-tiap hari saya akan pikir ‘hidup aq esok macam mana?’ ‘malasnya nak hidup’ ‘ tak bergunanya aq’ ‘ susahnya tu susahnya ni’ Lagi satu rasa benci dekat diri sendiri tu sangat2 kuat tiap- tiap hari","['asa', 'tu', 'susahapa', 'nak', 'cakap', 'setiapt', 'fikir', 'angan hidup', 'aq', 'esok', 'mana angan', 'angan Malas', 'nak', 'hidup angan', ""'"", 'guna', 'aq angan', ""'"", 'susah', 'tu', 'susah', 'ni angan', 'benci', 'tu', 'sangatp', 'kuat']",symptom
+1081, saya ni spesies kalau bnda tu pengalaman mennyakitkan hati jiwa dan raga otak saya cepat je lupa,"['ni', 'spesies', 'bnda', 'tu', 'alam', 'mennyakitkan', 'hati', 'jiwa', 'raga', 'otak', 'cepat', 'je', 'lupa']",symptom
+1082, sesetengah la,"['beberapa', 'la']",statement
+1083, so tak pasti apa sebab nak benci diri sendiri tu,"['begitu', 'nak', 'benci', 'tu']",symptom
+1084,Ha lagi satu kadang tu tanpa sebab tiba-tiba nak nangis,"['ha', 'kadang kala', 'tu', 'tibata', 'nak', 'nang']",symptom
+1085,hmmm tu je lah kot ciri-ciri yang aq hadap setakat ni,"['hm', 'tu', 'je', 'kot', 'cirici', 'aq', 'hadap', 'masa', 'ni']",statement
+1086, aq takut sebab orang cakap depression ni jangan main -main,"['aq', 'takut', 'orang utan', 'cakap', 'murung', 'ni', 'utama', 'main']",statement
+1087,"Justeru, jika anda merasakan anda atau orang terdekat anda mempunyai gejala- gejala yang disebutkan di atas dalam tempoh waktu yang sudah lama, adalah lebih baik anda mendapatkan pertolongan daripada doktor anda atau hubungi mereka yang boleh memberikan pertolongan seperti di bawah","['justeru', 'masa', 'orang utan', 'dekat', 'gejala', 'gejala', 'tempoh', 'tolong', 'doktor', 'hubung', 'tolong']",statement
+1088,no,['tidak'],statement
+1089,1 dan 2 dan 7 sangat lah diri saya,"['angan', 'angan', 'angan']",statement
+1090," persoalannya, adakah saya depression?p/s: saya agak2 mesti ramai cakap saya acah depression","['soal', 'adek', 'depressionps', 'agaka', 'mesti', 'ramai', 'cakap', 'acah', 'murung']",statement
+1091, saya cuma nak tau saya kategori mana je harap dapat membantu saya,"['nak', 'tau', 'kategori', 'je', 'harap', 'tolong']",statement
+1092, saya tak de tempat nak luah,"['de', 'nak', 'luah']",statement
+1093, mereka tak faham sebab saya tak reti bercerita,"['faham', 'reti', 'cerita']",statement
+1094, kalau rasa merepek maafla saya tak reti bercerita,"['repek', 'maafla', 'reti', 'cerita']",statement
+1095,(lagi satu thanks admin kalau publish) Harap dapat komen yang membantu,"['terima kasih', 'pentadbir', 'terbit', 'harap', 'komen', 'tolong']",statement
+1096,Terima kasih semua,"['terima', 'kasih']",statement
+1097,– miaHantar confession anda di sini -> www,"['-', 'miahantar', 'aku', 'xaaew']",statement
+1098,iiumc,['iiumc'],statement
+1099,com/submit,['hantar'],statement
+1100,"""Tak tau macam mana nak cakap","['tau', 'nak', 'cakap']",statement
+1101, I was diagnosed with major depression disorder,"['i', 'adalah', 'didiagnosis', 'dengan', 'major', 'murung', 'kecelaruan']",statement
+1102, Ni bukan la kali pertama aku berjumpa dengan Dr untuk treat depression aku dan bukan la kali pertama aku try untuk suicide,"['ni', 'la', 'kali', 'jumpa', 'dr', 'layan', 'depression', 'la', 'kali', 'cuba', 'bunuh diri']",symptom
+1103," Dulu, pernah pergi treatment tapi aku stop","['pergi', 'rawat', 'stop']",medical history
+1104, And depression still datang sebab aku tak recover betul2 lagi,"['and', 'murung', 'masih', 'pulih', 'betuleb']",medical history
+1105, This year aku pergi dapatkan bantuan lagi daripada pakar sebab aku tak tahan,"['ini', 'tahun', 'pergi', 'dapat', 'tolong', 'pakar', 'tahan']",medical history
+1106,"  Aku try cederakan diri aku, having suicidal thoughts, tak boleh focus buat kerja, asyik amik MC sakit","['cuba', 'cedera', 'punya', 'suicidal', 'pikir', 'fokus', 'kerja', 'asyik', 'amik', 'mc', 'sakit']",symptom
+1107, Kekadang aku ada terfikir nak luahkan kat kawan aku,"['kadang', 'terfikir', 'nak', 'luah', 'kat', 'kawan']",statement
+1108," Aku bagitau aku depressed, sedih","['bagitau', 'depressed', 'sedih']",symptom
+1109,"  Tapi response dia """"try to think positive"""" , """" cuba ingat Tuhan"""" , """"Aku pon lalui benda macam kau,  lagi teruk drpd kau lagi"""" ","['tindak balas', 'cuba', 'ke', 'berfikir', 'positif', 'cuba', 'tuhan', 'pon', 'lalu', 'benda', 'awak', 'teruk', 'drpd', 'awak']",risk factor
+1110,,['nan'],statement
+1111, Hmm,['hm'],statement
+1112,,['nan'],statement
+1113," Kalau dapat dah dapat respond sebegitu, kau rasa aku tak lagi stress ke","['dah', 'balas', 'awak', 'tekan']",statement
+1114,,['nan'],statement
+1115, Orang yang tak pernah lalui depression tak faham apa itu depression,"['orang utan', 'lalu', 'murung', 'faham', 'murung']",statement
+1116," Mereka fikir kami sedih dan loser, tak ingat Tuhan, lemah Iman","['fikir', 'sedih', 'yang kalah', 'tuhan', 'lemah', 'iman']",symptom
+1117, Haha,['haha'],statement
+1118," Ntah la aku penat dengan dunia ni,  penat hidup","['ntah', 'la', 'penat', 'dunia', 'ni', 'penat', 'hidup']",symptom
+1119," Aku ada je pergi kaunseling, makan antidepressants tapi the negative thoughts still datang","['je', 'pergi', 'kaunseling', 'makan', 'antidepresan', 'yang', 'negatif', 'pikir', 'masih']",symptom
+1120,  Aku still rse nak cederakan diri aku,"['masih', 'rse', 'nak', 'cedera']",symptom
+1121,"  In fact semalam aku try untuk cederakan diri aku,  but amazingly tak rasa sakit","['in', 'fact', 'malam', 'try', 'cedera', 'tetapi', 'amazingly', 'sakit']",symptom
+1122, Aku punya deria sakit macam dah hilang,"['dia', 'sakit', 'dah', 'hilang']",symptom
+1123, Aku dah tak tau nak buat macam mana,"['dah', 'tau', 'nak']",statement
+1124,  Nak suruh seek help from psychiatrist,"['nak', 'suruh', 'cari', 'tolong', 'dari', 'pakar psikiatri']",statement
+1125," Aku dh buat,  ubat aku makan","['dh', 'ubat', 'makan']",statement
+1126," Yet, aku still rasa kosong, useless, helpless, rasa macam aku beban untuk semua orang","['belum', 'still', 'kosong', 'useless', 'tidak daya', 'beban', 'orang utan']",symptom
+1127, Rasa macam aku menyusahkan orang,"['susah', 'orang utan']",symptom
+1128,  Rasa macam semua tak suka aku,['suka'],symptom
+1129, Dan aku pun benci diri aku,['benci'],symptom
+1130, Aku penat,['penat'],symptom
+1131, Penat hidup,"['penat', 'hidup']",symptom
+1132," """,[],statement
+1133,"""Rindu yang paling sakit ialah rindu kepada orang yang dah buang kita","['rindu', 'sakit', 'rindu', 'orang utan', 'dah', 'buang']",risk factor
+1134," Maafkan saya, saya sedang merindui ibu saya","['maaf', 'rindu']",statement
+1135," Doakan ibu saya sihat selalu, doakan dia diberi ketenangan, doakan dia dilembutkan hati untuk memaafkan anak-anaknya, doakan dia dapat menerima sebuah kenyataan (walaupun kenyataan itu sakit untuk diterima)","['doa', 'sihat', 'doa', 'tenang', 'doa', 'lembut', 'hati', 'maaf', 'anakanaknya', 'doa', 'terima', 'benar', 'nyata', 'sakit', 'jawab']",statement
+1136,"Mungkin dalam ramai ramai yang membaca posting ini, boleh mengaminkan doa diatas","['ramai', 'ramai', 'baca', 'epos', 'amin', 'doa', 'atas']",statement
+1137," Sebab kita tak tahu, doa siapa yang Allah angkat dan makbulkan","['doa', 'allah', 'angkat', 'makbul']",statement
+1138,"Thanks""",['terima kasih'],statement
+1139,Hi nak tanya,"['hai', 'nak']",statement
+1140, Ubat untuk depression tu betul2 function ke? Maaf lah bunyi macam noob sikit,"['ubat', 'murung', 'tu', 'betuleb', 'function', 'maaf', 'bunyi', 'noob', 'sikit']",statement
+1141, I rasa I macam makin teruk so I nak tahu betul ke ubat tu boleh rawat and ubah I,"['i', 'i', 'teruk', 'begitu', 'i', 'nak', 'ubat', 'tu', 'rawat', 'dan', 'ubah', 'i']",statement
+1142, Will it make me less sadder? More happier? More motivated? Asking for myself 🙏,"['will', 'ia', 'make', 'me', 'less', 'sadder', 'more', 'lebih bahagia', 'lebih banyak lagi', 'motivated', 'tanya', 'for', 'myself', 'angan']",statement
+1143,"""Firstly, trima kasih admin sudi post saya punya confession ni","['pertama', 'trima', 'kasih', 'admin', 'sudi', 'post', 'confession', 'ni']",statement
+1144,,['nan'],statement
+1145,,['nan'],statement
+1146,I am pretty sure that im not alone menghadapi tekanan study online yg akan dtg terutama yg online KAT RUMAH,"['i', 'am', 'pretty', 'sure', 'that', 'im', 'not', 'alone', 'hadap', 'tekan', 'study', 'online', 'yg', 'dtg', 'yg', 'online', 'kat', 'rumah']",risk factor
+1147," Dengan suasana yg x brp kondusif, bilik sendiri pon xde, line yg kdg2 mcm tau2 jaa ada kelas, time tu jgak dia nak main2 manja menghilang, and etc and yg paling aku takut it could lead to stress n depression sbb skrg aku rasa mcm aku ada simptom2 ke arah tu 🙂","['suasana', 'yg', 'x', 'brp', 'kondusif', 'bilik', 'pon', 'xde', 'line', 'yg', 'kdgh', 'mcm', 'tauh', 'ja', 'kelas', 'time', 'tu', 'jgak', 'nak', 'maina', 'manja', 'hilang', 'and', 'etc', 'and', 'yg', 'takut', 'it', 'could', 'lead', 'to', 'stress', 'n', 'depression', 'sb', 'skrg', 'mcm', 'simptomp', 'arah', 'tu', 'angan']",risk factor
+1148," Jadi aku nak mnta jasa baik korang, kot2 ada yg nak bagi nasihat ke apa utk build up balik semangat2 kami ni asalkan bukan yg mcm KUATKAN IMAN AND SO ON itu aku tahu","['nak', 'mnta', 'jasa', 'korang', 'kot', 'yg', 'nak', 'nasihat', 'utk', 'build', 'up', 'semangatp', 'ni', 'yg', 'mcm', 'kuat', 'iman', 'and', 'so', 'on']",statement
+1149,"Thanks in advance""","['thanks', 'in', 'advance']",statement
+1150,Macam mana nak hilangkan atau kurangkan axiety ye,"['nak', 'hilang', 'kurang', 'axiety', 'ye']",statement
+1151," saya rasa axiety saya makin teruk, dsebabkan oleh masalah belajar, kewangan, toxic friend and broken family","['gelisah', 'teruk', 'dsebabkan', 'bajar', 'wang', 'toxic', 'friend', 'and', 'broken', 'family']",risk factor
+1152, 😣,['angan'],statement
+1153,"""Salam semua",['salam'],statement
+1154,Saya nak luahkan sesuatu,"['nak', 'luah']",statement
+1155, Saya ada master dan saya rasa ia adalah satu sumpahan didalam kegembiraan,"['master', 'sumpah', 'dalam', 'gembira']",statement
+1156," Kenapa?Kalau saya buat kesilapan ditempat kerja, perkara pertama yang boss saya akan cakap “Kau ada master","['kenapakalau', 'silap', 'tempat', 'kerja', 'perkara', 'boss', 'cakap', 'angan kau', 'master']",risk factor
+1157, Sepatutnya boleh fikir! Perkara ini tidak sepatutnya terjadi!”,"['patut', 'fikir', 'perkara', 'patut', 'laku angan']",risk factor
+1158," Kalau ada master ni, automatik akan jadi “TERPANDAI” ke??? Saya akui saya ada buat kesalahan tapi kenapa academic background saya dijadikan sebagai kayu pengukur? Just because i have a master everyone thinks i’m smart and don’t do mistake? Saya cuma manusia biasa yang tidak boleh lari daripada masalah","['master', 'ni', 'automatik', '"" Pandai ""', 'aku', 'salah', 'akademik', 'latar belakang', 'kaedah', 'kayu', 'kukur', 'hanya', 'because', 'i', 'punya', 'a', 'master', 'semua orang', 'thinks', 'saya', 'pintar', 'and', 'jangan', 'do', 'mistake', 'manusia', 'lari']",risk factor
+1159,"Sejujurnya, saya gembira dapat genggam segulung ijazah sarjana","['jujur', 'gembira', 'genggam', 'gulung', 'ijazah', 'sarjana']",statement
+1160, Bukan senang nak dapat ni,"['nang', 'nak', 'ni']",statement
+1161, Tapi tu la,"['tu', 'la']",statement
+1162, Terus ada cop kat dahi “Budak master kot,"['polis', 'kat', 'dahi', '"" Budak', 'tuan', 'kot']",statement
+1163," Kenapa buat silap?!”I’m still stupid, everyone","['silap angan saya', 'masih', 'bodoh', 'semua orang']",symptom
+1164, Banyak benda lagi yang saya perlu pelajari,"['benda', 'ajar']",statement
+1165," Please la jangan buat macam ni""","['tolong', 'la', 'ni']",statement
+1166,"""Apa pendapat korang dengan mak bapak yang suka 'neraka-kan' anak sendiri? Asian parents ni memang ingat dia orang ni tuhan ke nak tentukan siapa pergi jahanam","['dapat', 'awak', 'mak', 'suka', 'neraka', 'anak', 'orang asia', 'ibu bapa', 'ni', 'orang utan', 'ni', 'tuhan', 'nak', 'tentu', 'pergi', 'jahanam']",risk factor
+1167, Serius,['serius'],statement
+1168,,['nan'],statement
+1169,,['nan'],statement
+1170," Saya ni bukan anak yang jenis melawan, kalau parents bising pun saya duduk diam sebab saya tahu saya tak boleh menang dan sebarang hujah yang diberi akan dipatahkan","['ni', 'anak', 'jenis', 'lawan', 'ibu bapa', 'bising', 'duduk', 'diam', 'menang', 'masalah', 'hujah', 'patah']",risk factor
+1171, Lebih-lebih lagi keluarga saya ini yang datang dari golongan educated,"['lebih banyak', 'keluarga', 'golong', 'didik']",statement
+1172, Sejak dulu lagi saya sering cemburu dengan kehidupan seorang tukang sapu kerana saya lebih sanggup hidup secara sederhana seperti mereka walaupun dalam serba kekurangan daripada hidup mewah tapi dalam rumah sendiri pun rasa tidak selamat,"['cemburu', 'hidup', 'tukang', 'sapu', 'rana', 'sanggup', 'hidup', 'sederhana', 'serba', 'kurang', 'hidup', 'wah', 'rumah', 'selamat']",risk factor
+1173,Sejujurnya beberapa kali saya selalu terbayang inginnya saya untuk mengambil nyawa sendiri atau bagaimana jika ia benar-benar berlaku,"['jujur', 'kali', 'bayang', 'ingin', 'mengambil', 'nyawa', 'betulbenar', 'laku']",symptom
+1174, Biar keluarga saya rasa bersalah sepanjang hidup mereka dan rasai kesakitan saya selalu alami yang mereka tidak ketahui,"['berat belah', 'keluarga', 'salah', 'hidup', 'rasa', 'masa', 'alami', 'tahu']",symptom
+1175, Biar mereka rasa bersalah saya masuk ke neraka kerana kesilapan mereka sendiri,"['berat belah', 'salah', 'masuk', 'neraka', 'rana', 'silap']",symptom
+1176, Apabila shaitan berbisik dan neraka memanggil ketika itulah saya akan terjun dari tingkat yang tinggi atau gantung diri saya sendiri dalam kamar agar mereka akan meraung apabila melihat badan saya yang tidak lagi bernyawa,"['shaitan', 'bisik', 'neraka', 'panggil', 'terjun', 'tahap', 'gantung', 'bilik', 'raung', 'badan', 'nyawa']",symptom
+1177,Tapi apa gunanya membunuh diri jika roh kita tidak akan tenang di sana? Cuma nak kata kalau sampai ke tahap seperti ini di manakah silap ibu bapa sehingga menyebabkan tragedi seperti sedemikian,"['guna', 'bunuh', 'roh', 'tenang', 'nak', 'mabuk', 'mana', 'silap', 'bapa', 'sebab', 'tragedi']",statement
+1178, Apabila kesihatan akal tidak dihiraukan kerana apa masyarakat kita peduli sebab ia bukan sesuatu yang jelas dilihat seperti kecederaan tubuh badan,"['kesihatan', 'akal', 'hirau', 'rana', 'masyarakat', 'pedulikan', 'jalan', 'badan', 'badan']",symptom
+1179," Pernah saya terfikir bagaimana keadaan diri kita andaikata diri sendiri hilang siuman, apakah kita akan sedar kita masih lagi waras? Kemungkinan semuanya sudah terlalu lambat kerana pada ketika itu badan tidak dapat lagi dikawal dengan pemikiran","['terfikir', 'andaikata', 'hilang', 'siuman', 'dar', 'waras', 'lambat', 'rana', 'badan', 'kawal', 'pikir']",symptom
+1180," Silap-silap kita sendiri akan berkeliaran tanpa  tujuan pada lewat malam dan terlangkah jatuh ke dalam gaung, maka tiada sesiapa yang dapat mendengari jeritan anda kerana di situlah kita akan mati keseorangan","['silaps', 'liar', 'tuju', 'malam', 'lang', 'jatuh', 'gaung', 'tiada', 'orang', 'dengar', 'jerit', 'rana', 'situ', 'mati', 'orang']",symptom
+1181," Ketika itu tiada jaminan jasad akan ditemui, mungkin ya, mungkin tidak, apabila anda ucapkan selamat tinggal dunia","['tiada', 'jamin', 'jasad', 'masa', 'ya', 'ucap', 'selamat', 'tinggal', 'dunia']",symptom
+1182,"""@Bij Talkin, ""As much as I want to say I feel you, I can't because my parents aren't educated","['bij', 'bicara', 'bagai', 'banyak', 'bagai', 'i', 'mahu', 'ke', 'kata', 'i', 'rasa', 'awak', 'i', 'tidak boleh', 'rana', 'saya', 'ibu bapa', 'aren', 'didik']",statement
+1183, I'm not complaining abt them being spm leavers,"['saya', 'tidak', 'keluh', 'abt', 'mereka', 'jadi', 'spm', 'pelepah']",statement
+1184," They are religious and they like to push me and my siblings to do all kind of ibadah, and worse, we need to let them know, see or hear what we have done","['mereka', 'adalah', 'agama', 'dan', 'mereka', 'suka', 'ke', 'tolak', 'saya', 'dan', 'saya', 'adik adik', 'ke', 'buat', 'semua', 'baik hati', 'daripada', 'ibadah', 'dan', 'lebih teruk lagi', 'kami', 'perlu', 'ke', 'biar', 'mereka', 'tahu', 'lihat', 'atau', 'dengar', 'apa', 'kami', 'punya', 'selesai']",statement
+1185," If we don't comply, we will receive an earful of endless nagging and scolding that the whole village can hear, saying that we don't have enough pahala and will go to hell etc","['sekira', 'kami', 'jangan', 'patuh', 'kami', 'akan', 'terima', 'buah', 'mak telinga', 'daripada', 'tidak sudah', 'membebel', 'dan', 'marah', 'itu', 'yang', 'seluruh', 'kampung', 'boleh', 'dengar', 'kata', 'itu', 'kami', 'jangan', 'punya', 'cukup', 'pahala', 'dan', 'akan', 'pergi', 'ke', 'neraka', 'dan lain - lain']",risk factor
+1186, Things get worse during ramadhan,"['perkara', 'dapat', 'lebih teruk lagi', 'masa', 'ramadhan']",statement
+1187, I've also got financial issue and family issue and,"['ive', 'juga', 'dapat', 'wang', 'isu', 'dan', 'keluarga', 'isu', 'dan']",risk factor
+1188," So yeah, I guess maybe I can feel you abt the part having parents with such temperament","['begitu', 'Yeah', 'i', 'neka', 'mungkin', 'i', 'boleh', 'rasa', 'awak', 'abt', 'yang', 'bahagian', 'punya', 'ibu bapa', 'dengan', 'begitu', 'perangai']",risk factor
+1189," Suicide is not a solution, plus it's hurt, I've tried once when I was 12, not because of my parents or family issue tho","['bunuh diri', 'adalah', 'tidak', 'a', 'selesai', 'tambah', 'itu', 'sakit hati', 'ive', 'mencuba', 'sekali', 'bila', 'i', 'adalah', 'angan', 'tidak', 'rana', 'daripada', 'saya', 'ibu bapa', 'atau', 'keluarga', 'issue', 'ika']",symptom
+1190," I hope you are doing ok""","['i', 'hope', 'you', 'adalah', 'laku', 'okey']",statement
+1191,"Hai semua, aku rasa dah tak tahan dengan hidup aku","['hai', 'dah', 'tahan', 'hidup']",symptom
+1192," Serabut, hari-hari nangis","['serabut', 'harih', 'nang']",symptom
+1193, Aku dah tak boleh rasa bahagia,"['dah', 'bahagia']",symptom
+1194," Aku doa semoga Tuhan ambil aku cepat-cepat, bukannya ada orang yang peduli pasal aku","['doa', 'moga', 'tuhan', 'ambil', 'cepatc', 'orang utan', 'pedulikan', 'pasal']",symptom
+1195," Aku penat dengan hidup ni, penat dengan diri sendiri","['penat', 'hidup', 'ni', 'penat']",symptom
+1196,,['nan'],statement
+1197,Gais mcm mana nak buat klau kita bnci adik kita sndri? Serius ak mnyampah ngn adik aku,"['gais', 'mcm', 'nak', 'klau', 'bnci', 'adik', 'sndri', 'serius', 'ak', 'mnyampah', 'ngn', 'adik']",symptom
+1198, Even she does not respect me,"['sekata', 'dia', 'ada', 'tidak', 'hormat', 'me']",risk factor
+1199, And lgi aku bertambah bnci,"['dan', 'lgi', 'tambah', 'bnci']",statement
+1200, Mak aku ada je justification dia tuk ap adik aku buat,"['mak', 'je', 'justification', 'tuk', 'ap', 'adik']",risk factor
+1201, Walaupon bnda yg aku buat sama dgn ap yg dia buat,"['walaupon', 'bnda', 'yg', 'dgn', 'ap', 'yg']",statement
+1202,aku risau betul kalau present kena guna zoom ke teams ke,"['risau', 'present', 'kena', 'zoom', 'teams']",statement
+1203, sbb laptop aku masalah,"['sb', 'laptop']",statement
+1204," guna henfon, tak nampak slide","['henfon', 'nampak', 'slide']",statement
+1205, belum ditambah line tak clear,"['tambah', 'line', 'clear']",statement
+1206, pkp ni banyak benor dugaan akuu,"['pkp', 'ni', 'benor', 'duga', 'aku']",statement
+1207,"Aku ada seorang kawan, bestfriend sejak first masuk um lagi","['kawan', 'bestfriend', 'first', 'masuk', 'um']",statement
+1208," Dia ni bukan calang2 student, aktif dalam program2 di kolej, universiti dan fac","['ni', 'calangeb', 'student', 'aktif', 'programp', 'kolej', 'universiti', 'fac']",statement
+1209, Akademik pun selalu cemerlang setiap sem (selalu dekan),"['akademik', 'cemerlang', 'sem', 'dekan']",statement
+1210, Tapi malangnya dia tak dapat merasa title first class degree dekat transkrip dia,"['malang', 'title', 'first', 'class', 'degree', 'transkrip']",risk factor
+1211," Even worst, disebabkan perkara tu dia dikecam dan dihina oleh pelajar2 lain (mostly girls) daripada jabatan yg sama dengan dia","['even', 'worst', 'sebab', 'perkara', 'tu', 'kecam', 'dihina', 'pelajarakan', 'mostly', 'girls', 'jabat', 'yg']",risk factor
+1212," Sejak dari tu, sikap dia mula berubah, daripada seseorang yg periang kepada seseorang yang pendiam","['tu', 'sikap', 'rubah', 'yg', 'periang', 'diam']",symptom
+1213, Muka dia pun dah tak seri macam dulu lagi,"['muka', 'dah', 'seri']",symptom
+1214, Sampai sekarang dia hidup dalam kemurungan,"['hidup', 'murung']",symptom
+1215," Sudah bagi nasihat, tapi tak berhasil jugak","['nasihat', 'hasil', 'jugak']",symptom
+1216, Apa cadangan korang untuk handle masalah kawan aku ni,"['cadang', 'korang', 'handle', 'kawan', 'ni']",statement
+1217, Harap dapat membantu,"['harap', 'bantu']",statement
+1218,,['nan'],statement
+1219,Hai semua,['hai'],statement
+1220, Aku ada nak luah satu benda,"['nak', 'luah', 'benda']",statement
+1221, Aku penat sangat ada parent toxic,"['penat', 'parent', 'toxic']",symptom
+1222, Bukannya toxic sangat tp lebih kepada berat sebelah,"['toxic', 'tp', 'berat', 'belah']",risk factor
+1223, Semua benda aku buat semua tak kena di mata dia,"['benda', 'kena', 'mata']",risk factor
+1224," Kalau adik beradik yang lain, takde pula dia marah, nak benci, nak banding2kan","['adik', 'adik', 'takde', 'marah', 'nak', 'benci', 'nak', 'bandingakan']",risk factor
+1225, Aku ni boleh dikategorikan anak yang paling pandai dalam family,"['ni', 'kategori', 'anak', 'panda', 'family']",statement
+1226, Aku juga boleh dikatakan berjaya dalam semua peperiksaan,"['jaya', 'peperiksaan']",statement
+1227, Tapi mak aku ni tak habis2 nak banding2kan aku dengan kawan2 aku dan adik beradik yang lain,"['mak', 'ni', 'habisa', 'nak', 'bandingakan', 'kawanya', 'adik', 'adik']",risk factor
+1228," Tak boleh nak dibandingkan dari segi result, dia bandingkan dari segi benda lain pula","['nak', 'banding', 'segi', 'result', 'banding', 'segi', 'benda']",risk factor
+1229, Aku boleh buktikan pada dia yang aku mampu berjaya tapi aku tak mampu nak dapatkan perhatian dia dan kasih sayang dia,"['bukti', 'jaya', 'nak', 'dapat', 'perhatiian', 'kasih', 'sayang']",risk factor
+1230," Kadang2 malam2 aku menangis sendirian mengenangkan susahnya aku ni nak dapatkan kasih sayang seorang ibu, yang menjadi kebanggaan seorang ibu","['kadangeb', 'malam l', 'menang', 'kenang', 'susah', 'ni', 'nak', 'dapat', 'kasih', 'sayang', 'bangga']",symptom
+1231," Sejak ayah aku meninggal, boleh dikatakan hidup aku tak sebahagia dulu","['ayah', 'tinggal', 'hidup', 'sebahagia']",risk factor
+1232, Ayah selalu appreciate apa yang aku buat dan apa yang aku dapat,"['ayah', 'appreciate']",statement
+1233," Aku selalu jealous tengok kawan2 aku post gambar dengan family, ibu, ayah diorang","['jealous', 'tengok', 'kawanya', 'jawat', 'gambar', 'family', 'ayah', 'orang']",statement
+1234, Rasa cemburu sangat sebab aku tak boleh nak dapat macam tu,"['cemburu', 'nak', 'tu']",statement
+1235, Doakan aku terus kuat untuk hadapi semua ni pada masa akan datang,"['doa', 'kuat', 'hadap', 'ni']",statement
+1236,,['nan'],statement
