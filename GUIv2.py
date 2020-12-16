@@ -242,7 +242,7 @@ class resultWindow(QWidget):
     def export2csv(self):
         df = pd.DataFrame(self.result, columns=["Text","Label"])
         df.to_csv("output.csv")
-        QMessageBox.information(self, "Export to CSV", "Success")
+        QMessageBox.information(self, "Success", "The result has been exported ")
 
     def exitEvent(self):
         self.exitWin = mainWindow()

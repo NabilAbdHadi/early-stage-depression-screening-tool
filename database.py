@@ -73,8 +73,8 @@ def main():
     """ create the database and table """
     #db.execute("CREATE DATABASE FYP_database")
     #db.execute("SHOW DATABASES")
-    #db.execute("CREATE TABLE um_confession(ID VARCHAR(255) PRIMARY KEY, text LONGTEXT)")
-    #db.execute("SHOW TABLES")
+    db.execute("CREATE TABLE Data_Training(raw_text LONGTEXT PRIMARY KEY, token_text LONGTEXT, label LONGTEXT)")
+    db.execute("SHOW TABLES")
 
     """ commands for insert, update, and delete record """
     #db.execute("CREATE TABLE "+table+"(ID VARCHAR(255) PRIMARY KEY, text LONGTEXT)")
@@ -88,7 +88,7 @@ def main():
     extract all text file and save into database
     """
     #pattern = re.compile(r'[a-zA-Z0-9\,\.\(\)\s\?\!]+')
-
+    """
     for filename in os.listdir("E:/StudyAtUM/Sem 9/FYP 2/"+folder):
         content = open(os.path.join('E:/StudyAtUM/Sem 9/FYP 2/'+folder, filename), 'r', encoding='utf-8')
         filename = filename.split(".")
@@ -97,7 +97,8 @@ def main():
         record = (id, text)
     
         db.insert(table, record)
-    
+    """
+
 
     
 if __name__ == '__main__':

@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import GridSearchCV
 from ast import literal_eval
-import pickle
+import pickle, json
 
 
 class text_classification:
@@ -18,9 +18,11 @@ class text_classification:
         #self.SVM_model = svm.SVC(kernel='rbf', C=7, gamma=0.4)
 
         """ import dataset """
-        data = pd.read_csv('Data Training.csv')
-        self.df = pd.DataFrame(data, columns=['token text', 'category'])
+        with open('Data Training.json', encoding='utf8', mode='r') as json_file:
+            data = json.load(json_file)
 
+        self.tokens = [data[i]['token text'] for i in data]
+        self.label = [data[i]['category'] for i in data]
         """ change label from string to numerical """
         self.category = {
             'non-deppressive' : 0,
@@ -44,7 +46,7 @@ class text_classification:
         with open('feature.pickle', 'rb') as handle:
             b = pickle.load(handle)
         
-        print(list(b.keys()))
+        #print(list(b.keys()))
         new_input = []
         new_input.append(list(b.keys()))
         for text in textArray:
@@ -60,16 +62,15 @@ class text_classification:
 
 
     def load_data(self):
-        tokens = [literal_eval(token) for token in self.df['token text'].values]
-        #tokens = self.df['train text'].values      
-        x = self.feature_extraction(tokens)
+            
+        x = self.feature_extraction(self.tokens)
         
         y = []
-        for i in self.df['category']: 
+        for i in self.label: 
             j = self.category[str(i)]
             y.append(j)
         #return 
-        return train_test_split(x, y, test_size=0.2)
+        return train_test_split(x, y, test_size=0.1)
 
 
     def SVM(self):

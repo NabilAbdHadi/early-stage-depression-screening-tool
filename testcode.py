@@ -1,2 +1,5 @@
-a = [(1, u'abc'), (2, u'def')]
-print([i[0] for i in a])
+import json 
+
+with open('Data Training.json', encoding='utf8', mode='r') as json_file:
+    data = json.load(json_file)
+    token = data['token text']

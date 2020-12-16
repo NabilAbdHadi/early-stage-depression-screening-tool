@@ -1,4 +1,5 @@
 #import malaya as my
+import json
 from malaya import spell, preprocessing, normalize, stem, pos
 import string
 import re
@@ -126,6 +127,10 @@ def export2CSV(sentences, csvFile = "raw_sentences.csv", column=['Text']):
     df = pd.DataFrame(sentences,columns=column)
     df.to_csv(csvFile)
 
+def export2JSON(text_dict):
+    with open('Data Training.json', encoding='utf8', mode='w') as json_file:
+        json.dump(text_dict,json_file)
+
 def access_database(folders):
     all_sentences = []
     for f in folders:
@@ -146,6 +151,25 @@ def main():
     
     """ text preprocessing step  """
     raw_sentences = pd.read_csv("Data Training.csv", usecols=["raw text", "category"])
+    clean_sentences = {}
+    for s in raw_sentences.values:
+        clean_sentences[s[0]] = {} 
+        clean_sentences[s[0]]['token text'] = my_ta.data_preparation(s[0]) 
+        clean_sentences[s[0]]['category'] = s[1]
+        #print(tuple(zip(c,p)))
+        
+    print(clean_sentences[:10])
+    
+
+    """ export the csv """
+    #export2CSV(clean_sentences,csvFile="preprocessed.csv",column=['raw text','token text', 'category'])
+
+    """ export the json """
+    export2JSON(clean_sentences)
+    
+def perprocessNewData(newData):
+    """ text preprocessing step  """
+    raw_sentences = pd.read_csv("New Data/"+newData+".csv", usecols=["Text", "Label"])
     clean_sentences = []
     for s in raw_sentences.values:
         c = my_ta.data_preparation(s[0]) 
@@ -155,9 +179,7 @@ def main():
     
 
     """ export the csv """
-    #export2CSV(clean_sentences,csvFile="preprocessed.csv",column=['raw text','token text', 'category'])
-    
-
+    export2CSV(clean_sentences,csvFile="preprocess_"+newData+".csv",column=['raw text','token text', 'category'])
 
     
 
