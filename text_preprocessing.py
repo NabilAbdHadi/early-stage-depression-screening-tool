@@ -152,15 +152,15 @@ def main():
     """ text preprocessing step  """
     raw_sentences = pd.read_csv("Data Training.csv", usecols=["raw text", "category"])
     clean_sentences = {}
+    index = 0
     for s in raw_sentences.values:
-        clean_sentences[s[0]] = {} 
-        clean_sentences[s[0]]['token text'] = my_ta.data_preparation(s[0]) 
-        clean_sentences[s[0]]['category'] = s[1]
+        clean_sentences[index] = {}
+        clean_sentences[index]['raw text'] = s[0] 
+        clean_sentences[index]['token text'] = my_ta.data_preparation(s[0]) 
+        clean_sentences[index]['category'] = s[1]
+        index +=1
         #print(tuple(zip(c,p)))
         
-    print(clean_sentences[:10])
-    
-
     """ export the csv """
     #export2CSV(clean_sentences,csvFile="preprocessed.csv",column=['raw text','token text', 'category'])
 
