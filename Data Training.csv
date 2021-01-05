@@ -409,9 +409,9 @@ Seingat aku ini kali pertama datang perasaan yang sama macam dulu sejak aku kahw
 " Lepas subuh, aku tidur balik","['lepas', 'subuh', 'aku', 'tidur', 'balik']",symptom
  Takde semangat langsung nak bangun,"['tidak', 'ada', 'semangat', 'langsung', 'nak', 'bangun']",symptom
 " Oh, aku kerja ikut suka aku","['oh', 'aku', 'kerja', 'ikut', 'suka', 'aku']",symptom
- Kerja bebas,"['kerja', 'bebas']",symptom
+ Kerja bebas,"['kerja', 'bebas']",non-deppressive
 Aku rasa sedih tak tentu pasal,"['aku', 'rasa', 'sedih', 'tidak', 'tentu', 'pasal']",symptom
- Takde sebab,"['tidak', 'ada', 'sebab']",symptom
+ Takde sebab,"['tidak', 'ada', 'sebab']",non-deppressive
  Rasa useless,"['rasa', 'tidak', 'guna']",symptom
  Rasa macam dulu la masa belajar,"['rasa', 'macam', 'dahulu', 'masa', 'bajar']",non-deppressive
  Masa bujang,"['masa', 'bujang']",non-deppressive
@@ -657,8 +657,8 @@ Kisah saya bermula sewaktu saya sekolah rendah,"['kisah', 'saya', 'mula', 'waktu
 " Setelah saya menjelaskan nama sekolah lama dan berbuat baik, ada yang sudi berkawan dengan saya","['sete', 'saya', 'jelas', 'nama', 'seko', 'lama', 'dan', 'buat', 'baik', 'ada', 'yang', 'sudi', 'berka', 'deng', 'saya']",non-deppressive
 " Namun begitu, saya tidak meletakkan sepenuh kepercayaan terhadap mereka","['namun', 'begitu', 'saya', 'tidak', 'letak', 'sepenuh', 'percaya', 'hadap', 'mereka']",symptom
 " Malah, pada waktu itu saya tidak mempercayai sesiapa kecuali diri saya","['ma', 'pada', 'waktu', 'itu', 'saya', 'tidak', 'percaya', 'siapa', 'kecuali', 'diri', 'saya']",symptom
-"Tamat persekolahan, saya banyak menghabiskan masa di sosial media","['tamat', 'persekolah', 'saya', 'banyak', 'habis', 'masa', 'di', 'sosial', 'media']",symptom
- Medium ini menjadi tempat saya meluahkan perasaan malah rakan maya saya banyak membantu saya,"['sederhana', 'ini', 'jadi', 'tempat', 'saya', 'luah', 'asa', 'ma', 'rak', 'maya', 'saya', 'banyak', 'bantu', 'saya']",symptom
+"Tamat persekolahan, saya banyak menghabiskan masa di sosial media","['tamat', 'persekolah', 'saya', 'banyak', 'habis', 'masa', 'di', 'sosial', 'media']",non-deppressive
+ Medium ini menjadi tempat saya meluahkan perasaan malah rakan maya saya banyak membantu saya,"['sederhana', 'ini', 'jadi', 'tempat', 'saya', 'luah', 'asa', 'ma', 'rak', 'maya', 'saya', 'banyak', 'bantu', 'saya']",non-deppressive
  Saya meneruskan pengajian ke sebuah universiti dan di sana saya mula mempercayai rakan sekelas saya,"['saya', 'terus', 'aji', 'ke', 'buah', 'universiti', 'dan', 'di', 'sana', 'saya', 'mula', 'percaya', 'rak', 'kelas', 'saya']",non-deppressive
 " Ibarat kaca yang telah dicantum berderai semula, begitu juga kepercayaan saya","['ibarat', 'kaca', 'yang', 'te', 'cantum', 'derai', 'semu', 'begitu', 'juga', 'percaya', 'saya']",non-deppressive
  Saya ditinggalkan oleh rakan sekelas saya malah dipulau secara tidak langsung oleh mereka,"['saya', 'tinggal', 'oleh', 'rak', 'kelas', 'saya', 'ma', 'pulau', 'cara', 'tidak', 'langsung', 'oleh', 'mereka']",risk factor
@@ -1143,7 +1143,7 @@ Sejujurnya beberapa kali saya selalu terbayang inginnya saya untuk mengambil nya
  Biar mereka rasa bersalah saya masuk ke neraka kerana kesilapan mereka sendiri,"['biar', 'mereka', 'rasa', 'bersa', 'saya', 'masuk', 'ke', 'neraka', 'rana', 'silap', 'mereka', 'sendiri']",symptom
  Apabila shaitan berbisik dan neraka memanggil ketika itulah saya akan terjun dari tingkat yang tinggi atau gantung diri saya sendiri dalam kamar agar mereka akan meraung apabila melihat badan saya yang tidak lagi bernyawa,"['apabila', 'shaitan', 'bisik', 'dan', 'neraka', 'panggil', 'ketika', 'itu', 'saya', 'akan', 'terjun', 'dari', 'tingkat', 'yang', 'tinggi', 'atau', 'gantung', 'diri', 'saya', 'sendiri', 'dalam', 'kamar', 'agar', 'mereka', 'akan', 'raung', 'apabila', 'lihat', 'badan', 'saya', 'yang', 'tidak', 'lagi', 'nyawa']",symptom
 Tapi apa gunanya membunuh diri jika roh kita tidak akan tenang di sana? Cuma nak kata kalau sampai ke tahap seperti ini di manakah silap ibu bapa sehingga menyebabkan tragedi seperti sedemikian,"['tetapi', 'apa', 'guna', 'bunuh', 'diri', 'jika', 'roh', 'k', 'tidak', 'akan', 'tenang', 'di', 'sana', 'cuma', 'nak', 'kata', 'kalau', 'sampai', 'ke', 'tahap', 'seperti', 'ini', 'di', 'mana', 'silap', 'ibu', 'bapa', 'sehingga', 'sebab', 'tragedi', 'seperti', 'demik']",non-deppressive
- Apabila kesihatan akal tidak dihiraukan kerana apa masyarakat kita peduli sebab ia bukan sesuatu yang jelas dilihat seperti kecederaan tubuh badan,"['apabila', 'kesihat', 'akal', 'tidak', 'dihira', 'rana', 'apa', 'masyarakat', 'k', 'peduli', 'sebab', 'ia', 'bu', 'sesuat', 'yang', 'jelas', 'lihat', 'seperti', 'kecedera', 'tubuh', 'badan']",symptom
+ Apabila kesihatan akal tidak dihiraukan kerana apa masyarakat kita peduli sebab ia bukan sesuatu yang jelas dilihat seperti kecederaan tubuh badan,"['apabila', 'kesihat', 'akal', 'tidak', 'dihira', 'rana', 'apa', 'masyarakat', 'k', 'peduli', 'sebab', 'ia', 'bu', 'sesuat', 'yang', 'jelas', 'lihat', 'seperti', 'kecedera', 'tubuh', 'badan']",non-deppressive
 " Pernah saya terfikir bagaimana keadaan diri kita andaikata diri sendiri hilang siuman, apakah kita akan sedar kita masih lagi waras? Kemungkinan semuanya sudah terlalu lambat kerana pada ketika itu badan tidak dapat lagi dikawal dengan pemikiran","['pernah', 'saya', 'terfikir', 'bagaimana', 'ada', 'diri', 'k', 'andaikata', 'diri', 'sendiri', 'hilang', 'sium', 'apa', 'k', 'akan', 'dar', 'k', 'masih', 'lagi', 'waras', 'mungkin', 'semua', 'sudah', 'terlalu', 'lambat', 'rana', 'pada', 'ketika', 'itu', 'badan', 'tidak', 'dapat', 'lagi', 'kawal', 'deng', 'pikir']",symptom
 " Silap-silap kita sendiri akan berkeliaran tanpa  tujuan pada lewat malam dan terlangkah jatuh ke dalam gaung, maka tiada sesiapa yang dapat mendengari jeritan anda kerana di situlah kita akan mati keseorangan","['silap', 'silap', 'k', 'sendiri', 'akan', 'liar', 'tanpa', 'tuju', 'pada', 'lewat', 'malam', 'dan', 'terlang', 'jatuh', 'ke', 'dalam', 'gaung', 'maka', 'tiada', 'siapa', 'yang', 'dapat', 'dengar', 'jerit', 'anda', 'rana', 'di', 'situ', 'k', 'akan', 'mati', 'orang']",symptom
 " Ketika itu tiada jaminan jasad akan ditemui, mungkin ya, mungkin tidak, apabila anda ucapkan selamat tinggal dunia","['ketika', 'itu', 'tiada', 'jamin', 'jasad', 'akan', 'temu', 'mungkin', 'ya', 'mungkin', 'tidak', 'apabila', 'anda', 'ucap', 'selamat', 'tinggal', 'dunia']",symptom
@@ -1179,7 +1179,7 @@ aku risau betul kalau present kena guna zoom ke teams ke,"['aku', 'risau', 'betu
 " Sejak dari tu, sikap dia mula berubah, daripada seseorang yg periang kepada seseorang yang pendiam","['sejak', 'dari', 'itu', 'sikap', 'dia', 'mula', 'rubah', 'daripada', 'orang', 'yang', 'perang', 'kepada', 'orang', 'yang', 'diam']",symptom
  Muka dia pun dah tak seri macam dulu lagi,"['muka', 'dia', 'pun', 'dah', 'tidak', 'seri', 'macam', 'dahulu', 'lagi']",symptom
  Sampai sekarang dia hidup dalam kemurungan,"['sampai', 'sekarang', 'dia', 'hidup', 'dalam', 'murung']",symptom
-" Sudah bagi nasihat, tapi tak berhasil jugak","['sudah', 'bagi', 'nasihat', 'tetapi', 'tidak', 'hasil', 'juga']",symptom
+" Sudah bagi nasihat, tapi tak berhasil jugak","['sudah', 'bagi', 'nasihat', 'tetapi', 'tidak', 'hasil', 'juga']",non-deppressive
  Apa cadangan korang untuk handle masalah kawan aku ni,"['apa', 'cadang', 'kamu', 'semua', 'untuk', 'kawal', 'masa', 'ka', 'aku', 'ini']",non-deppressive
  Harap dapat membantu,"['harap', 'dapat', 'bantu']",non-deppressive
 Hai semua,"['hai', 'semua']",non-deppressive

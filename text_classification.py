@@ -1,28 +1,33 @@
 
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import GridSearchCV
-from ast import literal_eval
-import pickle, json
+from database import FYP_MySQL 
+import pickle
+from text_preprocessing import TEXT_PREPROCESSING
 
-
-class text_classification:
+class TEXT_CLASSIFICATION:
+    """
+    this classification is used:
+        - to predict single classification output either non-depressive, risk factor or symptom
+        - using the tdidf feature extraction
+    """
     def __init__(self):
-        """ initialize the sklearn variable """
+        """ initialize the sklearn function """
         self.count_vect = CountVectorizer(analyzer="word", ngram_range=(1, 1))
         self.tfidf_transformer = TfidfTransformer()
         self.SVM_model = SVC(kernel='rbf', C=4, gamma=0.5)
         #self.SVM_model = svm.SVC(kernel='rbf', C=7, gamma=0.4)
 
-        """ import dataset """
-        with open('Data Training.json', encoding='utf8', mode='r') as json_file:
-            data = json.load(json_file)
+        """ import database """
+        data = FYP_MySQL() 
 
-        self.tokens = [data[i]['token text'] for i in data]
-        self.label = [data[i]['category'] for i in data]
+        self.tokens = [i[2].split(';') for i in data.fetchALL('data_training')]
+        self.label = [i[3] for i in data.fetchALL('data_training')]
         """ change label from string to numerical """
         self.category = {
             'non-deppressive' : 0,
@@ -30,8 +35,6 @@ class text_classification:
             'risk factor' : 2,
             'medical history' : 3,}
 
-            
-        
     def feature_extraction(self, textArray):
         
         textList = [" ".join(text) for text in textArray]
@@ -40,7 +43,6 @@ class text_classification:
             pickle.dump(self.count_vect.vocabulary_, handle, protocol=pickle.HIGHEST_PROTOCOL)
         #print(type(wordCount))
         return self.tfidf_transformer.fit_transform(wordCount)
-
 
     def input_feature_extraction(self, textArray):
         with open('feature.pickle', 'rb') as handle:
@@ -60,7 +62,6 @@ class text_classification:
         wordCount = self.count_vect.fit_transform(textList)
         return self.tfidf_transformer.fit_transform(wordCount[1:])
 
-
     def load_data(self):
             
         x = self.feature_extraction(self.tokens)
@@ -72,17 +73,14 @@ class text_classification:
         #return 
         return train_test_split(x, y, test_size=0.1)
 
-
     def SVM(self):
         x_train, x_test, y_train, y_test = self.load_data()
         self.SVM_model.fit(x_train,y_train)
         y_pred = self.SVM_model.predict(x_test)
         accuracy = accuracy_score(y_true=y_test, y_pred=y_pred)
-        if accuracy > 0.8:
+        if accuracy > 0.85:
             pickle.dump(self.SVM_model, open("Depression_screening.model", "wb"))
-        #return "Accuracy: {:.2f}%".format(accuracy * 100)
         return accuracy
-
 
     def hyperparameter_tuning(self):
         self.SVM()
@@ -96,15 +94,271 @@ class text_classification:
         print(grid.best_params_)
         print(grid.best_estimator_) 
         grid_predictions = grid.predict(x_test) 
-  
-        # print classification report 
         print(classification_report(y_test, grid_predictions)) 
 
 
-if __name__ == "__main__":
-    tc = text_classification()
+class RISK_FACTOR_BoW:
+    """
+    this classification :
+        - 
+    """
+    def __init__(self):
+        #text = [""" Ya, itu yang aku hadapi sejak di zaman sekolah rendahâ€¦Ibu ku 
+             #       seorang yang garang, kalau di katanya A, A lah jadinya""",
+              #      " Di depan matanya aku kena perfect tak boleh buat silap",
+              #      "Hari ke-8 rasa tak sedap hati terus ke hospital dan jaundice mencapai 17 ",
+              #      "Dia sering memarahi anak2 terutama anak no"]
+        self.data = FYP_MySQL().fetchALL('data_training')
+        self.matrix = CountVectorizer()
+       
+    def load_data(self):
+        return [i[2] for i in self.data if i[3] == "risk factor"]
+
+    def feature_extraction(self, text):
+        """ initialize the sklearn function """
+        self.matrix.fit_transform(text)
+        return sorted(self.matrix.vocabulary_.items(), key=lambda x: x[1], reverse=True)
+    
+    def bag_of_word(self):
+        """
+        -   
+        """
+        " load data "
+        d = self.load_data()
+        " extracting the sorted feature in descending order "
+        BoW = dict(self.feature_extraction(d))
+        " modift bag of word value to zeros "
+        return dict.fromkeys(BoW, 0)
+    
+    def getBag_of_word(self, text):
+        """
+        docstring
+        """
+        BoW = self.bag_of_word()
+        
+        " step 1 : check how many word from text for each factor "
+        for word in text.split(" "):
+            if word in BoW.keys():
+                BoW[word] +=1
+            
+
+        """ 
+        step 2 : display the list of words that appear in text
+        """
+        return [i for i,j in BoW.items() if j > 0]
+    
+
+class SYMPTOM_MODEL:
+    """
+    this classification is used:
+        - to analyse the user'text from symptom table 
+        - each sentences can indicates many symptom but each sentence will have main symptom
+        - to produce multiple output result
+        - to predict all possible symptom based on the term that been used
+        - return the probabilities of all symptom
+        - return bag of word of 
+    """
+    def __init__(self):
+        """
+        initiallize all necessary modules and classes 
+        """
+        self.tp = TEXT_PREPROCESSING()
+        self.data = FYP_MySQL().fetchALL('symptom')
+        self.matrix = CountVectorizer()            
+
+    def load_data(self):
+        """
+        - load data from mysql
+        - symptom code name :
+            dep : depressed mood 
+            int : loss of interest/pleasure
+            wac : change in weight/appetite
+            cis : change in sleep - insomnia/hypersomnia
+            par : psychomotor agitation/retardation
+            fat : fatigue or loass of energy
+            gui : feeling guilt/worthless
+            con : concentration problem
+            sui : suicidal thought
+        """
+        symptom = {}
+
+        symptom['dep'] = [(i[2],i[3]) for i in self.data if i[3] > 0]
+        symptom['int'] = [(i[2],i[4]) for i in self.data if i[4] > 0]
+        symptom['wac'] = [(i[2],i[5]) for i in self.data if i[5] > 0]
+        symptom['cis'] = [(i[2],i[6]) for i in self.data if i[6] > 0]
+        symptom['par'] = [(i[2],i[7]) for i in self.data if i[7] > 0]
+        symptom['fat'] = [(i[2],i[8]) for i in self.data if i[8] > 0]
+        symptom['gui'] = [(i[2],i[9]) for i in self.data if i[9] > 0]
+        symptom['con'] = [(i[2],i[10]) for i in self.data if i[10] > 0]
+        symptom['sui'] = [(i[2],i[11]) for i in self.data if i[11] > 0]
+        return symptom
+
+    def feature_extraction(self, text):
+        """ 
+        - extracting the feature
+        - return bag of word and the word frequency that been sorted descending order
+        """
+        self.matrix.fit_transform(text)
+        return sorted(self.matrix.vocabulary_.items(), key=lambda x: x[1], reverse=True)
+    
+    def bag_of_word(self):
+        """
+        return 2 dict : bag-of-word of all symptom and main symptom
+
+        - the total of word that in each of symptom is 507, 131, 18, 76, 385, 138, 340, 171, and 193 repectively
+        - the total of word that in each of main symptom is 249, 63, 18, 59, 222, 52, 187, 68, and 157 repectively
+        - the limit for the keyword is 70 for all symptom and 50 for main symptom but wac does not applied
+        """
+        " load data "
+        symptom = self.load_data()
+        
+        " extracting the sorted feature in descending order "
+        BoW_symptom = {}
+        for i,j in symptom.items():
+            temp = [k[0] for k in j]
+            if i == 'wac':
+                BoW_symptom[i] = dict(self.feature_extraction(temp))
+                BoW_symptom[i] = dict.fromkeys(BoW_symptom[i],0)
+            else:
+                BoW_symptom[i] = dict(self.feature_extraction(temp)[:70])
+                BoW_symptom[i] = dict.fromkeys(BoW_symptom[i],0)
+
+        BoW_symptom_main = {}
+        for i,j in symptom.items():
+            temp = [k[0] for k in j if k[1] == 2]
+            if i == 'wac':
+                BoW_symptom_main[i] = dict(self.feature_extraction(temp))
+                BoW_symptom_main[i] = dict.fromkeys(BoW_symptom_main[i], 0)
+            else:
+                BoW_symptom_main[i] = dict(self.feature_extraction(temp)[:50])
+                BoW_symptom_main[i] = dict.fromkeys(BoW_symptom_main[i], 0)
+        return BoW_symptom, BoW_symptom_main
+    
+    def classification(self, textList):
+        """
+        input   : list of preprocessed token
+        return the dictionary of Bag of word and its word count
+        """
+
+        all_symptom,main_symptom = self.bag_of_word()
+        
+        for token in textList:
+            for symptom_BoW in all_symptom.values():
+                if token in symptom_BoW.keys():
+                    symptom_BoW[token] +=1
+
+        for token in textList:
+            for symptom_BoW in main_symptom.values():
+                if token in symptom_BoW.keys():
+                    symptom_BoW[token] +=1
+        
+        return all_symptom,main_symptom
+
+    def get_symptom_probabilities(self,textList):
+        """
+        input   : list of preprocessed token
+        return the probabilities of the each symptom for all symptom and main symptom
+        """
+        a,b = self.classification(textList)
+
+        all_sym_result = [(i, float("{:.4f}".format(sum(j.values())/len(textList)))) for i,j in a.items()] 
+        main_sym_result = [(i, float("{:.4f}".format(sum(j.values())/len(textList)))) for i,j in b.items()] 
+
+        return all_sym_result, main_sym_result
+    
+    def get_symptom(self, textList):
+        """
+        input : list of preprocessed token
+        return all symptom code and main symptom code
+        """
+        a,b = self.get_symptom_probabilities(textList)
+
+        all_sym = [i[0] for i in a if i[1]>0]
+        prob = [i[1] for i in b ]
+        main_sym = [i[0] for i in b if i[1] == max(prob)]
+
+        return all_sym, main_sym
+    
+    def get_symptom_BoW(self, textList):
+        """
+        input : list of preprocessed token
+        return warning terms or words
+        """
+        all_BoW_set = set()
+        a,_ = self.get_symptom(textList)
+        c,_ = self.classification(textList)
+        [[all_BoW_set.add(k) for k,l in j.items() if l > 0] for i,j in c.items() if i in a]
+        return all_BoW_set
+    
+    def get_max_probabilities(self, preprocessList):
+        """
+        input: list of preprocessed token in 2-D
+        return max probability of all symptom
+
+         -  this function used to find the maximum value of 
+            each symptoms probabilities output from every sentences
+         -  the function is the extended of the get_symptom_probabilities function
+        """
+        all_prob = []
+        for tokens in preprocessList:
+            a,b = self.get_symptom_probabilities(tokens)
+            a = [i[1] for i in a]
+            b = [i[1] for i in b]
+            all_prob.append(a)
+            all_prob.append(b)
+            
+        prob = [0.0]*9
+        for i in range(len(all_prob)):
+            prob[0] = max(all_prob[i][0],prob[0])
+            prob[1] = max(all_prob[i][1],prob[1])
+            prob[2] = max(all_prob[i][2],prob[2])
+            prob[3] = max(all_prob[i][3],prob[3])
+            prob[4] = max(all_prob[i][4],prob[4])
+            prob[5] = max(all_prob[i][5],prob[5])
+            prob[6] = max(all_prob[i][6],prob[6])
+            prob[7] = max(all_prob[i][7],prob[7])
+            prob[8] = max(all_prob[i][8],prob[8])
+        return prob
+
+    def summary(self, preprocessList):
+        """
+        return the dictionary of symptom and it's maximum probabilities
+        extended of get_max_probabilities function
+        """
+        max_prob = self.get_max_probabilities(preprocessList)
+        return {
+                'dep' : max_prob[0],
+                'int' : max_prob[1],
+                'wac' : max_prob[2],
+                'cis' : max_prob[3],
+                'par' : max_prob[4],
+                'fat' : max_prob[5],
+                'gui' : max_prob[6],
+                'con' : max_prob[7],
+                'sui' : max_prob[8],
+                }
+
+
+def main():
+    tc = TEXT_CLASSIFICATION()
     #tc.hyperparameter_tuning()
     a = 0.00
-    while a <= 0.8:
+    while a <= 0.85:
         a = tc.SVM()
         print("Accuracy: {:.2f}%".format(a * 100),"\t",a)
+
+if __name__ == "__main__":
+    #main()
+    #r = RISK_FACTOR_BoW()
+    #print(r.getBag_of_word(" Di depan matanya aku kena perfect tak boleh buat silap"))
+    text = ['Terkadang aku hiris-hiris pergelangan tangan, berbekas, berparut tapi tiada siapa yang tahu, ada pun classmate bertanya apabila ternampak lengan baju aku terselak, aku katakan tiada apa, aku beri alasan yang aku lap cermin tingkap bilik buatkan lengan calar balar',
+            'Dan waktu ini pun aku masih berperang dengan diri aku sendiri, kini aku sudah berkahwin, punyai seorang anak,Waktu sarat mengandung aku pernah menggantung diri, tapi masih juga takdir aku bernafas, kerana tepat pada waktu suami aku balik dan pecahkan pintu bilik untuk selamatkan aku',
+            'Keluarga aku tak tahu aku punyai depresi yang sanggup mencederakan diri, hanya suami aku sahaja mengetahuinya',
+            'Pernah juga waktu aku susah tidur malam, termenung sendiri di tingkap, merenung kebawah dan terdetik â€œkalau aku terjun ni, mesti lega kepala akuâ€', 
+            'Sewaktu aku terdetik itulah, tiba-tiba aku dengar suara ketawa datang dari phone aku'
+            ]
+    s = SYMPTOM_MODEL()
+    tp = TEXT_PREPROCESSING()
+    p = [tp.data_preparation(i) for i in text]
+    print(s.summary(p))
+        

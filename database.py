@@ -1,6 +1,8 @@
-import glob, os, re
-from typing import Pattern
+import json
 import mysql.connector
+import pandas as pd
+from pandas.core.algorithms import mode
+
 class FYP_MySQL:
     """
     setup and login database
@@ -10,12 +12,6 @@ class FYP_MySQL:
         self.user = user
         self.password = password
         self.db = db
-
-
-    #my_cursor.execute("CREATE DATABASE FYP_database")
-    #my_cursor.execute("SHOW DATABASES")
-    #my_cursor.execute("CREATE TABLE um_confession(ID VARCHAR(255) PRIMARY KEY, text LONGTEXT)")
-    #my_cursor.execute("SHOW TABLES")
 
 
     def __connect__(self):
@@ -32,9 +28,9 @@ class FYP_MySQL:
         self.mydb.commit()
         self.mydb.close()
 
-    def execute(self, sql):
+    def execute(self, sql, record):
         self.__connect__()
-        self.my_cursor.execute(sql)
+        self.my_cursor.execute(sql, record)
         self.__disconnect__()
 
     def fetchALL(self,table, attribute="*"):
@@ -64,44 +60,37 @@ class FYP_MySQL:
 
 
 def main():
-
-    
     db = FYP_MySQL()
-    folder = 'um confession'
-    table = folder.replace(" ","_").lower()
+    with open('Data Training.json', encoding='utf8', mode='r') as json_file:
+        data = json.load(json_file)
 
-    """ create the database and table """
-    #db.execute("CREATE DATABASE FYP_database")
-    #db.execute("SHOW DATABASES")
-    db.execute("CREATE TABLE Data_Training(raw_text LONGTEXT PRIMARY KEY, token_text LONGTEXT, label LONGTEXT)")
-    db.execute("SHOW TABLES")
-
-    """ commands for insert, update, and delete record """
-    #db.execute("CREATE TABLE "+table+"(ID VARCHAR(255) PRIMARY KEY, text LONGTEXT)")
-
-    """test mysql"""
-    #record1 = ("M00001", "rabbit cat chicken")
-    #my_cursor.execute(sql_delete,("ayam ikan lembu",))
-
-
-    """
-    extract all text file and save into database
-    """
-    #pattern = re.compile(r'[a-zA-Z0-9\,\.\(\)\s\?\!]+')
-    """
-    for filename in os.listdir("E:/StudyAtUM/Sem 9/FYP 2/"+folder):
-        content = open(os.path.join('E:/StudyAtUM/Sem 9/FYP 2/'+folder, filename), 'r', encoding='utf-8')
-        filename = filename.split(".")
-        id = filename[0]
-        text = content.read()
-        record = (id, text)
+    for i in data:
+        sql = "INSERT IGNORE INTO data_training (`id`, `raw text`, `token text`, `category`) VALUES (%s,%s,%s,%s)"
+        temp = ";".join(data[i]['token text'])
+        record = (i, data[i]['raw text'].lower(),temp,data[i]['category'],)
+        db.execute(sql,record)
     
-        db.insert(table, record)
-    """
+def symptomModel():
+    db = FYP_MySQL()
+    data = pd.read_csv('symptom.csv')
+
+    for record in data.values:
+        print(tuple(record))
+        
+
+
+
+def test(): 
+    db = FYP_MySQL()       
+    for i in db.fetchALL('data_training'):
+        raw = i[1]
+        token = i[2].split(';')
+        label = i[3]
+        print('raw text :',raw,"token text :",token,"label :",label)
 
 
     
 if __name__ == '__main__':
-    main()
+    symptomModel()
     
 

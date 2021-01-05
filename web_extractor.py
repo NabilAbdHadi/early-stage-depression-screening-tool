@@ -30,7 +30,7 @@ class web_extractor:
 
     """ save into text file """
     def save2textfile(folder,title,content):
-        file = codecs.open("E://StudyAtUM//Sem 9//FYP 2//"+folder+"//"+str(title.replace(" ","_"))+".txt", "w+", "utf-8")
+        file = codecs.open("E://StudyAtUM//Sem 9//FYP 2//prototype 2//Data doc//"+folder+"//"+str(title.replace(" ","_"))+".txt", "w+", "utf-8")
         file.write(content)   # might need to remove the range
         file.close()
 
@@ -70,5 +70,5 @@ def main():
         web_extractor.save2textfile("IIUM Confession", t,c)
 
 if __name__ == "__main__":
-    t,c = web_extractor.extractorIIUM("https://iiumc.com/depression-with-suicidal-thoughts/")
+    t,c = web_extractor.extractorIIUM("https://iiumc.com/kemurungan-kerana-kerja/")
     web_extractor.save2textfile("IIUM Confession", t,c)

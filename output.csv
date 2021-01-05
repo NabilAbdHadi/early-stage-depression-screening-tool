@@ -1,40 +1,108 @@
-,Text,Label
-0,Depression with suicidal thought,symptom
-1," Ya, itu yang aku hadapi sejak di zaman sekolah rendah…Ibu ku seorang yang garang, kalau di katanya A, A lah jadinya",no-deppressive
-2, Di depan matanya aku kena perfect tak boleh buat silap,risk factor
-3," Aku pernah minum air sabun basuh, disebabkan tekanan selalu dicubit dirotan dimarahnya",symptom
-4,Aku rasakan diri aku tak berguna dalam dunia ni,symptom
-5," Aku jenis tak suka berkawan ramai, dan aku lebih suka menyendiri",symptom
-6,"Depresi aku menjadi-jadi bila aku sudah berada di universiti, pernah aku makan berpapan-papan panadol dan ubat yang aku jumpa, tapi nyawa aku masih panjang, aku sedar selepas 2 harinya",no-deppressive
-7," Ya aku tinggal sendiri di hostel, tiada roomate",no-deppressive
-8,"Terkadang aku hiris-hiris pergelangan tangan, berbekas, berparut tapi tiada siapa yang tahu, ada pun classmate bertanya apabila ternampak lengan baju aku terselak, aku katakan tiada apa, aku beri alasan yang aku lap cermin tingkap bilik buatkan lengan calar balar",no-deppressive
-9,"Dan waktu ini pun aku masih berperang dengan diri aku sendiri, kini aku sudah berkahwin, punyai seorang anak,Waktu sarat mengandung aku pernah menggantung diri, tapi masih juga takdir aku bernafas, kerana tepat pada waktu suami aku balik dan pecahkan pintu bilik untuk selamatkan aku",no-deppressive
-10,"Keluarga aku tak tahu aku punyai depresi yang sanggup mencederakan diri, hanya suami aku sahaja mengetahuinya",symptom
-11,"Pernah juga waktu aku susah tidur malam, termenung sendiri di tingkap, merenung kebawah dan terdetik “kalau aku terjun ni, mesti lega kepala aku”",symptom
-12,"Sewaktu aku terdetik itulah, tiba-tiba aku dengar suara ketawa datang dari phone aku",symptom
-13, Tak pernah pula phone aku jammed atau hang,symptom
-14," Kejadian tu berlaku pada tepat pukul 3 pagi, bila phone dibuka dan aku cari punca suara, tiada pun aku jumpa",no-deppressive
-15,"Aku berkhayal? Tidak sesekali, kerana aku sempat merakamnya dengan duty phone aku yang lainnya dan tunjukkan pada suamiku",no-deppressive
-16, Suamiku hanya diamkan diri,no-deppressive
-17,"Selepas kejadian cubaan menggantung diri, suami aku jadi takut untuk menyakiti perasaan aku, dia paling takut kalau aku mula menangis",symptom
-18,"Untuk pengetahuan kalian, Aku bekerja dari rumah sebagai Customer service",no-deppressive
-19," Siang harinya aku habiskan masa menguruskan hal-hal rumahtangga, malam pula bekerja melayan complaint dan inquiry",risk factor
-20,"Namun, terkadang aku terpaksa buat double shift, dari 9 pagi ke 12 malam, disebabkan staff shift siangnya punyai attitude ‘suka-suka cuti’, ibu-ibu yang bekerja dari rumah dan menjaga anak mesti faham betapa letihnya bila melakukan 2 kerja dalam 1 masa",risk factor
-21,"  Walaupun aku stress begini, tak pernah aku lepaskan pada anak kesayangan aku, bagi aku, dia lah sumber kekuatan aku waktu ni",symptom
-22,Dia lah yang sedikit sebanyak bantu aku lawan monster yang ada dalam diri aku,no-deppressive
-23," Selain dia, tiada lagi, kebanyakan hanya menjadi trigger kepada rasa aku ingin ‘pergi’ awal",no-deppressive
-24,"Depresi adalah satu penyakit, bukan di buat-buat",no-deppressive
-25, Hanya diri kita sendiri sahaja yang mampu melawan,no-deppressive
-26, Andai kalian punyai teman yang cuba bercerita kepada kalian berkaitan stress dan tekanan yang mereka hadapi,no-deppressive
-27,"Janganlah pula kalian menangkisnya dengan nasihat-nasihat keagamaan, kerana orang-orang depresi seperti kami ni pun ‘cukup solat 5 waktunya’ macam kalian",risk factor
-28,Kami hanyalah ingin meminjam sedikit masa kalian untuk meluah rasa beban di hati dan kepala,no-deppressive
-29," Cukuplah kalian mendengar dan bertanya khabar kami seterusnya, barulah kami terasa kami ini ‘wujud’ di muka bumi ini",risk factor
-30,"Aku juga berharap, orang-orang kita lebih peka dan empathy pada orang sekelilingnya",no-deppressive
-31,"Contohnya orang yang suka-suka cuti dan meninggalkan beban kepada orang lainnya, orang yang menambah beban kerja tetapi mengurangkan gajinya,Orang yang terlalu fussy, punya expectation terlalu tinggi dan meletakkan kesalahan dan tanggungjawab kepada orang lain kalau tak tercapai expectationnya,Orang yang mulut lepas tak menyempat beli penapis, orang yang pemalas, tak mahu membaca arahan yang diberikan tapi mengharap semua maklumat di suap sampai ke akhirnya",no-deppressive
-32,"Orang yang tiada perancangan awal, rancangan last minute yang menyusahkan orang lainnya",no-deppressive
-33," Orang yang jenis tidur lewat, dan menganggap orang lain juga tidur pada waktu yang sama dengannya",no-deppressive
-34,"Last but not least, Orang yang menganggap orang lain 24 jam celik tanpa perlu tidur",no-deppressive
-35, Ya ini contoh sahaja,no-deppressive
-36, Sekian,no-deppressive
-37,– John Doe (Bukan nama sebenar)Hantar confession anda di sini -> https://iiumc,no-deppressive
-38, com/submit,no-deppressive
+,Text,Preprocessed,Label
+0,Assalamualaikum dan selamat sejahtera.,"['assalamualaikum', 'selamat', 'sejahtera']",non-deppressive
+1,Ini adalah pertama kali aku tulis confession.,"['kali', 'aku', 'tulis', 'aku']",non-deppressive
+2,"Sebelum aku bercerita lebih detail, biar la aku ceritakan latar belakang aku sikit2.Namaku Jaana.","['aku', 'cerita', 'perinci', 'biar', 'lah', 'aku', 'cerita', 'latar', 'belakang', 'aku', 'sikit', 'sikit', 'nama', 'jaana']",non-deppressive
+3,Bukan Janna Nick ya.,"['janna', 'nick']",non-deppressive
+4,"Umurku 37 tahun, ibu beranak 4.","['umur', 'tiga', 'puluh', 'tujuh', 'tahun', 'ibu', 'anak', 'empat']",non-deppressive
+5,"Dan sekarang (Dec 2020), aku mengandung 5 bulan anak kelima.Aku telah 14 tahun bekerja di IPTS.","['sember', 'dua', 'ribu', 'dua', 'puluh', 'aku', 'kandung', 'lima', 'bulan', 'anak', 'lima', 'aku', 'empat', 'belas', 'tahun', 'kerja', 'ipts']",non-deppressive
+6,3 tahun pertama bekerja di Bhg.,"['tiga', 'tahun', 'kerja', 'bhg']",non-deppressive
+7,Hal Ehwal Pelajar (HEP).,"['hal', 'ehwal', 'ajar', 'hep']",non-deppressive
+8,"Kemudian, bila nak berkahwin pada Nov 2009, aku mohon tukar department kerana di sini hampir setiap minggu ada aktiviti pelajar dan selalu outstation.Akhirnya, aku dapat tukar ke Bahagian Visa dan Pas Pelajar untuk pelajar antarabangsa.","['nak', 'berkahwin', 'aku', 'mohon', 'tukar', 'jabat', 'minggu', 'ada', 'aktiviti', 'ajar', 'tempat', 'tinggal', 'akhir', 'aku', 'tukar', 'bahagian', 'visa', 'pas', 'ajar', 'ajar', 'antarabangsa']",non-deppressive
+9,Di sini aku bekerja selama 10 tahun.Walaupun di sini lebih sibuk dari Bhg.,"['aku', 'kerja', 'puluh', 'tahun', 'sibuk', 'bhg']",non-deppressive
+10,"HEP, tetapi aku bahagia.","['hep', 'aku', 'bahagia']",symptom
+11,"Tugasku mengurus permohonan visa dan pas pelajar untuk pelajar baru.Stress sikit2 berhadapan dengan pihak Imigresen, Kementerian Pendidikan Tinggi (KPT), Kementerian Dalam Negeri (KDN) tu ada la, dengan pelajar antarabangsa lagi yang banyak kerenah, tetapi aku ok je bekerja.","['tugas', 'urus', 'mohon', 'visa', 'pas', 'ajar', 'ajar', 'baru', 'stres', 'sikit', 'sikit', 'hadap', 'pihak', 'imigresen', 'menteri', 'didik', 'tinggi', 'kpt', 'menteri', 'negeri', 'kdn', 'ada', 'lah', 'ajar', 'antarabangsa', 'renah', 'aku', 'okey', 'kerja']",non-deppressive
+12,"Mungkin kena dengan jiwa aku.Kemudian disebabkan trend kemasukan pelajar antarabangsa makin berkurangan secara keseluruhan termasuk di IPT lain, IPTS aku pun terlibat juga, pihak HR (Sumber Manusia) ingin mengurangkan staff di bhg.","['mungkin', 'kena', 'jiwa', 'aku', 'sebab', 'trend', 'masuk', 'ajar', 'antarabangsa', 'makin', 'rang', 'seluruh', 'ipt', 'ipts', 'aku', 'libat', 'pihak', 'hari', 'sumber', 'manusia', 'ingin', 'kurang', 'staf', 'bahang']",non-deppressive
+13,"aku bekerja.Daripada 4 staff termasuk Pengurus, 2 orang Penolong Pengurus dikeluarkan/ dipindahkan (transfer) ke department lain.","['aku', 'kerja', 'empat', 'staf', 'urus', 'dua', 'tolong', 'urus', 'keluar', 'pindah', 'pindah', 'jabat']",non-deppressive
+14,Aku salah seorang yang dipindahkan.,"['aku', 'salah', 'orang', 'pindah']",non-deppressive
+15,"Jadi, bhg.",['bahang'],non-deppressive
+16,"aku bekerja hanya tinggal 2 orang sahaja iaitu kerani dan Pengurus sahaja.Aku dipindahkan ke Fakulti pada Oktober 2019, ketika itu, aku mengandung 7 bulan, anak keempat.","['aku', 'kerja', 'tinggal', 'dua', 'kerani', 'urus', 'aku', 'pindah', 'fakulti', 'aku', 'kandung', 'tujuh', 'bulan', 'anak', 'empat']",non-deppressive
+17,"Di sini aku banyak buat kerja2 admin.Takde la keluar selalu pergi imigresen, embassy, dll.","['aku', 'buat', 'kerja', 'kerja', 'admin', 'ada', 'lah', 'keluar', 'pergi', 'imigresen', 'duta', 'dll']",non-deppressive
+18,"Kat sini aku pegang 2 skop kerja, iaitu Bhg.","['dekat', 'aku', 'pegang', 'dua', 'skop', 'kerja', 'bhg']",non-deppressive
+19,Peperiksaan dan urusan pelajar pascasiswazah yang ambil Master dan Ph.D. Banyak benda baru belajar di sini.,"['peperiksaan', 'urus', 'ajar', 'pascasiswazah', 'ambil', 'master', 'ph', 'benda', 'baru', 'ajar']",non-deppressive
+20,"Ambil masa juga untuk belajar banyak benda.Di Fakulti, aku ada rasa berdebar nak dtg ofis, buat kerja yang banyak, tetapi aku hadapkan juga sampai la aku bersalin pada bulan December 2019.Dalam pantang pun aku ada buat kerja2 yang pending sebelum melahirkan anak seperti buat minit mesyuarat utk urusan pelajar pascasiswazah, review permohonan pelajar Master dan Ph.D.Apapun, bermula dlm pantanglah, aku dah mula rasa tak best dengan kerjaku.","['ambil', 'masa', 'ajar', 'benda', 'fakulti', 'aku', 'ada', 'rasa', 'debar', 'nak', 'datang', 'jabat', 'buat', 'kerja', 'aku', 'hadap', 'lah', 'aku', 'salin', 'bulan', 'sember', 'dua', 'ribu', 'sembilan', 'belas', 'pantang', 'aku', 'ada', 'buat', 'kerja', 'kerja', 'selesai', 'lahir', 'anak', 'buat', 'minit', 'mesyuarat', 'urus', 'ajar', 'pascasiswazah', 'kaji', 'mohon', 'ajar', 'master', 'ph', 'mula', 'pantang', 'lah', 'aku', 'dah', 'mula', 'rasa', 'baik', 'rujuk']",non-deppressive
+21,Aku mula rasa berdebar2 nak masuk ofis balik utk bekerja.,"['aku', 'mula', 'rasa', 'debar', 'debar', 'nak', 'masuk', 'jabat', 'balik', 'kerja']",symptom
+22,Aku banyak termenung.,"['aku', 'menung']",symptom
+23,"Tak enjoy dengan moment yang sebenar (not being present).Masuk pertengahan Feb 2020, aku masuk kerja balik setelah cuti bersalin selama 2 bln.","['nikmat', 'momen', 'benar', 'hadir', 'masuk', 'tengah', 'aku', 'masuk', 'kerja', 'balik', 'cuti', 'salin', 'dua', 'bulan']",non-deppressive
+24,"Dapat la dalam sebulan bekerja, sebab lepas tu Mac 2020, PKP.Dalam pada tu, di ofis, aku selalu sangat berdebar, semua yang aku buat serba tak kena.","['lah', 'bulu', 'kerja', 'lepas', 'pkp', 'jabat', 'aku', 'debar', 'aku', 'buat', 'serba', 'kena']",non-deppressive
+25,"Kerja banyak, tapi aku tak tau nak buat mana dulu.","['kerja', 'aku', 'tahu', 'nak', 'buat']",non-deppressive
+26,"Walaupun aku dah tulis lists apa aku nak buat, nanti aku termenung.","['aku', 'dah', 'tulis', 'lists', 'aku', 'nak', 'buat', 'nanti', 'aku', 'menung']",non-deppressive
+27,"Sebab masa buat tu, nanti aku fikir, kerja yang lain tu tak buat lagi.Email ni tak jawab lagi.","['masa', 'buat', 'nanti', 'aku', 'fikir', 'kerja', 'buat', 'email', 'jawab']",non-deppressive
+28,Lepas tu aku kelam kabut buat itu ini.,"['lepas', 'aku', 'kelam', 'kabut', 'buat']",non-deppressive
+29,"Contoh, aku nak makan, tapi makan dengan kelam kabut, lepas tu nak buat kerja, then termenung.Lepas tu nak g toilet, pergi toilet cepat2, sebab tak nak buang masa lama2 sebab nak buat kerja.","['contoh', 'aku', 'nak', 'makan', 'makan', 'kelam', 'kabut', 'lepas', 'nak', 'buat', 'kerja', 'menung', 'lepas', 'nak', 'pergi', 'tandas', 'pergi', 'tandas', 'cepat', 'cepat', 'buang', 'masa', 'lama', 'lama', 'nak', 'buat', 'kerja']",non-deppressive
+30,"Lepas tu nak buat kerja, ada yang menghalang, seperti panggilan telefon, ada pensyarah nak jumpa, student nak jumpa.Reply email.","['lepas', 'nak', 'buat', 'kerja', 'ada', 'halang', 'panggil', 'telefon', 'ada', 'syarah', 'nak', 'jumpa', 'ajar', 'nak', 'jumpa', 'jawapannya', 'email']",non-deppressive
+31,Masa ni selalu rasa sesak dada.,"['masa', 'rasa', 'sesak', 'dada']",non-deppressive
+32,Rasa nak meletup.,"['rasa', 'nak', 'letup']",symptom
+33,Sebelum ni tak tahu macam mana rasanya bila orang kata sesak dada.,"['tahu', 'macam', 'rasa', 'kata', 'sesak', 'dada']",non-deppressive
+34,"Lama2 aku jadi fed-up.Kemudian dah nak dekat sebulan bekerja lepas cuti bersalin, dalam bulan Mac 2020 kena PKP yang pertama kali sbb Covid-19.","['lama2', 'aku', 'fed', 'up', 'dah', 'nak', 'dekat', 'bulu', 'kerja', 'lepas', 'cuti', 'salin', 'bulan', 'kena', 'pkp', 'kali', 'sibu', 'covid']",non-deppressive
+35,"Kena la Work From Home (WFH).WFH sangat mencabar di mana kena kerja dan masa tu anak2 pun di rumah, dengan meeting online lagi dan buat minit mesyuarat, jawab email.Mula2 hadap je.","['kena', 'lah', 'kerja', 'rumah', 'wfh', 'wfh', 'cabar', 'kena', 'kerja', 'masa', 'anak', 'anak', 'rumah', 'mesyuarat', 'tali', 'buat', 'minit', 'mesyuarat', 'jawab', 'email', 'mula2', 'hadap']",risk factor
+36,Lama2 aku jadi fed-up.,"['lama2', 'aku', 'fed', 'up']",non-deppressive
+37,Aku macam ignore je email2 kerja.,"['aku', 'macam', 'abai', 'email', 'email', 'kerja']",non-deppressive
+38,"Tapi, aku fikir jugak pasal hal kerja.","['aku', 'fikir', 'pasal', 'hal', 'kerja']",symptom
+39,Mula la aku selalu menangis tiba2.Selalu tak cukup tidur.,"['mula', 'lah', 'aku', 'menang', 'tiba', 'tiba', 'cukup', 'tidur']",symptom
+40,"Jam 3 atau 4 pagi selalu terjaga, dan bercakap kat diri sendiri, “Ya Allah, aku benci betul kerja aku ni.” Kemudian menangis.Ada la dalam 2 minggu macam ni.","['jam', 'tiga', 'empat', 'pagi', 'jaga', 'cakap', 'dekat', 'diri', 'aku', 'benci', 'betul', 'kerja', 'aku', 'menang', 'ada', 'lah', 'dua', 'minggu', 'macam']",symptom
+41,Selalu mengenangkan diri kenapa la aku ditukarkan ke Fakulti.,"['mengmenangkan', 'diri', 'kenapa', 'lah', 'aku', 'tukar', 'fakulti']",symptom
+42,Rasa benci sangat.,"['rasa', 'benci']",symptom
+43,Kadang2 rasa nak berenti kerja jual nasi lemak atau mee kari je tepi jalan.,"['kadang2', 'rasa', 'nak', 'henti', 'kerja', 'jual', 'nasi', 'lemak', 'saya', 'kari', 'tepi', 'jalan']",non-deppressive
+44,"Tapi, memang sayang nak berenti sebab dah kerja 14 tahun di IPTS ni.Masuk bulan May 2020, dah mula boleh bekerja masuk ofis bergilir.","['sayang', 'nak', 'henti', 'dah', 'kerja', 'empat', 'belas', 'tahun', 'ipts', 'masuk', 'bulan', 'mei', 'dua', 'ribu', 'dua', 'puluh', 'dah', 'mula', 'kerja', 'masuk', 'jabat', 'gilir']",non-deppressive
+45,"Dlm satu minggu tu, 2 hari WFH, 3 hari datang ofis.","['satu', 'minggu', 'dua', 'hari', 'wfh', 'tiga', 'hari', 'datang', 'jabat']",non-deppressive
+46,"Masa ni la, aku selalu menangis dalam bilik ofis, g toilet menangis, tengah solat pun menitik air mata menangis.Datang kerja dan balik kerja pun, menangis dulu sebelum masuk ofis atau sebelum drive balik rumah.","['masa', 'lah', 'aku', 'menang', 'bilik', 'jabat', 'pergi', 'tandas', 'menang', 'tengah', 'solat', 'titik', 'udara', 'mata', 'menang', 'datang', 'kerja', 'balik', 'kerja', 'menang', 'masuk', 'jabat', 'pandu', 'balik', 'rumah']",symptom
+47,"Aku dah mula rasa aku bukanlah aku yang dulu sebab selalu menangis, kadang2 ketawa jugak lepas menangis.Biasanya bila sorang2 la.","['aku', 'dah', 'mula', 'rasa', 'aku', 'lah', 'aku', 'menang', 'kadang', 'kadang', 'ketawa', 'lepas', 'menang', 'biasa', 'orang', 'orang', 'lah']",symptom
+48,Macam watak Joker lakonan Joaquin Phoenix.,"['macam', 'watak', 'joker', 'lakon', 'joaquin', 'phoenix']",symptom
+49,Ada jugak rasa macam nak terjun bangunan je.,"['ada', 'rasa', 'macam', 'nak', 'terjun', 'bangun']",symptom
+50,"Tapi, masih waras.Dan aku google, ini mungkin simptom2 depression (kemurungan).","['waras', 'aku', 'goong', 'lah', 'mungkin', 'simptom', 'simptom', 'murung', 'murung']",non-deppressive
+51,"So, ada sekali tu aku terkena gastrik, aku g jumpa Doktor nak ambik MC, dan dlm masa sama aku nak mintak refer ke pakar psikiatri.Masa jumpa Doktor utk mintak refer ke pskiatri, menangis2 aku meluah masalah kerja aku.","['ada', 'sekali', 'aku', 'kena', 'gastrik', 'aku', 'pergi', 'jumpa', 'doktor', 'nak', 'ambil', 'mc', 'masa', 'aku', 'nak', 'minta', 'rujuk', 'pakar', 'psikiatri', 'masa', 'jumpa', 'doktor', 'minta', 'rujuk', 'psikiatri', 'menang', 'menang', 'aku', 'luah', 'masalah', 'kerja', 'aku']",non-deppressive
+52,"Then, doktor cakap, “Bersabarla”.","['doktor', 'cakap', 'bersabarla']",non-deppressive
+53,Dia cakap dia akan bagi surat refer ke Psikiatri.,"['dia', 'cakap', 'dia', 'surat', 'rujuk', 'psikiatri']",risk factor
+54,"Selain tu, tujuan nak jumpa psikiatri supaya aku nak mintak medical report dan nak mintak transfer keluar dari fakulti.So, dalam bulan Jun 2020, pertama kali aku jumpa Psikiatri.","['tuju', 'nak', 'jumpa', 'psikiatri', 'aku', 'nak', 'minta', 'medical', 'lapor', 'nak', 'minta', 'pindah', 'keluar', 'fakulti', 'bulan', 'kali', 'aku', 'jumpa', 'psikiatri']",symptom
+55,Pakar Psikiatri ni ialah lelaki berbangsa Cina.,"['pakar', 'psikiatri', 'lelaki', 'bangsa', 'cina']",non-deppressive
+56,Aku rasa serasi sangat dengan dia sebab dia faham apa yang aku hadapi.Aku luah masalah kerja sambil menangis2.,"['aku', 'rasa', 'serasi', 'dia', 'dia', 'faham', 'aku', 'hadap', 'aku', 'luah', 'masalah', 'kerja', 'menang', 'menang']",symptom
+57,Aku cakap nak berhenti kerja.,"['aku', 'cakap', 'nak', 'henti', 'kerja']",non-deppressive
+58,"Tapi Psikiatri cakap, “Jangan berenti dulu.","['psikiatri', 'cakap', 'henti']",non-deppressive
+59,"Jangan buat keputusan ketika sakit, nanti menyesal.Buat rawatan dulu.","['buat', 'putus', 'sakit', 'nanti', 'sesal', 'buat', 'rawat']",non-deppressive
+60,Ini depression.,['murung'],non-deppressive
+61,"Takut nanti kalau berenti kerja, depression ni akan ikut kita” .","['takut', 'nanti', 'henti', 'kerja', 'murung', 'ikut']",non-deppressive
+62,"Aku angguk diam.Then, sesi berlangsung dalam 40 minit.","['aku', 'angguk', 'diam', 'sesi', 'langsung', 'empat', 'puluh', 'minit']",non-deppressive
+63,"Psikiatri bagi 3 jenis ubat, Brintellix (antidepresan) , Inderal Propanolol (antianxiety) dan Xanax (ubat penenang kot).","['psikiatri', 'tiga', 'jenis', 'ubat', 'brintellix', 'antidepresan', 'inderal', 'propanolol', 'antianxiety', 'xanax', 'ubat', 'tenang', 'mungkin']",non-deppressive
+64,Lepas makan ubat tu aku rasa ok sikit.,"['lepas', 'makan', 'ubat', 'aku', 'rasa', 'okey', 'sikit']",non-deppressive
+65,Serasi.Hampir setiap bulan ada appointment dengan Pakar Psikiatri.,"['serasi', 'bulan', 'ada', 'lantik', 'pakar', 'psikiatri']",non-deppressive
+66,Mula2 aku selalu ambik cuti bila ada appointment.,"['mula2', 'aku', 'ambil', 'cuti', 'ada', 'lantik']",non-deppressive
+67,"Lepas tu kali ketiga dah tak ambik cuti sebab Psikiatri cakap, dia boleh bagi MC.Kemudian dalam bulan Julai aku selalu migrain.","['lepas', 'kali', 'tiga', 'dah', 'ambil', 'cuti', 'psikiatri', 'cakap', 'dia', 'mc', 'bulan', 'julai', 'aku', 'migrain']",symptom
+68,Mmg aku ada migrain pun sebelum ni.,"['aku', 'ada', 'migrain']",non-deppressive
+69,Sebulan sekali atau kali.,"['bulan', 'sekali', 'kali']",non-deppressive
+70,Tapi kali ni makin kerap dan makin lama serangannya.Hampir setiap minggu pun ya.,"['kali', 'makin', 'kerap', 'makin', 'lama', 'serang', 'minggu']",non-deppressive
+71,"Then, bulan September, aku dapat tahu aku dah pregnant 13 minggu lebih kurang 3 bulan.","['bulan', 'september', 'aku', 'tahu', 'aku', 'dah', 'hamil', 'tiga', 'belas', 'minggu', 'tiga', 'bulan']",non-deppressive
+72,"Patutla kerap sangat sakit kepala.Aku happy je pregnant, cuma aku masih tak suka kerja aku ni.","['patutla', 'kerap', 'sakit', 'kepala', 'aku', 'gembira', 'hamil', 'cuma', 'aku', 'suka', 'kerja', 'aku']",non-deppressive
+73,Rasa benci.,"['rasa', 'benci']",symptom
+74,"Susah betul nak buat kerja yang kita benci, walaupun ada certain kerja tu tak la susah mana.Bila dah tau prengant, aku maintain mkn je ubat antidepresan tu macam biasa, sebab aku google perempuan pregnant yang ada depression kena maintain makan ubat supaya tak jadi lebih teruk.","['susah', 'betul', 'nak', 'buat', 'kerja', 'benci', 'ada', 'kerja', 'lah', 'susah', 'dah', 'tahu', 'prengant', 'aku', 'kekal', 'makan', 'ubat', 'antidepresan', 'macam', 'biasa', 'aku', 'goong', 'lah', 'perempuan', 'hamil', 'ada', 'murung', 'kena', 'kekal', 'makan', 'ubat', 'teruk']",non-deppressive
+75,"Next appointment aku beritahu Psikiatri yang aku dah pregnant dan aku tanya ok ke aku makan ubat macam biasa?Dia cakap, perlu supaya tak jadi lebih teruk.","['terus', 'lantik', 'aku', 'beritahu', 'psikiatri', 'aku', 'dah', 'hamil', 'aku', 'okey', 'aku', 'makan', 'ubat', 'macam', 'biasa', 'dia', 'cakap', 'teruk']",non-deppressive
+76,"Makan ubat, jangan sampai meroyan.","['makan', 'ubat', 'royan']",non-deppressive
+77,Dia cakap perempuan mengandung pun ada meroyan nak tumbuk perut.Aku angguk faham sebab aku pun kdg2 ada rasa nak mencederakan diri dan perut dengan pisau sebab tak tahan hidup macam ni.,"['dia', 'cakap', 'perempuan', 'kandung', 'ada', 'royan', 'nak', 'tumbuk', 'perut', 'aku', 'angguk', 'faham', 'aku', 'kadang', 'kadang', 'ada', 'rasa', 'nak', 'cedera', 'diri', 'perut', 'pisau', 'tahan', 'hidup', 'macam']",symptom
+78,"Bukan sebab benci baby.Selepas perjumpaan ketiga, Psikiatri minta aku beritahu masalah depressiom aku kepada pihak atasan dan bahawa aku dapat rawatan dengan pakar Psikiatri.","['benci', 'bayi', 'lepas', 'jumpa', 'tiga', 'psikiatri', 'minta', 'aku', 'beritahu', 'masalah', 'depressiom', 'aku', 'pihak', 'atas', 'aku', 'rawat', 'pakar', 'psikiatri']",non-deppressive
+79,"Supaya mereka tahu.So, aku beritahu la.","['tahu', 'aku', 'beritahu', 'lah']",non-deppressive
+80,Manager terkejut juga.,"['manager', 'kejut']",non-deppressive
+81,Dia merangka tugas yang lebih balance kepada aku.,"['dia', 'rangka', 'tugas', 'imbang', 'aku']",non-deppressive
+82,"Masa tu aku rasa ok sangat.Selepas tu, ada appointment dengan Pakar Psikiatri, aku cakap aku rasa aku dah ok, takde rasa nak berenti kerja.Kemudian dia cakap, betul ke dah ok?","['masa', 'aku', 'rasa', 'okey', 'lepas', 'ada', 'lantik', 'pakar', 'psikiatri', 'aku', 'cakap', 'aku', 'rasa', 'aku', 'dah', 'okey', 'rasa', 'nak', 'henti', 'kerja', 'dia', 'cakap', 'betul', 'dah', 'okey']",symptom
+83,Sebab dia rasa aku belum ok lagi.,"['dia', 'rasa', 'aku', 'okey']",symptom
+84,"Apa pun dia nasihat, set dalam mind yang aku nak tukar department.","['dia', 'nasihat', 'tetap', 'fikiran', 'aku', 'nak', 'tukar', 'jabat']",non-deppressive
+85,"At the same time, cuba juga buat kerja seperti biasa.","['masa', 'cuba', 'buat', 'kerja', 'biasa']",non-deppressive
+86,"Aku mengangguk faham.Pada perjumpaan kelima dan terakhir bln Nov 2020, Psikiari aku nak kurangkan dos ubat.","['aku', 'angguk', 'faham', 'jumpa', 'lima', 'akhir', 'bulan', 'psikiari', 'aku', 'nak', 'kurang', 'dos', 'ubat']",non-deppressive
+87,"Brintellix (antidepresan) kena mkn selang seli setiap malam, Xanax kena stop, ubat inderal propanolol (antianxiety) tu boleh makan bila perlu.Dan doktor akan keluarkan medical report.","['brintellix', 'antidepresan', 'kena', 'makan', 'selang', 'sel', 'malam', 'xanax', 'kena', 'henti', 'ubat', 'indera', 'propranolol', 'antianxiety', 'makan', 'doktor', 'keluar', 'medical', 'lapor']",non-deppressive
+88,"Dalam report tu, aku disahkan oleh Psikiatri swasta bahawa aku ada Major Depressive Disorder (MDD) & Anxiety.So, pada bulan Nov 2020, aku hantar borang mintak transfer keluar dari fakulti dan aku sertakan sekali medical report tu.Sekarang (Dec 2020), aku masih bekerja di fakulti sambil menunggu arahan pertukaran.","['lapor', 'aku', 'sah', 'psikiatri', 'swasta', 'aku', 'ada', 'utama', 'murung', 'ganggu', 'mdd', 'bimbang', 'bulan', 'aku', 'hantar', 'borang', 'minta', 'pindah', 'keluar', 'fakulti', 'aku', 'serta', 'sekali', 'medical', 'lapor', 'sember', 'dua', 'ribu', 'dua', 'puluh', 'aku', 'kerja', 'fakulti', 'tunggu', 'arah', 'tukar']",non-deppressive
+89,"Tapi tu la, dalam tempoh menunggu ni, ada masa aku ok, ada masa tak ok. Rasa down sangat.","['lah', 'tempoh', 'tunggu', 'ada', 'masa', 'aku', 'okey', 'ada', 'masa', 'okey', 'rasa', 'down']",non-deppressive
+90,Aku banyak ambil MC.,"['aku', 'ambil', 'mc']",non-deppressive
+91,"Aku nak sangat berubah, tetapi Ya Allah, susahnya nak berubah.Aku tak suka hidup dalam depression ni.","['aku', 'nak', 'ubah', 'susah', 'nak', 'ubah', 'aku', 'suka', 'hidup', 'murung']",symptom
+92,Rasa tak happy.,"['rasa', 'gembira']",non-deppressive
+93,Tak enjoy moment yang ada.,"['nikmat', 'momen', 'ada']",non-deppressive
+94,Not being present.,['hadir'],non-deppressive
+95,"Selalu berharap esok nak buat lebih baik, ada yang menjadi, ada yang tak menjadi.Kadang2 terfikir, adakah aku ni betul sakit depression atau malas?","['harap', 'esok', 'nak', 'buat', 'baik', 'ada', 'ada', 'kadang2', 'terfikir', 'aku', 'betul', 'sakit', 'murung', 'malas']",non-deppressive
+96,Ubat tu dah macam tak beri kesan je.,"['ubat', 'dah', 'macam', 'beri']",non-deppressive
+97,Tapi aku maintain la ikut cakap Psikiatri.Minggu ni aku dah 2 kali MC.,"['aku', 'kekal', 'lah', 'ikut', 'cakap', 'psikiatri', 'minggu', 'aku', 'dah', 'dua', 'kali', 'mc']",non-deppressive
+98,Aku tak suka.,"['aku', 'suka']",symptom
+99,"Aku selalu berharap nak jadi normal macam orang lain, terima takdir, buat je kerja dengan happy dan tak depress.","['aku', 'harap', 'nak', 'normal', 'macam', 'terima', 'takdir', 'buat', 'kerja', 'gembira', 'depress']",non-deppressive
+100,Aku rasa aku dah setahun lebih tak pernah rasa happy yang betul2 happy.,"['aku', 'rasa', 'aku', 'dah', 'tahun', 'mengaparna', 'rasa', 'gembira', 'betul', 'betul', 'gembira']",symptom
+101,Nak sgt happy betul2.,"['nak', 'gembira', 'betul', 'betul']",non-deppressive
+102,Tak tau la korang faham ke tak.Hmm.. Aku rasa cukupla setakat ni aku share.,"['tahu', 'lah', 'kamu', 'faham', 'hmm', 'aku', 'rasa', 'cukup', 'lah', 'takat', 'aku', 'bahagian']",non-deppressive
+103,Dah panjang berjela rasanya.,"['dah', 'panjang', 'sahaja', 'lah', 'rasa']",symptom
+104,Thank guys for spending time reading my confession.Doakan aku boleh berubah ke arah lebih baik sementara menunggu tukar department ya.,"['terima', 'kasih', 'guys', 'belanja', 'masa', 'baca', 'saya', 'aku', 'doa', 'aku', 'ubah', 'arah', 'baik', 'tunggu', 'tukar', 'jabat']",non-deppressive
+105,"Aku berharap aku berubah, dan esok lebih baik utk aku.","['aku', 'harap', 'aku', 'ubah', 'esok', 'baik', 'aku']",non-deppressive
+106,Doakan aku berjaya tukar department juga ya .– Jaana (Bukan nama sebenar)Hantar confession anda di sini -> https://iiumc.com/submit,"['doa', 'aku', 'jaya', 'tukar', 'jabat', 'jaana', 'nama', 'benar', 'hantar', 'aku', 'anda']",non-deppressive
