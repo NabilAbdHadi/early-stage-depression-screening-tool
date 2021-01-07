@@ -1,7 +1,6 @@
 import json
 import mysql.connector
 import pandas as pd
-from pandas.core.algorithms import mode
 
 class FYP_MySQL:
     """
@@ -77,8 +76,6 @@ def symptomModel():
     for record in data.values:
         print(tuple(record))
         
-
-
 
 def test(): 
     db = FYP_MySQL()       

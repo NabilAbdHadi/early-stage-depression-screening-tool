@@ -16,7 +16,7 @@ my_tc = TEXT_CLASSIFICATION()
 class mainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Depression Screening Tool")
+        self.setWindowTitle('Depression_screening.model')
         self.screenWidth = GetSystemMetrics(0)
         self.screenHeight = GetSystemMetrics(1)
         self.appWidth = 480
@@ -31,21 +31,23 @@ class mainWindow(QWidget):
 
     def mainDesign(self):
         self.setStyleSheet("font-size:12pt;font-family:Arial;margin 10pt;padding:10pt;")
-        self.mainTitle = QLabel("Early Stage of Depression Screening Tool")
+        self.mainTitle = QLabel("Sistem Saringan Peringkat Awal Kemurungan")
         self.mainTitle.setStyleSheet("font-size:24pt;font-family:Arial Black")
         self.mainTitle.setAlignment(Qt.AlignCenter)
         self.mainTitle.setWordWrap(True)
-        self.subtitle1 = QLabel("This system purpose is to predict the symptoms and risk factor of the depression from the User's text ")
-        self.subtitle1.setStyleSheet("font-size:14pt")
+        self.subtitle1 = QLabel("Sistem ini bertujuan untuk meramal sama ada pengguna sedang mengalami kemurungan "+ 
+                                "melalui teks pengguna yang dimasukkkan secara terus ataupun dengan mengimport file"+
+                                " text .txt yang terkandung dengan teks pengguna")
+        #self.subtitle1.setStyleSheet("font-size:14pt")
         self.subtitle1.setAlignment(Qt.AlignCenter)
         self.subtitle1.setWordWrap(True)
         
 
-        self.newInputBtn = QPushButton("Enter New Text")
-        self.newInputBtn.setFixedSize(150,30)
+        self.newInputBtn = QPushButton("Masukkan Teks Baru")
+        self.newInputBtn.setFixedSize(200,30)
         self.newInputBtn.clicked.connect(self.enterNewtext)
-        self.importFileBtn = QPushButton("Import Text File")
-        self.importFileBtn.setFixedSize(150,30)
+        self.importFileBtn = QPushButton("Import Fail Teks ")
+        self.importFileBtn.setFixedSize(200,30)
         self.importFileBtn.clicked.connect(self.importExistingFile)
 
     def layout(self):
@@ -104,11 +106,11 @@ class mainWindow(QWidget):
 class questionWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Depression Screening Tool")
+        self.setWindowTitle("Sistem Saringan Kemurungan")
         self.screenWidth = GetSystemMetrics(0)
         self.screenHeight = GetSystemMetrics(1)
-        self.appWidth = 480
-        self.appHeight = 640
+        self.appWidth = 720
+        self.appHeight = 600
         self.setGeometry((self.screenWidth-self.appWidth)/2, (self.screenHeight-self.appHeight)/2,self.appWidth,self.appHeight)
         self.UI()
         self.show()
@@ -119,8 +121,13 @@ class questionWindow(QWidget):
 
     def mainDesign(self):
         self.setStyleSheet("font-size:12pt;font-family:Arial;margin 10pt;padding:10pt;")
-        self.question = QLabel("Tell us your story")
+        self.question = QLabel("Untuk meramal sama ada pengguna mengalami kemurungan.\n"+
+                                "Pengguna dinasihatkan agar pengguna dapat menceritakan secara terperinci "+
+                                "apa-apa pengalaman atau situasi yang membuatkan pengguna rasa ketidakselesaan, "
+                                "sedih, marah dan sebagainya")
         self.question.setStyleSheet("font-size:14pt;")
+        self.question.setWordWrap(True)
+        self.question.setAlignment(Qt.AlignHCenter)
         self.editor = QTextEdit()
         self.backBtn = QPushButton("Back")
         self.backBtn.setFixedSize(150,30)
@@ -137,7 +144,7 @@ class questionWindow(QWidget):
 
         self.mainLayout.addLayout(self.topLayout,80)
         self.mainLayout.addLayout(self.bottomLayout,20)
-        self.topLayout.addWidget(self.question,20,alignment=Qt.AlignCenter)
+        self.topLayout.addWidget(self.question,20)
         self.topLayout.addWidget(self.editor,80)
         self.bottomLayout.addWidget(self.backBtn)
         self.bottomLayout.addStretch
@@ -157,8 +164,8 @@ class questionWindow(QWidget):
                                     "The system cannot be process\n"+
                                     "Please insert the text")
         elif len(text) <= 20:
-             QMessageBox.information(self, "Warning", "The text is too short\n"+
-                                            "Please insert more word so the system can process properly")
+             QMessageBox.information(self, "The text is too short", 
+                                    "Please insert more word so the system can process properly")
         else:
             textlist = sent_tokenize(text)
             sentences = [my_tp.data_preparation(s) for s in textlist if s != ""]
@@ -191,7 +198,7 @@ class resultWindow(QWidget):
     def __init__(self,textlist):
         super().__init__()
         self.result = textlist#[i for i in textlist if i[2] != 'non-deppressive']
-        self.setWindowTitle("Depression Screening Tool")
+        self.setWindowTitle('Depression_screening.model')
         self.screenWidth = GetSystemMetrics(0)
         self.screenHeight = GetSystemMetrics(1)
         self.appWidth = 960
@@ -275,9 +282,6 @@ class resultWindow(QWidget):
         self.table.doubleClicked.connect(self.doubleClickedEvent)
 
     def doubleClickedEvent(self):
-        """
-        docstring
-        """
         risk = RISK_FACTOR_BoW()
         symptom = SYMPTOM_MODEL()
         row = self.table.currentItem().row()
@@ -285,23 +289,28 @@ class resultWindow(QWidget):
 
         r = risk.getBag_of_word(" ".join(row_ele[1]))
         r = ", ".join(r)
-
+        main = symptom.get_main_symptom(row_ele[1])
+        if len(main) > 1:
+            main = [self.symptom[i] for i in main]
+        else:
+            main = self.symptom[main[0]]
         s = symptom.get_symptom_BoW(row_ele[1])
-        all, main = symptom.get_symptom(row_ele[1])
-        all = [self.symptom[i] for i in all]
-        all = ", ".join(all)
-        main = self.symptom[main[0]]
         s = ", ".join(s)
+
+        sym_prob = symptom.get_symptom_probabilities(row_ele[1])
+        sym_prob = ["\t{} : {}\n".format(self.symptom[i[0]],i[1]) for i in sym_prob]
+        sym_prob = "".join(sym_prob)
+        
         if row_ele[2] == 'risk factor':
             QMessageBox.information(self, 
                                     "Risk Factor", 
-                                    "list of warning words:-\n{}".format(r))
+                                    "List of warning words:-\n{}".format(r))
         elif row_ele[2] == 'symptom':
             QMessageBox.information(self, 
                                     "Symptom found", 
-                                    "Main Symptom : \t{}\n".format(main)+
-                                    "Others Symptom : \n{}\n\n".format(all)+
-                                    "list of warning words:-\n{}".format(s))
+                                    "Main Symptom is {}\n".format(main)+
+                                    "Other symptom : \n{}\n\n".format(sym_prob)+
+                                    "List of warning words:-\n{}".format(s))
             
     def export2csv(self):
         df = pd.DataFrame(self.result, columns=["Text","Preprocessed","Label"])
@@ -317,6 +326,7 @@ class summaryWindow(QWidget):
     def __init__(self,textlist):
         super().__init__()
         self.sym_model = SYMPTOM_MODEL()
+        self.all_textList = textlist
         self.result = [i[1] for i in textlist if i[2] == 'symptom']
 
         self.symptom = {
@@ -334,7 +344,7 @@ class summaryWindow(QWidget):
         
 
 
-        self.setWindowTitle("Depression Screening Tool")
+        self.setWindowTitle('Depression_screening.model')
         self.screenWidth = GetSystemMetrics(0)
         self.screenHeight = GetSystemMetrics(1)
         self.appWidth = 480
@@ -365,12 +375,12 @@ class summaryWindow(QWidget):
         self.symptom_prob_list.setStyleSheet("font-size:14pt")
         
 
-        self.newBtn = QPushButton("Main Menu")
-        self.newBtn.setFixedSize(150,30)
-        self.newBtn.clicked.connect(self.newInputEvent)
-        self.exitBtn = QPushButton("Exit")
-        self.exitBtn.setFixedSize(150,30)
-        self.exitBtn.clicked.connect(self.close)
+        self.backBtn = QPushButton("Back")
+        self.backBtn.setFixedSize(150,30)
+        self.backBtn.clicked.connect(self.backEvent)
+        self.menuBtn = QPushButton("Main Menu")
+        self.menuBtn.setFixedSize(150,30)
+        self.menuBtn.clicked.connect(self.newInputEvent)
 
     def layout(self):
         self.mainLayout = QVBoxLayout()
@@ -388,9 +398,9 @@ class summaryWindow(QWidget):
         self.topLayout.addLayout(self.topBottomLayout,60)
         self.topBottomLayout.addWidget(self.symptom_list,60)
         self.topBottomLayout.addWidget(self.symptom_prob_list,30)
-        self.bottomLayout.addWidget(self.newBtn)
+        self.bottomLayout.addWidget(self.backBtn)
         self.bottomLayout.addStretch()
-        self.bottomLayout.addWidget(self.exitBtn)
+        self.bottomLayout.addWidget(self.menuBtn)
 
         self.setLayout(self.mainLayout)
 
@@ -400,7 +410,7 @@ class summaryWindow(QWidget):
         numOfSym = 0
         for i,j in self.user_symptom.items():
             self.symptom_list.addItem(self.symptom[i])
-            self.symptom_prob_list.addItem("{} %".format(j*100))
+            self.symptom_prob_list.addItem("{:.2f} %".format(j*100))
             if j > 0.5:
                 numOfSym +=1
         if numOfSym > 5:
@@ -413,6 +423,10 @@ class summaryWindow(QWidget):
 
     def newInputEvent(self):
         self.newWin = mainWindow()
+        self.close()
+
+    def backEvent(self):
+        self.newWin = resultWindow(self.all_textList)
         self.close()
 
 
