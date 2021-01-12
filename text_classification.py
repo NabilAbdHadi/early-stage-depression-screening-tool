@@ -21,12 +21,11 @@ class TEXT_CLASSIFICATION:
         self.count_vect = CountVectorizer(analyzer="word", ngram_range=(1, 1))
         self.tfidf_transformer = TfidfTransformer()
         self.SVM_model = SVC(kernel='rbf', C=4, gamma=0.75)
-        #self.SVM_model = svm.SVC(kernel='rbf', C=7, gamma=0.4)
 
         """ import database """
         data = FYP_MySQL() 
 
-        self.tokens = [i[2].split(';') for i in data.fetchALL('data_training')]
+        self.tokens = [i[2].split(' ') for i in data.fetchALL('data_training')]
         self.label = [i[3] for i in data.fetchALL('data_training')]
         """ change label from string to numerical """
         self.category = {
@@ -41,14 +40,12 @@ class TEXT_CLASSIFICATION:
         wordCount = self.count_vect.fit_transform(textList)
         with open('feature.pickle', 'wb') as handle:
             pickle.dump(self.count_vect.vocabulary_, handle, protocol=pickle.HIGHEST_PROTOCOL)
-        #print(type(wordCount))
         return self.tfidf_transformer.fit_transform(wordCount)
 
     def input_feature_extraction(self, textArray):
         with open('feature.pickle', 'rb') as handle:
             b = pickle.load(handle)
         
-        #print(list(b.keys()))
         new_input = []
         new_input.append(list(b.keys()))
         for text in textArray:
@@ -63,14 +60,11 @@ class TEXT_CLASSIFICATION:
         return self.tfidf_transformer.fit_transform(wordCount[1:])
 
     def load_data(self):
-            
         x = self.feature_extraction(self.tokens)
-        
         y = []
         for i in self.label: 
             j = self.category[str(i)]
             y.append(j)
-        #return 
         return train_test_split(x, y, test_size=0.1)
 
     def SVM(self):
@@ -97,7 +91,7 @@ class TEXT_CLASSIFICATION:
         print(classification_report(y_test, grid_predictions)) 
 
 
-class RISK_FACTOR_BoW:
+class RISK_FACTOR_KEYWORD_EXTRACTOR:
     """
     this classification is design to return the most frequent used 
     """
@@ -112,9 +106,6 @@ class RISK_FACTOR_BoW:
         return [i[2] for i in self.data if i[3] == "risk factor"]
 
     def feature_extraction(self, text):
-        """ 
-        
-        """
         self.matrix.fit_transform(text)
         return sorted(self.matrix.vocabulary_.items(), key=lambda x: x[1], reverse=True)
     
@@ -125,7 +116,7 @@ class RISK_FACTOR_BoW:
         " load data "
         d = self.load_data()
         " extracting the sorted feature in descending order "
-        BoW = dict(self.feature_extraction(d))
+        BoW = dict(self.feature_extraction(d)[:300])
         " modift bag of word value to zeros "
         return dict.fromkeys(BoW, 0)
     
@@ -134,6 +125,7 @@ class RISK_FACTOR_BoW:
         return the word from the user text that also the include in bag of word of the risk factor.
         """
         BoW = self.bag_of_word()
+        print(len(BoW))
         " step 1 : check how many word from text for each factor "
         for word in text.split(" "):
             if word in BoW.keys():
@@ -159,7 +151,6 @@ class SYMPTOM_MODEL:
         """
         initiallize all necessary modules and classes 
         """
-        self.tp = TEXT_PREPROCESSING()
         self.data = FYP_MySQL().fetchALL('symptom')
         self.matrix = CountVectorizer()            
 
@@ -177,17 +168,38 @@ class SYMPTOM_MODEL:
             con : concentration problem
             sui : suicidal thought
         """
-        symptom = {}
-
-        symptom['dep'] = [(i[2],i[3]) for i in self.data if i[3] > 0]
-        symptom['int'] = [(i[2],i[4]) for i in self.data if i[4] > 0]
-        symptom['wac'] = [(i[2],i[5]) for i in self.data if i[5] > 0]
-        symptom['cis'] = [(i[2],i[6]) for i in self.data if i[6] > 0]
-        symptom['par'] = [(i[2],i[7]) for i in self.data if i[7] > 0]
-        symptom['fat'] = [(i[2],i[8]) for i in self.data if i[8] > 0]
-        symptom['gui'] = [(i[2],i[9]) for i in self.data if i[9] > 0]
-        symptom['con'] = [(i[2],i[10]) for i in self.data if i[10] > 0]
-        symptom['sui'] = [(i[2],i[11]) for i in self.data if i[11] > 0]
+        symptom = {
+                    'dep' : [],
+                    'int' : [],
+                    'wac' : [],
+                    'cis' : [],
+                    'par' : [],
+                    'fat' : [],
+                    'gui' : [],
+                    'con' : [],
+                    'sui' : [],
+                    }
+        
+        for i in self.data:
+            if i[3] > 0:
+                symptom['dep'].append((i[2],i[3]))
+            if i[4] > 0:
+                symptom['int'].append((i[2],i[4]))
+            if i[5] > 0:
+                symptom['wac'].append((i[2],i[5]))
+            if i[6] > 0:
+                symptom['cis'].append((i[2],i[6]))
+            if i[7] > 0:
+                symptom['par'].append((i[2],i[7]))
+            if i[8] > 0:
+                symptom['fat'].append((i[2],i[8]))
+            if i[9] > 0:
+                symptom['gui'].append((i[2],i[9]))
+            if i[10] > 0:
+                symptom['con'].append((i[2],i[10]))
+            if i[11] > 0:
+                symptom['sui'].append((i[2],i[11]))
+            
         return symptom
 
     def feature_extraction(self, text):
@@ -255,9 +267,9 @@ class SYMPTOM_MODEL:
         a = self.get_symptom_probabilities(textList)
 
         all_sym = [i[0] for i in a ]
-        prob = [i[1] for i in a ]
 
         return all_sym
+    
     def get_main_symptom(self, textList):
         """
         input : list of preprocessed token
@@ -335,7 +347,7 @@ def main():
 
 if __name__ == "__main__":
     #main()
-    #r = RISK_FACTOR_BoW()
+    #r = RISK_FACTOR_KEYWORD_EXTRACTOR()
     #print(r.getBag_of_word(" Di depan matanya aku kena perfect tak boleh buat silap"))
     text = ['Terkadang aku hiris-hiris pergelangan tangan, berbekas, berparut tapi tiada siapa yang tahu, ada pun classmate bertanya apabila ternampak lengan baju aku terselak, aku katakan tiada apa, aku beri alasan yang aku lap cermin tingkap bilik buatkan lengan calar balar',
             'Dan waktu ini pun aku masih berperang dengan diri aku sendiri, kini aku sudah berkahwin, punyai seorang anak,Waktu sarat mengandung aku pernah menggantung diri, tapi masih juga takdir aku bernafas, kerana tepat pada waktu suami aku balik dan pecahkan pintu bilik untuk selamatkan aku',
@@ -344,8 +356,8 @@ if __name__ == "__main__":
             'Sewaktu aku terdetik itulah, tiba-tiba aku dengar suara ketawa datang dari phone aku'
             ]
     s = SYMPTOM_MODEL()
-    #tp = TEXT_PREPROCESSING()
-    #p = [tp.data_preparation(i) for i in text]
-    #print(s.summary(p))
+    tp = TEXT_PREPROCESSING()
+    p = [tp.data_preparation(i) for i in text]
+    print(s.summary(p))
     #TEXT_CLASSIFICATION().hyperparameter_tuning()
         

@@ -7,7 +7,7 @@ from nltk.tokenize import sent_tokenize
 from win32api import GetSystemMetrics
 from text_preprocessing import TEXT_PREPROCESSING
 from text_classification import TEXT_CLASSIFICATION
-from text_classification import RISK_FACTOR_BoW
+from text_classification import RISK_FACTOR_KEYWORD_EXTRACTOR
 from text_classification import SYMPTOM_MODEL
 
 my_tp = TEXT_PREPROCESSING()
@@ -282,7 +282,7 @@ class resultWindow(QWidget):
         self.table.doubleClicked.connect(self.doubleClickedEvent)
 
     def doubleClickedEvent(self):
-        risk = RISK_FACTOR_BoW()
+        risk = RISK_FACTOR_KEYWORD_EXTRACTOR()
         symptom = SYMPTOM_MODEL()
         row = self.table.currentItem().row()
         row_ele = self.result[row]
@@ -314,7 +314,7 @@ class resultWindow(QWidget):
             
     def export2csv(self):
         df = pd.DataFrame(self.result, columns=["Text","Preprocessed","Label"])
-        df.to_csv("output.csv")
+        df.to_csv("Dataset/output.csv")
         QMessageBox.information(self, "Success", "The result has been exported ")
 
     def summaryEvent(self):
@@ -419,7 +419,6 @@ class summaryWindow(QWidget):
             self.subtitle.setText("There are {} symptom(s) that have high probabilities existed in the User.\nPlease be careful and take care for yourself".format(numOfSym))
         else:
             self.subtitle.setText("There is none symptom exists in the User")
-
 
     def newInputEvent(self):
         self.newWin = mainWindow()

@@ -20,19 +20,11 @@ class TEXT_PREPROCESSING:
 
     """ basic of text preprocessing techniques """
 
-    def word_frequency(self, text):
-        wordlist = self.remove_punctuation(text).split()
-        word_freq = []
-        for w in wordlist:
-            if w not in word_freq:  
-                word_freq.append([w, wordlist.count(w)])
-        return word_freq
-
     def tokenization(self, text):
         token =  list(text.split(" "))
         return [a for a in token if len(a) > 0]
 
-    def selective_remove_stopwords(self, mylist):
+    def selective_stopwords_removal(self, mylist):
         return [word for word in mylist if word not in self.stopword]
 
     def remove_punctuation(self,text):
@@ -62,8 +54,10 @@ class TEXT_PREPROCESSING:
     def my_stemmer(self, mylist):
         return [self.stemmer(str(word)) for word in mylist]
 
-    """ build functions using the combination of the malaya Normalize Modules or/and basic of text analysis"""
-
+    """ 
+    build functions using the combination of the malaya 
+    Normalize Modules or/and basic of text analysis
+    """
 
     def data_preparation(self, text):
         
@@ -71,29 +65,17 @@ class TEXT_PREPROCESSING:
         preprocess = self.preprocessor(normal)
         non_punct = self.remove_punctuation(preprocess.lower())        
         token = self.tokenization(non_punct)
-        no_stopword = self.selective_remove_stopwords(token)
+        no_stopword = self.selective_stopwords_removal(token)
         stemmed_word = self.my_stemmer(no_stopword)
         return stemmed_word
 
 
-    
-    
-
-""" initialize database as my_db  and text analysis as my_ta"""
-
-
-
-def sentences_segmentation(text):
-    sentence = re.sub("\n","",text)
-    sentences = sentence.split(".")
-    return [s for s in sentences if s != None or s == " "]
-
-def export2CSV(sentences, csvFile = "raw_sentences.csv", column=['Text']):
+def export2CSV(sentences, csvFile = "Dataset/raw_sentences.csv", column=['Text']):
     df = pd.DataFrame(sentences,columns=column)
     df.to_csv(csvFile)
 
 def export2JSON(text_dict):
-    with open('Data Training.json', encoding='utf8', mode='w') as json_file:
+    with open('Dataset/Data Training.json', encoding='utf8', mode='w') as json_file:
         json.dump(text_dict,json_file)
 
 def export2Database(sql, record):
@@ -102,17 +84,11 @@ def export2Database(sql, record):
 
 def main():   
     my_ta = TEXT_PREPROCESSING()
-
-    """ import text file """
-
-    #folders = ['confession_saya','iium_confession', 'um_confession']
-    #sentences = access_database(folders)
-     
     
     """ text preprocessing step  """
     raw_sentences = pd.read_csv("Data Training.csv", usecols=["raw text", "category"])
-    #clean_sentences = {}
-    index = 0
+    
+    """ Sql statement """
     sql_insert = """
                 INSERT IGNORE INTO data_training 
                 (`id`,`text`,`preprocessed`,`category`) 
@@ -120,33 +96,11 @@ def main():
                 """
     index = 0
     for s in raw_sentences.values:
-        #clean_sentences[index] = {}
         p = " ".join(my_ta.data_preparation(s[0]))
         if p != None or p != " ":
             export2Database(sql_insert, (index, s[0], p, s[1]))
             index +=1
         
-    """ export the csv """
-    #export2CSV(clean_sentences,csvFile="preprocessed.csv",column=['raw text','token text', 'category'])
-
-    """ export the json """
-    #export2JSON(clean_sentences)
-    
-def perprocessNewData(newData):
-    """ text preprocessing step  """
-    my_ta = TEXT_PREPROCESSING()
-    raw_sentences = pd.read_csv("New Data/"+newData+".csv", usecols=["Text", "Label"])
-    clean_sentences = []
-    for s in raw_sentences.values:
-        c = my_ta.data_preparation(s[0]) 
-        #print(tuple(zip(c,p)))
-        clean_sentences.append([s[0],c,s[1]])
-        
-    
-
-    """ export the csv """
-    export2CSV(clean_sentences,csvFile="preprocess_"+newData+".csv",column=['raw text','token text', 'category'])
-    
 def symptomPreprocessing():
     """
     data preparation for multiclass
@@ -156,14 +110,14 @@ def symptomPreprocessing():
     """
     0 : raw text
     1 : dep -   depressed mood
-    2 : int -   
-    3 : wac 
-    4 : cis
-    5 : par
-    6 : fat
-    7 : gui
-    8 : con
-    9 : sui
+    2 : int - loss of interest/pleasure
+    3 : wac - change in weight/appetite
+    4 : cis - change in sleep - insomnia/hypersomnia
+    5 : par - psychomotor agitation/retardation
+    6 : fat - fatigue or loass of energy
+    7 : gui - feeling guilt/worthless
+    8 : con - concentration problem
+    9 : sui - suicidal thought
     """
     sql_insert = """
                 INSERT IGNORE INTO symptom 
@@ -175,28 +129,6 @@ def symptomPreprocessing():
         record = [index, s[0].lower()," ".join(my_ta.data_preparation(s[0]))]+list(s[1:])
         export2Database(sql_insert, tuple(record))
         index+=1
-
-def riskFactorPreprocessing():
-    my_ta = TEXT_PREPROCESSING()
-    data = pd.read_csv('Risk factor.csv')
-    sql_insert = """
-                INSERT IGNORE INTO risk_factor 
-                (`id`,`text`,`preprocessed`,`type`) 
-                VALUES (%s, %s, %s, %s)
-                """
-    index = 0         
-    for s in data.values:
-        record = (index, s[0].lower()," ".join(my_ta.data_preparation(s[0])), s[1])
-        export2Database(sql_insert, record)
-        index+=1
-
-def test():
-    my_ta = TEXT_PREPROCESSING()
-    raw_sentences = pd.read_csv("Data Training.csv", usecols=["raw text", "category"])
-    my_ta.stopword
-    for s in raw_sentences.values[:10]:
-        print(s[0], my_ta.data_preparation(s[0]))
-        print()
 
 if __name__ == '__main__':
     """ initialize database as my_db  and text analysis as my_ta"""

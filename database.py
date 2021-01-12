@@ -6,7 +6,12 @@ class FYP_MySQL:
     """
     setup and login database
     """
-    def __init__(self, host="localhost", user="root", password="rootnabil", db="fyp_database"):
+    def __init__(self, 
+                    host="localhost", 
+                    user="root", 
+                    password="rootnabil", 
+                    db="fyp_database"):
+                    
         self.host = host
         self.user = user
         self.password = password
@@ -65,7 +70,7 @@ def main():
 
     for i in data:
         sql = "INSERT IGNORE INTO data_training (`id`, `raw text`, `token text`, `category`) VALUES (%s,%s,%s,%s)"
-        temp = ";".join(data[i]['token text'])
+        temp = " ".join(data[i]['token text'])
         record = (i, data[i]['raw text'].lower(),temp,data[i]['category'],)
         db.execute(sql,record)
     
